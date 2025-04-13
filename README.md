@@ -6,9 +6,9 @@
 <h4 style="text-align: center;"> Ciclo 2025-10 </h4>
 <h4 style="text-align: center;"> Código del Curso:  </h4>
 <h4 style="text-align: center;"> NRC:  </h4>
-<h4 style="text-align: center;"> Docente: Royer Edelwer Rojas Malasquez </h4>
-<h4 style="text-align: center;"> Startup:  </h4>
-<h4 style="text-align: center;"> Producto:   </h4>
+<h4 style="text-align: center;"> Docente: Rojas Malasquez,  Royer Edelwer  </h4>
+<h4 style="text-align: center;"> Startup: AgroTech  </h4>
+<h4 style="text-align: center;"> Producto:  TomateRitmo </h4>
 
 ## Team Members
 |             Nombre              | Código de alumno |
@@ -305,10 +305,127 @@ El Lean UX Canvas es una herramienta que se utiliza en el campo del diseño cent
 |**Amenazas**|Competencia de soluciones más generalistas y cambios en las regulaciones agrícolas.	|Entrada de nuevos competidores con tecnologías más avanzadas.	|Cambios en las condiciones climáticas que afecten la demanda de sus servicios.	|Resistencia al cambio por parte de agricultores tradicionales.	|Fluctuaciones en los precios de los productos agrícolas que afecten la inversión en tecnología.|
 
 <div id='2.1.2.'><h4> 2.1.2. Estrategias y tácticas frente a competidores</h4></div></div>
+  
+A partir del análisis competitivo realizado se logró identificar las fortalezas, debilidades, oportunidades y amenazas destacadas en los competidores. Esta información adquirida es esencial para trazar estrategias y tácticas para diferenciarnos de nuestros competidore. A continuación se brindará tanto estrategias como tácticas para alcanzar esta meta:
+
+**Fortalezas de nuestros competidores:**
+
+- Ofrecen soluciones para múltiples cultivos, lo que les permite abarcar un mercado más amplio.
+- Cuentan con contenido educativo y asesoría agrícola para principiantes.
+- Tienen presencia establecida en el mercado con varios años de experiencia y una base sólida de usuarios.
+
+**Estrategias y tácticas para nuestras fortalezas:**
+
+**Estrategias:**
+- Posicionar a TomateRitmo como la solución más precisa y avanzada del mercado para el cultivo de tomate.
+- Comunicar los beneficios específicos y tangibles que nuestra tecnología aporta frente a enfoques generalistas.
+- Enfocar los esfuerzos en nichos especializados con mayor demanda de precisión y rendimiento.
+
+**Tácticas:**
+- Mostrar casos reales de éxito y mejoras en rendimiento del cultivo de tomate usando TomateRitmo.
+- Participar en ferias agrícolas especializadas y eventos de tecnología agropecuaria.
+- Utilizar marketing comparativo que demuestre la efectividad de nuestro enfoque centrado en datos e IA.
+
+
+
+**Debilidades de nuestros competidores:**
+- No ofrecen una personalización profunda para un cultivo específico.
+- La detección de anomalías suele ser manual o limitada a sensores básicos.
+- Interfaces de usuario complejas o poco intuitivas.
+- En algunos casos, falta de integración con sistemas IoT o automatización limitada.
+
+**Estrategias y tácticas para nuestras debilidades:**
+
+**Estrategias:**
+- Aprovechar la especialización en tomate como una ventaja para ofrecer una solución más eficaz y adaptada.
+- Enfocarnos en una interfaz sencilla y basada en flujos intuitivos para cualquier usuario.
+- Desarrollar tecnología propietaria con visión artificial que supere la capacidad de inspección manual.
+
+**Tácticas:**
+- Lanzar versiones beta con usuarios reales que validen la facilidad de uso y efectividad.
+- Mostrar ejemplos en tiempo real de cómo se detectan enfermedades con nuestra IA.
+- Capacitar a distribuidores o partners locales para mejorar la adopción de la tecnología.
+
+
+**Oportunidades de nuestros competidores:**
+- Pueden expandirse rápidamente a nuevos mercados emergentes gracias a su infraestructura existente.
+- Pueden integrar nuevas tecnologías como IA o visión artificial para actualizar sus sistemas.
+- Pueden asociarse con instituciones agrícolas o gubernamentales para mejorar su alcance.
+
+
+**Estrategias y tácticas para nuestras oportunidades:**
+
+**Estrategias:**
+- Acelerar la innovación tecnológica en detección y automatización para mantener la delantera.
+- Expandirse con versiones localizadas en países con alta producción de tomate.
+- Posicionar la solución como un aliado para políticas de agricultura sostenible y modernización.
+
+**Tácticas:**
+- Desarrollar alianzas estratégicas con distribuidores agrícolas locales en países clave.
+- Identificar oportunidades de subvención o apoyo institucional para tecnología agrícola.
+- Incorporar funcionalidades que respondan rápidamente a tendencias del mercado (como ahorro de agua).
+
+
+**Amenazas de nuestros competidores:**
+- La aparición de soluciones más completas que abarquen todo el ciclo agrícola.
+- La evolución tecnológica rápida podría hacer obsoletos ciertos enfoques.
+- Cambios regulatorios que puedan limitar el uso de tecnologías IoT o drones.
+
+
+**Estrategias y tácticas para nuestras amenazas:**
+
+**Estrategias:**
+- Adoptar una filosofía de innovación constante para evitar ser superados tecnológicamente.
+- Anticiparse a los cambios regulatorios con un equipo atento a la normativa agrícola e IoT.
+- Diseñar una arquitectura flexible que permita escalar e integrar nuevos módulos sin rediseñar todo.
+
+**Tácticas:**
+- Participar en comités, ferias y foros agrícolas donde se anticipen cambios legales o tecnológicos.
+- Mantener versiones de TomateRitmo actualizadas regularmente con mejoras incrementales.
+- Preparar protocolos de contingencia y adaptación para diversas normativas regionales.
 
 
   <div id='2.2.'><h3> 2.2. Entrevistas</h3></div>
+    <p>En esta sección se procederá a detallar las preguntas para el método de recoleccion de
+  requisitos que son las entrevistas. Para la formulación se siguieron buenas prácicas tales como 
+  formulación de preguntas abiertas, así mismo obtenemos características demográficas con las entrevistas</p>  
+
+  <h4>PREGUNTAS GENERALES</h4>
+  <p>Bienvenido gracias por brindarnos esta entrevista (empieza con las preguntas generales) </p>
   
+  * Nos gustaría saber su nombre, edad y ocupación
+  * ¿Qué tan acostumbrado está con el uso de tecnología en su vida diaria?
+  * Dentro de su vida diaria, ¿tiene incovenientes utilizando dichas herramientas digitales?
+  * Alguna vez tuvo que enfrentarse con una situación donde usted no entendía para nada como servía una aplicación, de ser así, ¿cómo sobrellevo ese problema?
+
+  <h4>SECTOR AGRICULTORES EXPERIMENTADOS: </h4>
+1. ¿Cuál es el proceso actual que sigue para monitorear el estado de sus cultivos de tomate?
+2. ¿Utiliza alguna tecnología o herramienta digital actualmente? ¿Cuál?
+3. ¿Qué información considera más valiosa para optimizar el cuidado de sus cultivos?
+4. ¿Ha enfrentado pérdidas por enfermedades, sequía u otros factores ambientales? ¿Qué las causó?
+5. ¿Qué tan útil le resultaría recibir alertas en tiempo real sobre amenazas para sus cultivos?
+6. ¿Qué opinión le merece una herramienta que detecte automáticamente anomalías en las hojas o el riego?
+7. ¿Qué funcionalidades considera indispensables en una app de monitoreo para cultivos de tomate?
+8. ¿Qué tan abierto estaría a usar sensores IoT en su terreno? ¿Y visión artificial?
+9. ¿Estaría dispuesto a invertir en una herramienta tecnológica que le ayude a prevenir pérdidas?
+10. ¿Cuánto estaría dispuesto a pagar por una solución tecnológica que automatice el monitoreo?
+11. ¿Qué tanto valoraría una plataforma fácil de usar que cuente con funciones avanzadas para mejorar la productividad agrícola?
+
+  <h4>SECTOR AUTOCULTIVADORES</h4>
+
+1. ¿Cuál es su motivación principal para cultivar tomates en casa?
+2. ¿Cómo hace actualmente el seguimiento del estado de sus plantas?
+3. ¿Ha utilizado alguna app o herramienta digital para ayudarle con sus cultivos?
+4. ¿Qué información le gustaría recibir para cuidar mejor sus tomates?
+5. ¿Qué dificultades ha tenido al momento de mantener sus plantas saludables?
+6. ¿Le parecería útil una app que le avise cuando sus tomates presenten señales de enfermedad o sequía?
+7. ¿Qué tan dispuesto estaría a probar una app que automatice el riego y detecte problemas visuales?
+8. ¿Cuánto estaría dispuesto a invertir en una herramienta que facilite su cultivo en casa?
+9. ¿Qué tanto le interesa la trazabilidad o el historial visual del desarrollo de sus tomates?
+10. ¿Qué tan importante le parece usar tecnología para obtener mejores resultados en su cultivo personal?
+
+
+
 <div id='2.2.1.'><h4> 2.2.1. Diseño de entrevistas</h4></div>
 <div id='2.2.2.'><h4> 2.2.2. Registro de entrevistas</h4></div>
 
