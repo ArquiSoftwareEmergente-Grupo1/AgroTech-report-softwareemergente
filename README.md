@@ -318,26 +318,84 @@ Hipótesis 5: Alertas inteligentes en tiempo real
 
 <div id='1.2.2.4.'><h5> 1.2.2.4. Lean UX Canvas.</h5></div>
 
+El Lean UX Canvas es una herramienta que se utiliza en el campo del diseño centrado en el usuario (UX) y la metodología Lean para optimizar la creación y el desarrollo de productos. Su objetivo principal es proporcionar un marco estructurado para la colaboración entre equipos multidisciplinarios. A través de esta herramienta, los equipos pueden visualizar y analizar aspectos clave del diseño y la experiencia del usuario, lo que facilita la toma de decisiones informadas durante el proceso de desarrollo.
+
+## ***Lean UX Canvas realizado en la aplicación web "Figma":*** 
+
+<img src="resources/leanUXcanvasSmartAgro.png"/>
+
 
 
 <div id='1.3.'><h3> 1.3. Segmento Objetivo</h3></div>
 
+1. Pequeños agricultores que cultivan tomate para autoconsumo o venta local, y que buscan mejorar su rendimiento productivo sin depender de conocimientos técnicos avanzados. Este segmento se beneficiará directamente del monitoreo automatizado y la asistencia inteligente para tomar decisiones más acertadas.
+2. Productores con experiencia agrícola basada en prácticas empíricas que están abiertos a adoptar herramientas tecnológicas para facilitar sus labores, optimizar recursos como el agua y evitar pérdidas por enfermedades o condiciones climáticas adversas.
 
-* Pequeños agricultores que cultivan tomate para autoconsumo o venta local, y que buscan mejorar su rendimiento productivo sin depender de conocimientos técnicos avanzados. Este segmento se beneficiará directamente del monitoreo automatizado y la asistencia inteligente para tomar decisiones más acertadas.
-* Productores con experiencia agrícola basada en prácticas empíricas que están abiertos a adoptar herramientas tecnológicas para facilitar sus labores, optimizar recursos como el agua y evitar pérdidas por enfermedades o condiciones climáticas adversas.
 
+[//]: #CAPITULO2
+<div id='2.'><h2> Capítulo II: Requirements Elicitation & Analysis</h2>
+<div id='2.1.'><h3> 2.1. Competidores</h3></div>
+<div id='2.1.1.'><h4> 2.1.Análisis Competitivo</h4></div>
+
+||Chaquitaclla <img src='resources/ChaquitacllaLogoNuevo.png' width="50" height="50"> |AgroSmart <img src='resources/images.jpeg' width="50" height="50">|Cropin <img src='resources/cropin.jpg' width="50" height="50">|DKALB <img src='resources/unnamed.jpg' width="50" height="50">|Agrobit <img src='resources/agrobit_logo.jpg' width="50" height="50">|
+|:-:|:-:|:-:|:-:|:-:|:-:|
+|**Overview**||||||
+|**Ventajas Competitivas**||||||
+|**Mercado Objetivo**||||||
+|**Estrategias de Marketing**||||||
+|**Productos & Servicios**||||||
+|**Precios & Costos**||||||
+|**Canales de distribución (WEB y/o Móvil)**||||
+|**Fortalezas**||||||
+|**Debilidades**||||||
+|**Oportunidades**||||||
+|**Amenazas**||||||
+
+<div id='2.1.2.'><h4> 2.1.2. Estrategias y tácticas frente a competidores</h4></div></div>
+
+
+  <div id='2.2.'><h3> 2.2. Entrevistas</h3></div>
+  
+<div id='2.2.1.'><h4> 2.2.1. Diseño de entrevistas</h4></div>
+<div id='2.2.2.'><h4> 2.2.2. Registro de entrevistas</h4></div>
+
+<div id='2.2.3.'><h4> 2.2.3. Análisis de entrevistas</h4></div>
 
 <div id='2.3.'><h3> 2.3 Needfinding</h3></div>
 <div id='2.3.1.'><h4> 2.3.1. User Personas</h4></div>
+    <p>En esta sección se presentan las personas que se han identificado como usuarios de la aplicación. Teniendo en cuenta
+    nuestros segmentos predefinidos, AGRICULTORES EXPERIMENTADOS y AUTOCULTIVADORES A continuación se presentan los User Persona.</p>
+
+    
 <div id='2.3.2.'><h4> 2.3.2. User Task Matrix</h4></div>
 <div id='2.3.3.'><h4> 2.3.3. User Journey Mapping</h4></div>
 <div id='2.3.4.'><h4> 2.3.4. Empathy Mapping</h4></div>
 <div id='2.3.5.'><h4> 2.3.5. As-is Scenario Mapping</h4></div>
 <div id='2.4.'><h3> 2.4 Ubiquitous Language</h3></div>
 
+  
+[//]: #CAPITULO3
+
+<div id='3.'><h2>Capítulo 3: Requirements Specification</h2></div>
+<div id='3.1.'><h3> 3.1. To-be scenario mapping</h3></div>
+<p>Se presenta el escenario ideal con nuestra solución de nuestro ususarios incluyendo nuestros 2 segmentos. </p>
+<img src="resources/TO-BEEXPERIMENTADOSjpg">
+<p>La imagen muestra el escenario ideal de AGRICULTORES EXPERIMENTADOS con los pasos y lo que hace, piensa y siente.</p>
+<img src="resources/TO-BEAUTOCULTIVADORES.jpg">
+<p>La imagen muestra el escenario ideal con los pasos de los AUTOCULTIVADORES y lo que hace, piensa y siente.</p>
 
 
+<div id='3.2.'><h3> 3.2. User Stories</h3></div>
 
+
+<div id='3.3'><h3> 3.3. Impact Mapping. </h3></div>
+
+<img src="resources/SMARTAGRO.png"/>
+
+
+<div id='3.4'><h3> 3.4. Product Backlog.</h3></div>
+
+Para una correcta calificacion de los story points, optamos por seguir la escala de Fibonacci
 
 
 <div id='7.'><h2>Bibliografía</h2></div>
