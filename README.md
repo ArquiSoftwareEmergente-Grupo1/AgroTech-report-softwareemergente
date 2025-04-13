@@ -159,10 +159,10 @@ A diferencia de otros sistemas agrícolas que requieren intervención constante 
 
 Nuestro enfoque es práctico, accesible y centrado en el usuario. Creemos que la tecnología aplicada al campo no solo debe ser eficiente, sino también intuitiva, inclusiva y adaptable a distintos niveles de conocimiento técnico.
 
-**Misión:** . Desarrollar soluciones inteligentes que automaticen el monitoreo y cuidado de cultivos mediante tecnologías como visión artificial, IoT e inteligencia artificial, facilitando así una agricultura más eficiente, sostenible y accesible para todos.
+**Misión:** Desarrollar soluciones inteligentes que automaticen el monitoreo y cuidado de cultivos mediante tecnologías como visión artificial, IoT e inteligencia artificial, facilitando así una agricultura más eficiente, sostenible y accesible para todos.
 
 
-**Visión:** . Agrotech aspira a convertirse en un referente en agricultura automatizada, reconocido por mejorar la calidad de vida del agricultor mediante tecnología de vanguardia, y por su compromiso con una producción agrícola más precisa, sostenible y conectada.
+**Visión:** Agrotech aspira a convertirse en un referente en agricultura automatizada, reconocido por mejorar la calidad de vida del agricultor mediante tecnología de vanguardia, y por su compromiso con una producción agrícola más precisa, sostenible y conectada.
 
 <div id='1.1.2.'><h4> 1.1.2. Perfiles de los integrantes del equipo</h4></div>
 
