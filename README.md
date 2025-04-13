@@ -399,6 +399,7 @@ A partir del análisis competitivo realizado se logró identificar las fortaleza
   * Alguna vez tuvo que enfrentarse con una situación donde usted no entendía para nada como servía una aplicación, de ser así, ¿cómo sobrellevo ese problema?
 
   <h4>SECTOR AGRICULTORES EXPERIMENTADOS: </h4>
+  
 1. ¿Cuál es el proceso actual que sigue para monitorear el estado de sus cultivos de tomate?
 2. ¿Utiliza alguna tecnología o herramienta digital actualmente? ¿Cuál?
 3. ¿Qué información considera más valiosa para optimizar el cuidado de sus cultivos?
@@ -411,7 +412,7 @@ A partir del análisis competitivo realizado se logró identificar las fortaleza
 10. ¿Cuánto estaría dispuesto a pagar por una solución tecnológica que automatice el monitoreo?
 11. ¿Qué tanto valoraría una plataforma fácil de usar que cuente con funciones avanzadas para mejorar la productividad agrícola?
 
-  <h4>SECTOR AUTOCULTIVADORES</h4>
+  <h4>SECTOR AUTOCULTIVADORES: </h4>
 
 1. ¿Cuál es su motivación principal para cultivar tomates en casa?
 2. ¿Cómo hace actualmente el seguimiento del estado de sus plantas?
