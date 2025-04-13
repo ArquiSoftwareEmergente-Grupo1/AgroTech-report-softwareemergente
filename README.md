@@ -151,12 +151,167 @@ URL del repositorio del proyecto: [https://github.com/upc-pre-202401-si730-ws53-
 <div id='1.1.'><h3> 1.1 Startup Profile</h3></div>
 En esta sección se presenta la descripción del startup y los perfiles de los miembros del equipo.
 
-<div id='1.1.1.'><h4> 1.1.1. Descripción del startup</h4></div>
 
+<div id='1.1.1.'><h4> 1.1.1. Descripción del startup</h4></div> 
+
+Nuestra startup, **AgroTech**, nace con el propósito de transformar la agricultura tradicional mediante el uso de tecnologías emergentes como la visión artificial, el Internet de las Cosas (IoT) y la inteligencia artificial. Nos enfocamos inicialmente en el cultivo de **tomates**, combinando sensores inteligentes con una plataforma móvil/web para monitorear, analizar y automatizar procesos clave del cultivo.
+A diferencia de otros sistemas agrícolas que requieren intervención constante del usuario, SmartAgro busca ofrecer una experiencia completamente automatizada: desde la detección de anomalías en las hojas (como plagas o enfermedades) hasta el riego automático en respuesta a niveles críticos de sequedad. Esto permite a los agricultores, tanto principiantes como profesionales, optimizar sus recursos, reducir pérdidas y aumentar la productividad sin descuidar la salud del cultivo.
+
+Nuestro enfoque es práctico, accesible y centrado en el usuario. Creemos que la tecnología aplicada al campo no solo debe ser eficiente, sino también intuitiva, inclusiva y adaptable a distintos niveles de conocimiento técnico.
+
+**Misión:** . Desarrollar soluciones inteligentes que automaticen el monitoreo y cuidado de cultivos mediante tecnologías como visión artificial, IoT e inteligencia artificial, facilitando así una agricultura más eficiente, sostenible y accesible para todos.
+
+
+**Visión:** . Agrotech aspira a convertirse en un referente en agricultura automatizada, reconocido por mejorar la calidad de vida del agricultor mediante tecnología de vanguardia, y por su compromiso con una producción agrícola más precisa, sostenible y conectada.
 
 <div id='1.1.2.'><h4> 1.1.2. Perfiles de los integrantes del equipo</h4></div>
 
 
+
+|                                                                                                                                                                                                          Descripción de los perfiles de los integrantes del equipo                                                                                                                                                                                                           |                                                              Foto del integrante                                                              |
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------:|
+| Mi nombre es **Paolo César Guillen Luna**, estudiante de la carrera de Ingeniería de Software, en la UPC y fanático de los videojuegos. Me considero alguien creativo y con determinación en alcanzar sus metas, dentro del campo del desarrollo de software, me gustaría especializarme en lo que es el testing de este, razón por la cual aparte de seguir la malla curricular de mi carrera también ando aprendiendo herramientas diversas como Playwright, Cypress, etc. |   <img src="resources/teamMembersPhotos/paoloPhoto.jpg"/>   |
+| Mi nombre es **Elias Yauri**, soy una persona muy participativa cuando se trata en el tema laboral y en el trabajo en equipo, siempre trato de que haya una comunicación constante con todos los miembros del grupo para que de esta forma podamos tener toda una buena afinidad como grupo y que el trabajo se realice de manera exitosa.  | <img src='resources/teamMembersPhotos/eliasyauri.jpeg'/> |
+|||
+|||
+
+
+
+<div id='1.2.'><h3> 1.2. Solution Profile</h3></div>
+<div id='1.2.1.'><h4> 1.2.1. Antecedentes y Problemática</h4></div>
+
+
+##### What (Qué)
+###### ¿Cuál es el problema?
+En América Latina, los pequeños y medianos agricultores enfrentan importantes desafíos en el manejo de sus cultivos, principalmente por la falta de acceso a tecnologías automatizadas, monitoreo en tiempo real y datos confiables para la toma de decisiones. Esto genera pérdidas considerables por factores como sequía, enfermedades, plagas o decisiones inadecuadas de riego y fertilización.
+
+Según la FAO (2020), las pérdidas poscosecha pueden alcanzar hasta 30% en hortalizas como el tomate, y gran parte de estas se deben a problemas prevenibles con tecnología. Además, el Banco Mundial (2019) señala que el nivel de digitalización agrícola en la región es muy bajo, especialmente en explotaciones de menos de 5 hectáreas.
+
+##### When (Cuando)
+###### ¿Cuándo sucede el problema?
+El problema ocurre a lo largo de todo el ciclo del cultivo, pero se vuelve crítico en etapas sensibles como floración y maduración, donde el manejo incorrecto del agua o la falta de detección temprana de plagas puede reducir drásticamente el rendimiento.
+
+Según el IICA (2022), el 80% de los agricultores en zonas rurales no cuenta con herramientas para el monitoreo continuo, lo que agrava el problema durante los momentos de ausencia física o cuando no se tiene tiempo para revisar manualmente cada planta.
+
+##### Where (Dónde)
+###### ¿A dónde se dirige?
+La solución está pensada para agricultores de pequeña escala, especialmente aquellos que cultivan tomates en regiones con acceso limitado a asesoramiento técnico. También es útil en zonas periurbanas o rurales donde la conexión a internet y electricidad es intermitente, pero se puede trabajar con módulos offline/semiconectados.
+
+
+###### ¿Dónde surge el problema?
+El problema se origina directamente en los campos de cultivo, donde el monitoreo tradicional depende de la experiencia del agricultor. En estos entornos, los sensores y la inteligencia artificial aún no son comunes, pese a su potencial para mejorar los rendimientos (FAO, 2020).
+
+
+##### Who (Quién)
+###### ¿Quiénes están involucrados? ¿Quién lo utilizará?
+Los beneficiarios directos son agricultores que cultivan tomate (y potencialmente otros cultivos), que buscan mejorar su productividad mediante herramientas accesibles y automatizadas. También pueden involucrarse cooperativas agrícolas, gobiernos locales y ONGs interesadas en impulsar la agricultura inteligente.
+
+Según la CEPAL (2021), el 60% de los alimentos en América Latina provienen de la agricultura familiar, pero estos productores tienen bajo acceso a tecnologías que optimicen su labor diaria.
+
+##### Why (Por qué)
+###### ¿Cuál es la causa del problema?
+La causa raíz es la baja adopción de tecnologías agrícolas inteligentes debido a barreras económicas, educativas y de infraestructura. Aunque existen soluciones comerciales, muchas son costosas, complejas o requieren conocimientos técnicos avanzados.
+
+El IICA (2022) advierte que si no se logra una transformación digital efectiva del agro, la región enfrentará serios problemas de productividad, seguridad alimentaria y sostenibilidad.
+
+#### 2H
+##### How (Cómo)
+###### ¿Cómo se utilizará el producto?
+El agricultor podrá interactuar con SmartAgro a través de una app web/móvil que muestra datos en tiempo real sobre humedad del suelo, temperatura ambiental, y estado visual de las hojas mediante visión artificial. Si el sistema detecta sequedad o anomalías (como manchas, mordidas o amarillamiento), se activará el riego automático o se enviará una alerta.
+
+
+##### How much (Cuánto)
+###### ¿Cuál es la magnitud del problema?
+* 30% de pérdida promedio en cultivos de hortalizas (FAO, 2020)
+* Más del 70% de los agricultores en América Latina no usa herramientas digitales (Banco Mundial, 2019)
+* El 80% del agua de riego se desperdicia por falta de control preciso (IICA, 2022)
+
+Si SmartAgro logra implementarse en solo el 20% de pequeños productores de tomate, podría generar un aumento de productividad de hasta un 25% y reducir en más del 40% el uso ineficiente de agua, contribuyendo también a la sostenibilidad ambiental.
+
+
+<div id='1.2.2.'><h4> 1.2.2. Lean UX Process</h4></div>
+<div id='1.2.2.1.'><h5> 1.2.2.1. Lean UX Problem Statements</h5></div>
+
+##### **Problem Statement:** 
+Nuestra aplicación "SmartAgro",desarrollada por nuestra startup, "AgroTech" , surge como una solución innovadora para pequeños y medianos agricultores que desean automatizar y optimizar el cuidado de sus cultivos sin necesidad de conocimientos técnicos avanzados. En esta primera etapa, el enfoque está en el cultivo de tomates, con el objetivo de automatizar tareas clave como el riego y la detección de anomalías (hojas secas, mordidas, marchitas o infestadas) a través de sensores IoT e inteligencia artificial.
+
+Actualmente, muchos agricultores enfrentan dificultades para monitorear el estado de sus cultivos de forma continua, lo que puede derivar en pérdidas por plagas, enfermedades o estrés hídrico. Además, la falta de recursos y tiempo limita la posibilidad de actuar a tiempo. Si bien existen herramientas para monitoreo, muchas son costosas, difíciles de configurar o no permiten una automatización efectiva.
+
+Entonces, el reto es: ¿Cómo podemos brindar una solución automatizada, precisa y accesible para el monitoreo y cuidado de cultivos, que permita al agricultor intervenir solo cuando sea estrictamente necesario?
+
+Para ello, nos enfocamos en:
+
+* Enfoque centrado en el agricultor: la solución debe ser intuitiva y accesible desde un celular o computadora.
+* Alcance claro: Nos centramos en el monitoreo y automatización de riego, detección de anomalías visuales mediante IA, y alertas preventivas.
+* Medidas de éxito: Reducción de pérdidas por estrés hídrico o plagas, incremento en el rendimiento del cultivo, y adopción sostenida del sistema.
+
+##### **User Assumptions:**
+###### **¿Quién es el usuario?**
+El usuario es un agricultor principiante o profesional que cultiva tomate y busca mejorar la eficiencia y salud de sus cultivos a través de tecnología. También pueden ser estudiantes de agronomía, técnicos agrícolas, o cooperativas interesadas en la transformación digital del campo.
+
+###### **¿Qué problemas tiene nuestro producto? ¿Qué resuelve?**
+SmartAgro resuelve la falta de monitoreo constante de variables críticas (temperatura, humedad del suelo, apariencia del cultivo), ofreciendo una solución integral que permite actuar a tiempo mediante alertas o incluso ejecutar acciones automáticas como el riego.
+
+###### **¿Qué características son importantes?**
+
+Entre las características que consideramos relevantes están: 
+* Monitoreo en tiempo real de humedad y temperatura mediante sensores IoT.
+* Visión artificial para detección de anomalías en hojas de tomate.
+* Activación automática de riego si el sistema detecta sequedad.
+* Notificaciones inteligentes al agricultor vía app móvil/web.
+* Historial visual y ambiental del cultivo.
+* Control manual o automático del sistema.
+
+###### **¿Dónde encaja nuestro producto en su trabajo o vida?**
+SmartAgro se integra en la rutina diaria del agricultor, facilitando el seguimiento sin necesidad de presencia constante en el campo. Permite gestionar el cultivo desde casa o mientras realiza otras actividades, generando eficiencia y tranquilidad.
+
+###### **¿Cuándo y cómo es nuestro producto usado?**
+El sistema se usa durante todo el ciclo de vida del cultivo, especialmente en etapas críticas como floración o fructificación. Puede usarse de manera autónoma o manual, siendo clave en momentos de clima extremo o cuando el agricultor está ausente.
+
+###### **¿Cómo debe verse nuestro producto y cómo debe comportarse?**
+La interfaz debe ser simple, clara y funcional, con íconos visuales e instrucciones breves. El comportamiento del sistema debe ser confiable, proactivo (actuar antes de que haya un daño grave), y generar reportes entendibles para cualquier nivel de conocimiento.
+
+##### **Feature Assumptions:**
+
+**Creemos que** al integrar sensores de humedad y temperatura en el terreno, los agricultores podrán evitar el estrés hídrico y proteger sus cultivos de condiciones ambientales adversas.
+
+**Creemos que** al permitir el encendido automático del sistema de riego, se optimizará el uso del agua y se reducirá el esfuerzo manual requerido por parte del agricultor.
+
+**Creemos que** al usar visión artificial para detectar enfermedades, hojas mordidas o signos de sequía en los tomates, los agricultores podrán intervenir rápidamente y prevenir pérdidas mayores.
+
+**Creemos que** una sección educativa dentro de la app, con buenas prácticas agrícolas y consejos de manejo del cultivo de tomate, fomentará una comunidad más preparada y comprometida con la agricultura sostenible.
+
+**Creemos que** implementar un sistema de alertas inteligentes en tiempo real permitirá respuestas inmediatas frente a amenazas como sequía, enfermedades o anomalías visuales, ayudando a preservar la salud del cultivo.
+
+
+<div id='1.2.2.5.'><h5> 1.2.2.5. Lean UX Hypothesis Statements.</h5></div>
+
+Hipótesis 1: Sensores para evitar estrés hídrico
+**Creemos que** al integrar sensores de humedad y temperatura en el terreno, los agricultores podrán evitar el estrés hídrico y proteger sus cultivos de condiciones ambientales adversas.
+**Sabremos que** hemos tenido éxito cuando los usuarios reporten una disminución en la pérdida de plantas por sequía y manifiesten mayor control sobre el estado del cultivo.
+
+Hipótesis 2: Riego automático optimizado
+**Creemos que** al permitir el encendido automático del sistema de riego, se optimizará el uso del agua y se reducirá el esfuerzo manual requerido por parte del agricultor.
+**Sabremos que** hemos tenido éxito cuando se reduzca el consumo innecesario de agua y los usuarios expresen satisfacción con la automatización del riego.
+
+Hipótesis 3: Visión artificial para detección temprana de anomalías
+**Creemos que** al usar visión artificial para detectar enfermedades, hojas mordidas o signos de sequía en los tomates, los agricultores podrán intervenir rápidamente y prevenir pérdidas mayores.
+**Sabremos que** hemos tenido éxito cuando los usuarios logren tomar decisiones correctivas a tiempo y se observe una disminución en la cantidad de cultivos afectados.
+
+Hipótesis 4: Contenido educativo agrícola
+**Creemos que** una sección educativa dentro de la app, con buenas prácticas agrícolas y consejos de manejo del cultivo de tomate, fomentará una comunidad más preparada y comprometida con la agricultura sostenible.
+**Sabremos que** hemos tenido éxito cuando los usuarios accedan frecuentemente a esta sección y apliquen los conocimientos en sus prácticas agrícolas, reflejando mejoras en el cultivo.
+
+Hipótesis 5: Alertas inteligentes en tiempo real
+**Creemos que** implementar un sistema de alertas inteligentes en tiempo real permitirá respuestas inmediatas frente a amenazas como sequía, enfermedades o anomalías visuales, ayudando a preservar la salud del cultivo.
+**Sabremos que** hemos tenido éxito cuando los usuarios reaccionen a las alertas y se reduzcan los daños reportados en el cultivo por falta de acción oportuna.
+
+
+
+<div id='1.2.2.6.'><h5> 1.2.2.6. Lean UX Canvas.</h5></div>
+
+
+<div id='1.3.'><h3> 1.3. Segmento Objetivo</h3></div>
 
 
 
@@ -174,6 +329,16 @@ En esta sección se presenta la descripción del startup y los perfiles de los m
 
 
 <div id='7.'><h2>Bibliografía</h2></div>
+
+FAO. (2020). Perdidas y desperdicios de alimentos en América Latina. Organización de las Naciones Unidas para la Alimentación y la Agricultura. https://www.fao.org
+
+IICA. (2022). Transformación digital de la agricultura. Instituto Interamericano de Cooperación para la Agricultura. https://www.iica.int
+
+CEPAL. (2021). La digitalización del agro: Una oportunidad para el desarrollo rural sostenible. Comisión Económica para América Latina y el Caribe. https://www.cepal.org
+
+Banco Mundial. (2019). Hacia una Agricultura 4.0. https://www.worldbank.org
+
+Zhang, Y., et al. (2020). IoT-based smart agriculture: An overview on technologies and applications. Agricultural Systems, Elsevier. https://www.sciencedirect.com/journal/agricultural-systems
 
 
 <div id='8.'><h2>Anexos</h2></div>
