@@ -92,57 +92,10 @@ URL del repositorio del proyecto: [https://github.com/upc-pre-202401-si730-ws53-
 4.7.2. [Class Dictionary](#4.7.2.)<br>
 4.8. [***Database Design***](#4.8.)<br>
 4.8.1. [Database Diagram](#4.8.1.)<br>
-5. [**Capítulo V: Product Implementation, Validation & Deployment**](#5.)<br>
-5.1. [Software Configuration Management](#5.1.)<br>
-5.1.1. [Software Development Environment Configuration](#5.1.1.)<br>
-5.1.2. [Source Code Management](#5.1.2.)<br>
-5.1.3. [Source Code Style Guide & Conventions](#5.1.3.)<br>
-5.1.4. [Software Deployment Configuration](#5.1.4.)<br>
-5.2. [Landing Page, Services & Applications Implementation](#5.2.)<br>
-5.2.1. [Sprint 1](#5.2.1.)<br>
-5.2.1.1. [Sprint Planning 1](#5.2.1.1.)<br>
-5.2.1.2. [Sprint Backlog 1](#5.2.1.2.)<br>
-5.2.1.3. [Development Evidence for Sprint Review](#5.2.1.3.)<br>
-5.2.1.4. [Testing Suite Evidence for Sprint Review](#5.2.1.4.)<br>
-5.2.1.5. [Execution Evidence for Sprint Review](#5.2.1.5.)<br>
-5.2.1.6. [Services Documentation Evidence for Sprint Review](#5.2.1.6.)<br>
-5.2.1.7. [Software Deployment Evidence for Sprint Review](#5.2.1.7.)<br>
-5.2.1.8. [Team Collaboration Insights during Sprint](#5.2.1.8.)<br>
-5.2.2. [Sprint 2](#5.2.2.)<br>
-5.2.2.1.[Sprint Planning 2](#5.2.2.1.)<br>
-5.2.2.2.[Sprint Backlog 2](#5.2.2.2.)<br>
-5.2.2.3.[Development Evidence for Sprint Review](#5.2.2.3.)<br>
-5.2.2.4.[Testing Suite Evidence for Sprint Review](#5.2.2.4.)<br>
-5.2.2.5.[Execution Evidence for Sprint Review](#5.2.2.5.)<br>
-5.2.2.6.[Services Documentation Evidence for Sprint Review](#5.2.2.6.)<br>
-5.2.2.7.[Software Deployment Evidence for Sprint Review](#5.2.2.7.)<br>
-5.2.2.8.[Team Collaboration Insights during Sprint](#5.2.2.8.)<br>
-5.2.3. [Sprint 3](#5.2.3.)<br>
-5.2.3.1.[Sprint Planning 3](#5.2.3.1.)<br>
-5.2.3.2.[Sprint Backlog 3](#5.2.3.2.)<br>
-5.2.3.3.[Development Evidence for Sprint Review](#5.2.3.3.)<br>
-5.2.3.4.[Testing Suite Evidence for Sprint Review](#5.2.3.4.)<br>
-5.2.3.5.[Execution Evidence for Sprint Review](#5.2.3.5.)<br>
-5.2.3.6.[Services Documentation Evidence for Sprint Review](#5.2.3.6.)<br>
-5.2.3.7.[Software Deployment Evidence for Sprint Review](#5.2.3.7.)<br>
-5.2.3.8.[Team Collaboration Insights during Sprint](#5.2.3.8.)<br>
-5.2.4. [Sprint 4](#5.2.4.)<br>
-5.2.4.1. [Sprint Planning 4](#5.2.4.1.)<br>
-5.2.4.2. [Sprint Backlog 4](#5.2.4.2.)<br>
-5.2.4.3. [Development Evidence for Sprint Review](#5.2.4.3.)<br>
-5.2.4.4. [Testing Suite Evidence for Sprint Review](#5.2.4.4.)<br>
-5.2.4.5. [Execution Evidence for Sprint Review](#5.2.4.5.)<br>
-5.2.4.6. [Services Documentation Evidence for Sprint Review](#5.2.4.6.)<br>
-5.2.4.7. [Software Deployment Evidence for Sprint Review](#5.2.4.7.)<br>
-5.2.4.8. [Team Collaboration Insights during Sprint](#5.2.4.8.)<br>
-5.3. [Validation Interviews](#5.3.)<br>
-5.3.1.[Diseño de Entrevistas](#5.3.1.)<br>
-5.3.2.[Registro de Entrevistas](#5.3.2.)<br>
-5.3.3.[Evaluaciones según Heurísticas](#5.3.3.)<br>
-5.4. [Video About-the-Product](#5.4.)<br>
-6. [**Conclusiones**](#6.)<br>
-7. [**Bibliografía**](#7.)<br>
-8. [**Anexos**](#8.)<br>
+
+8. [**Conclusiones**](#8.)<br>
+9. [**Bibliografía**](#9.)<br>
+10. [**Anexos**](#10.)<br>
 
 
 
@@ -155,7 +108,7 @@ En esta sección se presenta la descripción del startup y los perfiles de los m
 <div id='1.1.1.'><h4> 1.1.1. Descripción del startup</h4></div> 
 
 Nuestra startup, **AgroTech**, nace con el propósito de transformar la agricultura tradicional mediante el uso de tecnologías emergentes como la visión artificial, el Internet de las Cosas (IoT) y la inteligencia artificial. Nos enfocamos inicialmente en el cultivo de **tomates**, combinando sensores inteligentes con una plataforma móvil/web para monitorear, analizar y automatizar procesos clave del cultivo.
-A diferencia de otros sistemas agrícolas que requieren intervención constante del usuario, SmartAgro busca ofrecer una experiencia completamente automatizada: desde la detección de anomalías en las hojas (como plagas o enfermedades) hasta el riego automático en respuesta a niveles críticos de sequedad. Esto permite a los agricultores, tanto principiantes como profesionales, optimizar sus recursos, reducir pérdidas y aumentar la productividad sin descuidar la salud del cultivo.
+A diferencia de otros sistemas agrícolas que requieren intervención constante del usuario, TomateRitmo busca ofrecer una experiencia completamente automatizada: desde la detección de anomalías en las hojas (como plagas o enfermedades) hasta el riego automático en respuesta a niveles críticos de sequedad. Esto permite a los agricultores, tanto principiantes como profesionales, optimizar sus recursos, reducir pérdidas y aumentar la productividad sin descuidar la salud del cultivo.
 
 Nuestro enfoque es práctico, accesible y centrado en el usuario. Creemos que la tecnología aplicada al campo no solo debe ser eficiente, sino también intuitiva, inclusiva y adaptable a distintos niveles de conocimiento técnico.
 
@@ -217,7 +170,7 @@ El IICA (2022) advierte que si no se logra una transformación digital efectiva 
 #### 2H
 ##### How (Cómo)
 ###### ¿Cómo se utilizará el producto?
-El agricultor podrá interactuar con SmartAgro a través de una app web/móvil que muestra datos en tiempo real sobre humedad del suelo, temperatura ambiental, y estado visual de las hojas mediante visión artificial. Si el sistema detecta sequedad o anomalías (como manchas, mordidas o amarillamiento), se activará el riego automático o se enviará una alerta.
+El agricultor podrá interactuar con TomateRitmo a través de una app web/móvil que muestra datos en tiempo real sobre humedad del suelo, temperatura ambiental, y estado visual de las hojas mediante visión artificial. Si el sistema detecta sequedad o anomalías (como manchas, mordidas o amarillamiento), se activará el riego automático o se enviará una alerta.
 
 
 ##### How much (Cuánto)
@@ -226,14 +179,14 @@ El agricultor podrá interactuar con SmartAgro a través de una app web/móvil q
 * Más del 70% de los agricultores en América Latina no usa herramientas digitales (Banco Mundial, 2019)
 * El 80% del agua de riego se desperdicia por falta de control preciso (IICA, 2022)
 
-Si SmartAgro logra implementarse en solo el 20% de pequeños productores de tomate, podría generar un aumento de productividad de hasta un 25% y reducir en más del 40% el uso ineficiente de agua, contribuyendo también a la sostenibilidad ambiental.
+Si TomateRitmo logra implementarse en solo el 20% de pequeños productores de tomate, podría generar un aumento de productividad de hasta un 25% y reducir en más del 40% el uso ineficiente de agua, contribuyendo también a la sostenibilidad ambiental.
 
 
 <div id='1.2.2.'><h4> 1.2.2. Lean UX Process</h4></div>
 <div id='1.2.2.1.'><h5> 1.2.2.1. Lean UX Problem Statements</h5></div>
 
 ##### **Problem Statement:** 
-Nuestra aplicación "SmartAgro",desarrollada por nuestra startup, "AgroTech" , surge como una solución innovadora para pequeños y medianos agricultores que desean automatizar y optimizar el cuidado de sus cultivos sin necesidad de conocimientos técnicos avanzados. En esta primera etapa, el enfoque está en el cultivo de tomates, con el objetivo de automatizar tareas clave como el riego y la detección de anomalías (hojas secas, mordidas, marchitas o infestadas) a través de sensores IoT e inteligencia artificial.
+Nuestra aplicación "TomateRitmo",desarrollada por nuestra startup, "AgroTech" , surge como una solución innovadora para pequeños y medianos agricultores que desean automatizar y optimizar el cuidado de sus cultivos sin necesidad de conocimientos técnicos avanzados. En esta primera etapa, el enfoque está en el cultivo de tomates, con el objetivo de automatizar tareas clave como el riego y la detección de anomalías (hojas secas, mordidas, marchitas o infestadas) a través de sensores IoT e inteligencia artificial.
 
 Actualmente, muchos agricultores enfrentan dificultades para monitorear el estado de sus cultivos de forma continua, lo que puede derivar en pérdidas por plagas, enfermedades o estrés hídrico. Además, la falta de recursos y tiempo limita la posibilidad de actuar a tiempo. Si bien existen herramientas para monitoreo, muchas son costosas, difíciles de configurar o no permiten una automatización efectiva.
 
@@ -250,7 +203,7 @@ Para ello, nos enfocamos en:
 El usuario es un agricultor principiante o profesional que cultiva tomate y busca mejorar la eficiencia y salud de sus cultivos a través de tecnología. También pueden ser estudiantes de agronomía, técnicos agrícolas, o cooperativas interesadas en la transformación digital del campo.
 
 ###### **¿Qué problemas tiene nuestro producto? ¿Qué resuelve?**
-SmartAgro resuelve la falta de monitoreo constante de variables críticas (temperatura, humedad del suelo, apariencia del cultivo), ofreciendo una solución integral que permite actuar a tiempo mediante alertas o incluso ejecutar acciones automáticas como el riego.
+TomateRitmo resuelve la falta de monitoreo constante de variables críticas (temperatura, humedad del suelo, apariencia del cultivo), ofreciendo una solución integral que permite actuar a tiempo mediante alertas o incluso ejecutar acciones automáticas como el riego.
 
 ###### **¿Qué características son importantes?**
 
@@ -263,7 +216,7 @@ Entre las características que consideramos relevantes están:
 * Control manual o automático del sistema.
 
 ###### **¿Dónde encaja nuestro producto en su trabajo o vida?**
-SmartAgro se integra en la rutina diaria del agricultor, facilitando el seguimiento sin necesidad de presencia constante en el campo. Permite gestionar el cultivo desde casa o mientras realiza otras actividades, generando eficiencia y tranquilidad.
+TomateRitmo se integra en la rutina diaria del agricultor, facilitando el seguimiento sin necesidad de presencia constante en el campo. Permite gestionar el cultivo desde casa o mientras realiza otras actividades, generando eficiencia y tranquilidad.
 
 ###### **¿Cuándo y cómo es nuestro producto usado?**
 El sistema se usa durante todo el ciclo de vida del cultivo, especialmente en etapas críticas como floración o fructificación. Puede usarse de manera autónoma o manual, siendo clave en momentos de clima extremo o cuando el agricultor está ausente.
@@ -337,19 +290,19 @@ El Lean UX Canvas es una herramienta que se utiliza en el campo del diseño cent
 <div id='2.1.'><h3> 2.1. Competidores</h3></div>
 <div id='2.1.1.'><h4> 2.1.Análisis Competitivo</h4></div>
 
-||Chaquitaclla <img src='resources/ChaquitacllaLogoNuevo.png' width="50" height="50"> |AgroSmart <img src='resources/images.jpeg' width="50" height="50">|Cropin <img src='resources/cropin.jpg' width="50" height="50">|DKALB <img src='resources/unnamed.jpg' width="50" height="50">|Agrobit <img src='resources/agrobit_logo.jpg' width="50" height="50">|
+||TomateRitmo <img src='resources/TomateRitmo.jpg' width="50" height="50"> | <img src='resources/competidor1.jpeg' width="50" height="50">| <img src='resources/competidor2.jpg' width="50" height="50">| <img src='resources/competidor3.jpg' width="50" height="50">| <img src='resources/competidor4.jpg' width="50" height="50">|
 |:-:|:-:|:-:|:-:|:-:|:-:|
-|**Overview**||||||
-|**Ventajas Competitivas**||||||
-|**Mercado Objetivo**||||||
-|**Estrategias de Marketing**||||||
-|**Productos & Servicios**||||||
-|**Precios & Costos**||||||
-|**Canales de distribución (WEB y/o Móvil)**||||
-|**Fortalezas**||||||
-|**Debilidades**||||||
-|**Oportunidades**||||||
-|**Amenazas**||||||
+|**Overview**|Plataforma especializada en el cultivo de tomate, integrando sensores IoT y visión artificial para detección de anomalías a lo largo del cultivo|Solución agrícola que ofrece monitoreo en tiempo real y análisis de datos para mejorar la eficiencia en cultivos diversos.|Sistema de gestión agronómica que utiliza sensores de suelo para proporcionar recomendaciones de riego y fertilización.	|Herramienta de gestión agrícola que digitaliza operaciones y registros para mejorar la toma de decisiones.	|Plataforma que proporciona análisis de datos y predicciones para optimizar la producción y rentabilidad agrícola.|
+|**Ventajas Competitivas**|Enfoque exclusivo en tomate, integración de visión artificial para detección de enfermedades y automatización del cultivo bajo paramétros|Interfaz intuitiva y fácil de usar, adecuada para agricultores con diferentes niveles de experiencia tecnológica.	|Tecnología avanzada de sensores de suelo que proporciona datos precisos para decisiones agronómicas.	|Amplia gama de funciones para la gestión operativa de la finca, incluyendo planificación y seguimiento de tareas.	|Análisis predictivo y seguimiento financiero que ayuda a maximizar la rentabilidad de las explotaciones.|
+|**Mercado Objetivo**|Agricultores especializados en tomate, tanto profesionales como pequeños productores.	|Agricultores de diversos cultivos que buscan mejorar la eficiencia mediante tecnología accesible.	|Productores agrícolas que requieren datos precisos del suelo para optimizar riego y fertilización.	|Grandes explotaciones agrícolas que necesitan digitalizar y gestionar múltiples aspectos operativos.	|Agricultores interesados en utilizar análisis de datos para mejorar la producción y la rentabilidad.|
+|**Estrategias de Marketing**|Alianzas con cooperativas de tomate y demostraciones en campo	|Promoción a través de ferias agrícolas y asociaciones locales.	|Colaboraciones con distribuidores de equipos agrícolas y presencia en eventos del sector.	|Marketing dirigido a grandes explotaciones y asociaciones agrícolas.	|Campañas digitales enfocadas en la rentabilidad y eficiencia operativa.|
+|**Productos & Servicios**|Sensores de humedad y temperatura, visión artificial para detección de enfermedade y sistema de riego automatizado	|Sensores ambientales, plataforma de análisis de datos y soporte técnico.	|Sensores de suelo, plataforma de análisis agronómico y recomendaciones personalizadas.	|Software de gestión agrícola, aplicaciones móviles y soporte técnico.	|Plataforma de análisis de datos, predicciones de rendimiento y seguimiento financiero.|
+|**Precios & Costos**|Modelo de suscripción mensual con opciones según el tamaño de la explotación.	|Tarifas escalables según el número de sensores y servicios contratados.	|Precios basados en el número de sensores y el tamaño de la explotación.	|Suscripción anual con diferentes niveles de servicio.	|Modelo freemium con opciones de pago para funciones avanzadas.|
+|**Canales de distribución (WEB y/o Móvil)**|Aplicación web y móvil para Android|Aplicación web y móvil para Android e iOS.	|Aplicación web y móvil para Android e iOS.	|Aplicación web y móvil para Android e iOS.	|Aplicación web y móvil para Android e iOS.	|
+|**Fortalezas**|Especialización en tomate con integración de tecnologías avanzadas como visión artifical	|Facilidad de uso y soporte técnico accesible.	|Datos precisos del suelo y recomendaciones agronómicas personalizadas.	|Gestión integral de operaciones agrícolas.	|Análisis predictivo y enfoque en la rentabilidad.|
+|**Debilidades**|Enfoque limitado al cultivo de tomate, lo que puede restringir su mercado.	|Menor especialización en cultivos específicos.	|Requiere inversión en sensores y tecnología.	|Puede ser complejo para pequeñas explotaciones.	|Dependencia de la calidad de los datos ingresados por el usuario.|
+|**Oportunidades**|Expansión a otros cultivos, integración con sistemas de mercado y exportación.	|Ampliación de servicios y soporte en más regiones.	|Desarrollo de nuevas funciones basadas en inteligencia artificial.	|Integración con maquinaria agrícola y automatización.	|Alianzas con instituciones financieras para ofrecer servicios adicionales.|
+|**Amenazas**|Competencia de soluciones más generalistas y cambios en las regulaciones agrícolas.	|Entrada de nuevos competidores con tecnologías más avanzadas.	|Cambios en las condiciones climáticas que afecten la demanda de sus servicios.	|Resistencia al cambio por parte de agricultores tradicionales.	|Fluctuaciones en los precios de los productos agrícolas que afecten la inversión en tecnología.|
 
 <div id='2.1.2.'><h4> 2.1.2. Estrategias y tácticas frente a competidores</h4></div></div>
 
@@ -390,7 +343,7 @@ El Lean UX Canvas es una herramienta que se utiliza en el campo del diseño cent
 
 <div id='3.3'><h3> 3.3. Impact Mapping. </h3></div>
 
-<img src="resources/SMARTAGRO.png"/>
+<img src="resources/TOMATERITMO.png"/>
 
 
 <div id='3.4'><h3> 3.4. Product Backlog.</h3></div>
@@ -398,7 +351,10 @@ El Lean UX Canvas es una herramienta que se utiliza en el campo del diseño cent
 Para una correcta calificacion de los story points, optamos por seguir la escala de Fibonacci
 
 
-<div id='7.'><h2>Bibliografía</h2></div>
+<div id='8.'><h2>Anexos</h2></div>
+
+
+<div id='9.'><h2>Bibliografía</h2></div>
 
 FAO. (2020). Perdidas y desperdicios de alimentos en América Latina. Organización de las Naciones Unidas para la Alimentación y la Agricultura. https://www.fao.org
 
@@ -411,4 +367,4 @@ Banco Mundial. (2019). Hacia una Agricultura 4.0. https://www.worldbank.org
 Zhang, Y., et al. (2020). IoT-based smart agriculture: An overview on technologies and applications. Agricultural Systems, Elsevier. https://www.sciencedirect.com/journal/agricultural-systems
 
 
-<div id='8.'><h2>Anexos</h2></div>
+<div id='10.'><h2>Anexos</h2></div>
