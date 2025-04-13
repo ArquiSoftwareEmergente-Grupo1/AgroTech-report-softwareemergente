@@ -39,10 +39,10 @@ URL del repositorio del proyecto: [https://github.com/upc-pre-202401-si730-ws53-
 1.2. [***Solution Profile***](#1.2.)<br>
 1.2.1. [Antecedentes y Problemática](#1.2.1.)<br>
 1.2.2. [Lean UX Process](#1.2.2.)<br>
-1.2.3. [Lean UX Problem Statements](#1.2.3.)<br>
-1.2.4. [Lean UX Assumptions](#1.2.4.)<br>
-1.2.5. [Lean UX Hypothesis Statements](#1.2.5.)<br>
-1.2.6. [Lean UX Canvas](#1.2.5.)<br>
+1.2.2.1. [Lean UX Problem Statements](#1.2.3.)<br>
+1.2.2.2. [Lean UX Assumptions](#1.2.4.)<br>
+1.2.2.3. [Lean UX Hypothesis Statements](#1.2.5.)<br>
+1.2.2.4.  [Lean UX Canvas](#1.2.5.)<br>
 1.3. [***Segmentos objetivo***](#1.2.6.)<br>
 2. [**Capítulo II: Requirements Elicitation & Analysis**](#2.)<br>
 2.1. [***Competidores***](#2.1.)<br>
@@ -271,6 +271,10 @@ El sistema se usa durante todo el ciclo de vida del cultivo, especialmente en et
 ###### **¿Cómo debe verse nuestro producto y cómo debe comportarse?**
 La interfaz debe ser simple, clara y funcional, con íconos visuales e instrucciones breves. El comportamiento del sistema debe ser confiable, proactivo (actuar antes de que haya un daño grave), y generar reportes entendibles para cualquier nivel de conocimiento.
 
+
+<div id='1.2.2.2.'><h5> 1.2.2.2. Lean UX Assumptions.</h5></div>
+
+
 ##### **Feature Assumptions:**
 
 **Creemos que** al integrar sensores de humedad y temperatura en el terreno, los agricultores podrán evitar el estrés hídrico y proteger sus cultivos de condiciones ambientales adversas.
@@ -284,35 +288,43 @@ La interfaz debe ser simple, clara y funcional, con íconos visuales e instrucci
 **Creemos que** implementar un sistema de alertas inteligentes en tiempo real permitirá respuestas inmediatas frente a amenazas como sequía, enfermedades o anomalías visuales, ayudando a preservar la salud del cultivo.
 
 
-<div id='1.2.2.5.'><h5> 1.2.2.5. Lean UX Hypothesis Statements.</h5></div>
+<div id='1.2.2.3.'><h5> 1.2.2.3. Lean UX Hypothesis Statements.</h5></div>
 
 Hipótesis 1: Sensores para evitar estrés hídrico
+
 **Creemos que** al integrar sensores de humedad y temperatura en el terreno, los agricultores podrán evitar el estrés hídrico y proteger sus cultivos de condiciones ambientales adversas.
 **Sabremos que** hemos tenido éxito cuando los usuarios reporten una disminución en la pérdida de plantas por sequía y manifiesten mayor control sobre el estado del cultivo.
 
 Hipótesis 2: Riego automático optimizado
+
 **Creemos que** al permitir el encendido automático del sistema de riego, se optimizará el uso del agua y se reducirá el esfuerzo manual requerido por parte del agricultor.
 **Sabremos que** hemos tenido éxito cuando se reduzca el consumo innecesario de agua y los usuarios expresen satisfacción con la automatización del riego.
 
 Hipótesis 3: Visión artificial para detección temprana de anomalías
+
 **Creemos que** al usar visión artificial para detectar enfermedades, hojas mordidas o signos de sequía en los tomates, los agricultores podrán intervenir rápidamente y prevenir pérdidas mayores.
 **Sabremos que** hemos tenido éxito cuando los usuarios logren tomar decisiones correctivas a tiempo y se observe una disminución en la cantidad de cultivos afectados.
 
 Hipótesis 4: Contenido educativo agrícola
+
 **Creemos que** una sección educativa dentro de la app, con buenas prácticas agrícolas y consejos de manejo del cultivo de tomate, fomentará una comunidad más preparada y comprometida con la agricultura sostenible.
 **Sabremos que** hemos tenido éxito cuando los usuarios accedan frecuentemente a esta sección y apliquen los conocimientos en sus prácticas agrícolas, reflejando mejoras en el cultivo.
 
 Hipótesis 5: Alertas inteligentes en tiempo real
+
 **Creemos que** implementar un sistema de alertas inteligentes en tiempo real permitirá respuestas inmediatas frente a amenazas como sequía, enfermedades o anomalías visuales, ayudando a preservar la salud del cultivo.
 **Sabremos que** hemos tenido éxito cuando los usuarios reaccionen a las alertas y se reduzcan los daños reportados en el cultivo por falta de acción oportuna.
 
 
+<div id='1.2.2.4.'><h5> 1.2.2.4. Lean UX Canvas.</h5></div>
 
-<div id='1.2.2.6.'><h5> 1.2.2.6. Lean UX Canvas.</h5></div>
 
 
 <div id='1.3.'><h3> 1.3. Segmento Objetivo</h3></div>
 
+
+* Pequeños agricultores que cultivan tomate para autoconsumo o venta local, y que buscan mejorar su rendimiento productivo sin depender de conocimientos técnicos avanzados. Este segmento se beneficiará directamente del monitoreo automatizado y la asistencia inteligente para tomar decisiones más acertadas.
+* Productores con experiencia agrícola basada en prácticas empíricas que están abiertos a adoptar herramientas tecnológicas para facilitar sus labores, optimizar recursos como el agua y evitar pérdidas por enfermedades o condiciones climáticas adversas.
 
 
 <div id='2.3.'><h3> 2.3 Needfinding</h3></div>
