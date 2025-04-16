@@ -15,7 +15,7 @@
 |:-------------------------------:|:----------------:|
 |    Guillen Luna, Paolo César    |    U202124343    |
 |       Elias Yauri Paucar        |    U202211817    |
-|||
+| Cruz Palomino Adriano Sebastian |    U202210697    |
 |||
 
 ## Registro de versiones del informe
@@ -64,34 +64,27 @@ URL del repositorio del proyecto: [https://github.com/upc-pre-202401-si730-ws53-
 3.2. [***User Stories***](#3.2.)<br>
 3.3. [***Impact Mapping***](#3.3.)<br>
 3.4. [***Product Backlog***](#3.4.)<br>
-4. [**Capítulo IV: Product Design.**](#4.)<br>
-4.1. [***Style Guidelines***](#4.1.)<br>
-4.1.1. [General Style Guidelines](#4.1.1.)<br>
-4.1.2. [Web Style Guidelines](#4.1.2.)<br>
-4.2. [***Information Architecture***](#4.2.)<br>
-4.2.1. [Organization Systems](#4.2.1.)<br>
-4.2.2. [Labeling Systems](#4.2.2.)<br>
-4.2.3. [SEO Tags and Meta Tags](#4.2.3.)<br>
-4.2.4. [Searching Systems](#4.2.4.)<br>
-4.2.5. [Navigation Systems](#4.2.5.)<br>
-4.3. [***Landing Page UI Design***](#4.3.)<br>
-4.3.1. [Landing Page Wireframe](#4.3.1.)<br>
-4.3.2. [Landing Page Mock-up](#4.3.2.)<br>
-4.4. [***Web Applications UX/UI Design***](#4.4.)<br>
-4.4.1. [Web Applications Wireframes](#4.4.1.)<br>
-4.4.2. [Web Applications Wireflow Diagrams](#4.4.2.)<br>
-4.4.3. [Web Applications Mock-ups](#4.4.3.)<br>
-4.4.4. [Web Applications User Flow Diagrams](#4.4.4.)<br>
-4.5. [***Web Applications Prototyping***](#4.5.)<br>
-4.6. [***Domain-Driven Software Architecture***](#4.6.)<br>
-4.6.1. [Software Architecture Context Diagram](#4.6.1.)<br>
-4.6.2. [Software Architecture Container Diagrams](#4.6.2.)<br>
-4.6.3. [Software Architecture Components Diagrams](#4.6.3.)<br>
-4.7. [***Software Object-Oriented Design***](#4.7.)<br>
-4.7.1. [Class Diagrams](#4.7.1.)<br>
-4.7.2. [Class Dictionary](#4.7.2.)<br>
-4.8. [***Database Design***](#4.8.)<br>
-4.8.1. [Database Diagram](#4.8.1.)<br>
+4. [**Capítulo IV: Strategic-Level Software Design**](#4.)<br>
+4.1. [***Strategic-Level Attribute-Driven Design***](#4.1.)<br>
+4.1.1. [Design Purpose](#4.1.1.)<br>
+4.1.2. [Attribute-Driven Design Inputs](#4.1.2.)<br>
+4.1.2.1. [Primary Functionality (Primary User Stories)](#4.1.2.1.)<br>
+4.1.2.2. [Quality attribute Scenarios](#4.1.2.2.)<br>
+4.1.2.3. [Constraints](#4.1.2.3.)<br>
+4.1.3. [Architectural Drivers Backlog](#4.1.3.)<br>
+4.1.4. [Architectural Design Decisions](#4.1.4.)<br>
+4.1.5. [Quality Attribute Scenario Refinements](#4.1.5.)<br>
+4.2. [***Strategic-Level Domain-Driven Design***](#4.2.)<br>
+4.2.1. [EventStorming](#4.2.1.)<br>
+4.2.2. [Candidate Context Discovery](#4.2.2.)<br>
+4.2.3. [Domain Message Flows Modeling](#4.2.3.)<br>
+4.2.4. [Bounded Context Canvases](#4.2.4.)<br>
+4.2.5. [Context Mapping](#4.2.5.)<br>
+4.3. [***Software Architecture***](#4.3.)<br>
+4.3.1. [Software Architecture System Landscape Diagram](#4.3.1.)<br>
+4.3.2. [Software Architecture Context Level Diagrams](#4.3.2.)<br>
+4.3.3. [Software Architecture Container Level Diagrams](#4.3.3.)<br>
+4.3.4. [Software Architecture Deployment Diagrams](#4.3.4.)<br>
 
 8. [**Conclusiones**](#8.)<br>
 9. [**Bibliografía**](#9.)<br>
@@ -468,6 +461,27 @@ A partir del análisis competitivo realizado se logró identificar las fortaleza
 
 Para una correcta calificacion de los story points, optamos por seguir la escala de Fibonacci
 
+<div id="4."><h2>Capítulo IV: Strategic-Level Software Design</h2></div>
+<div id="4.1."><h3>4.1. Strategic-Level Attribute-Driven Design</h3></div>
+<div id="4.1.1."><h4>4.1.1. Design Purpose</h4></div>
+<div id="4.1.2."><h4>4.1.2. Attribute-Driven Design Inputs</h4></div>
+<div id="4.1.2.1."><h4>4.1.2.1. Primary Functionality (Primary User Stories)</h4></div>
+<div id="4.1.2.2."><h4>4.1.2.2. Quality Attribute Scenarios</h4></div>
+<div id="4.1.2.3."><h4>4.1.2.3. Constraints</h4></div>
+<div id="4.1.3."><h4>4.1.3. Architectural Drivers Backlog</h4></div>
+<div id="4.1.4."><h4>4.1.4. Architectural Design Decisions</h4></div>
+<div id="4.1.5."><h4>4.1.5. Quality Attribute Scenario Refinements</h4></div>
+<div id="4.2."><h3>4.2. Strategic-Level Domain-Driven Design</h3></div>
+<div id="4.2.1."><h4>4.2.1. EventStorming</h4></div>
+<div id="4.2.2."><h4>4.2.2. Candidate Context Discovery</h4></div>
+<div id="4.2.3."><h4>4.2.3. Domain Message Flows Modeling</h4></div>
+<div id="4.2.4."><h4>4.2.4. Bounded Context Canvases</h4></div>
+<div id="4.2.5."><h4>4.2.5. Context Mapping</h4></div>
+<div id="4.3."><h3>4.3. Software Architecture</h3></div>
+<div id="4.3.1."><h4>4.3.1. Software Architecture System Landscape Diagram</h4></div>
+<div id="4.3.1.1."><h4>4.3.1. Software Architecture Context Level Diagrams</h4></div>
+<div id="4.3.2."><h4>4.3.2. Software Architecture Container Level Diagrams</h4></div>
+<div id="4.3.3."><h4>4.3.3. Software Architecture Deployment Diagrams</h4></div>
 
 <div id='8.'><h2>Anexos</h2></div>
 
