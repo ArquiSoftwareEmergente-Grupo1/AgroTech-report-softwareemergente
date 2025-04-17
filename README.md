@@ -22,7 +22,7 @@
 |   Fecha    | Versión |      Autor      |                                 Descripción de modificación                                 |
 |:----------:|:-------:|:---------------:|:-------------------------------------------------------------------------------------------:|
 | 06/04/2024 | 1.0     |  Guillen Paolo  | Creación del documento de trabajo en formato markdown junto al realizamiento de la carátula |
-| 06/04/2024 | 1.0     |   |  |
+| 06/04/2024 | 1.0     | Elias Yauri Paucar  | Registro de las entrevistas de cada segmento objetivo |
 | 07/04/2024 | 1.0     |   | |
 
 
@@ -117,7 +117,7 @@ Nuestro enfoque es práctico, accesible y centrado en el usuario. Creemos que la
 |                                                                                                                                                                                                          Descripción de los perfiles de los integrantes del equipo                                                                                                                                                                                                           |                                                              Foto del integrante                                                              |
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------:|
 | Mi nombre es **Paolo César Guillen Luna**, estudiante de la carrera de Ingeniería de Software, en la UPC y fanático de los videojuegos. Me considero alguien creativo y con determinación en alcanzar sus metas, dentro del campo del desarrollo de software, me gustaría especializarme en lo que es el testing de este, razón por la cual aparte de seguir la malla curricular de mi carrera también ando aprendiendo herramientas diversas como Playwright, Cypress, etc. |   <img src="resources/teamMembersPhotos/paoloPhoto.jpg"/>   |
-| Mi nombre es **Elias Yauri**, soy una persona muy participativa cuando se trata en el tema laboral y en el trabajo en equipo, siempre trato de que haya una comunicación constante con todos los miembros del grupo para que de esta forma podamos tener toda una buena afinidad como grupo y que el trabajo se realice de manera exitosa.  | <img src='resources/teamMembersPhotos/eliasyauri.jpeg'/> |
+| Mi nombre es **Elias Yauri**, soy una persona muy participativa cuando se trata en el tema laboral y en el trabajo en equipo, siempre trato de que haya una comunicación constante con todos los miembros del grupo para que de esta forma podamos tener toda una buena afinidad como grupo y que el trabajo se realice de manera exitosa.  | <img src='resources/elias.png'/> |
 | Mi nombre es **Adriano Sebastian Cruz Palomino**, tengo 20 años, soy alumno de Ingeniería de Software en la UPC, actualmente estoy cursando el 7mo ciclo. Soy una persona curiosa, responsable, y comprometida con mis estudios, siempre busco aprender más y mejorar mis habilidades. |<img src='resources/teamMembersPhotos/adrianocruz.jpeg'/>|
 |||
 
@@ -391,6 +391,8 @@ A partir del análisis competitivo realizado se logró identificar las fortaleza
   * Dentro de su vida diaria, ¿tiene incovenientes utilizando dichas herramientas digitales?
   * Alguna vez tuvo que enfrentarse con una situación donde usted no entendía para nada como servía una aplicación, de ser así, ¿cómo sobrellevo ese problema?
 
+<div id='2.2.1.'><h4> 2.2.1. Diseño de entrevistas</h4></div>
+
   <h4>SECTOR AGRICULTORES EXPERIMENTADOS: </h4>
   
 1. ¿Cuál es el proceso actual que sigue para monitorear el estado de sus cultivos de tomate?
@@ -418,13 +420,27 @@ A partir del análisis competitivo realizado se logró identificar las fortaleza
 9. ¿Qué tanto le interesa la trazabilidad o el historial visual del desarrollo de sus tomates?
 10. ¿Qué tan importante le parece usar tecnología para obtener mejores resultados en su cultivo personal?
 
-
-
-<div id='2.2.1.'><h4> 2.2.1. Diseño de entrevistas</h4></div>
 <div id='2.2.2.'><h4> 2.2.2. Registro de entrevistas</h4></div>
+***SECTOR AGRICULTORES EXPERIMENTADOS***
 
-|Nombre entrevistado|Fabrizio Buleje|
+|Nombre entrevistado|Barbara Susana Quezada Portalatino|
 |-|-|
+|Edad|20 años|
+|Departamento|Lima, Lima|
+|<img src="resources/interviewsPhotos/rodrigopisconti.png">|Bárbara cultiva tomates principalmente por el gusto de consumir alimentos frescos y naturales, además de ser una actividad que disfruta en su tiempo libre. Actualmente, lleva el seguimiento de sus plantas de forma visual y manual, observando el color de las hojas, el crecimiento y la humedad del suelo. Aunque no ha utilizado apps específicas para sus cultivos, estaría muy interesada en una herramienta digital que le brinde alertas sobre enfermedades o falta de agua. Le gustaría recibir información sobre riego adecuado, control de plagas y etapas del desarrollo del tomate. Ha enfrentado dificultades como plagas, hongos y el riego irregular. Considera útil una app que detecte problemas visuales y automatice el riego, y estaría dispuesta a probar una, especialmente si fuera accesible y fácil de usar. También valoraría una herramienta con trazabilidad y registro visual del crecimiento de sus tomates. En general, cree que el uso de tecnología puede mejorar significativamente su experiencia de cultivo en casa.|
+|Duración entrevista: 00:00-05:38 |URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211817_upc_edu_pe/EQ7Z-iPKJpNMiwI9G_hAp3gBT6usQq9D6iSu4Ut-Hm2ADg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=L2Kz8N]|
+
+
+***SECTOR AUTOCULTIVADORES***
+
+|Nombre entrevistado|Barbara Susana Quezada Portalatino|
+|-|-|
+|Edad|20 años|
+|Departamento|Lima, Lima|
+|<img src="resources/interviewsPhotos/rodrigopisconti.png">|Bárbara cultiva tomates principalmente por el gusto de consumir alimentos frescos y naturales, además de ser una actividad que disfruta en su tiempo libre. Actualmente, lleva el seguimiento de sus plantas de forma visual y manual, observando el color de las hojas, el crecimiento y la humedad del suelo. Aunque no ha utilizado apps específicas para sus cultivos, estaría muy interesada en una herramienta digital que le brinde alertas sobre enfermedades o falta de agua. Le gustaría recibir información sobre riego adecuado, control de plagas y etapas del desarrollo del tomate. Ha enfrentado dificultades como plagas, hongos y el riego irregular. Considera útil una app que detecte problemas visuales y automatice el riego, y estaría dispuesta a probar una, especialmente si fuera accesible y fácil de usar. También valoraría una herramienta con trazabilidad y registro visual del crecimiento de sus tomates. En general, cree que el uso de tecnología puede mejorar significativamente su experiencia de cultivo en casa.|
+|Duración entrevista: 00:00-05:38 |URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211817_upc_edu_pe/EQ7Z-iPKJpNMiwI9G_hAp3gBT6usQq9D6iSu4Ut-Hm2ADg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=L2Kz8N]|
+|-|-|
+|Nombre entrevistado|Fabrizio Buleje|
 |Edad|26 años|
 |Departamento|Lima, Lima|
 |<img src="resources/interviewsPhotos/EntrevistaFabrizio.png">| Fabrizio, de 26 años, es estudiante de Medicina y aficionado a la jardinería, especialmente al cultivo de tomates. Usa la tecnología frecuentemente para organizar sus estudios y buscar información sobre el cuidado de plantas. Le gustaría una aplicación que le recuerde cuidados, detecte plagas y automatice el riego, ya que facilitaría su trabajo. Considera importante la tecnología para optimizar sus cultivos y estaría dispuesto a invertir en herramientas que lo ayuden.|
@@ -432,6 +448,11 @@ A partir del análisis competitivo realizado se logró identificar las fortaleza
  
 
 <div id='2.2.3.'><h4> 2.2.3. Análisis de entrevistas</h4></div>
+
+**Análisis del segmento de Autocultivadores**
+
+**Análisis del segmento de Agricultores Experimentados**
+
 
 <div id='2.3.'><h3> 2.3 Needfinding</h3></div>
 <div id='2.3.1.'><h4> 2.3.1. User Personas</h4></div>
