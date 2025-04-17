@@ -431,6 +431,19 @@ A partir del análisis competitivo realizado se logró identificar las fortaleza
 |<img src="resources/interviewsPhotos/entresebas.png">| Sebastián, agricultor de 25 años, monitorea sus cultivos de tomate con observación directa y sensores básicos. Usa apps de clima, pero cree que falta tecnología más precisa. Le interesa recibir alertas sobre plagas, humedad y clima, y valora herramientas que detecten anomalías visuales. Está abierto al uso de sensores IoT y visión artificial. Considera indispensable una app con análisis visual, alertas y recomendaciones. Estaría dispuesto a invertir entre S/ 100 y S/ 300 mensuales si la solución es efectiva, fácil de usar y mejora su productividad.|
 |Duración entrevista: 00:00-05:39 |URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211817_upc_edu_pe/EczyYGjCAJFGmoe2nu2mVV0BTzcriqHs-RY9uRtr1TjcVQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=fVS7kx]|
 
+|Nombre entrevistado||
+|-|-|
+|Edad|28 años|
+|Departamento|Lima, Lima|
+|<img src="resources/interviewsPhotos/.png">||
+|Duración entrevista:     |URL: []|
+
+|Nombre entrevistado||
+|-|-|
+|Edad|28 años|
+|Departamento|Lima, Lima|
+|<img src="resources/interviewsPhotos/.png">||
+|Duración entrevista:     |URL: []|
 
 ***SECTOR AUTOCULTIVADORES***
 
@@ -448,6 +461,20 @@ A partir del análisis competitivo realizado se logró identificar las fortaleza
 |<img src="resources/interviewsPhotos/EntrevistaFabrizio.png">| Fabrizio, de 26 años, es estudiante de Medicina y aficionado a la jardinería, especialmente al cultivo de tomates. Usa la tecnología frecuentemente para organizar sus estudios y buscar información sobre el cuidado de plantas. Le gustaría una aplicación que le recuerde cuidados, detecte plagas y automatice el riego, ya que facilitaría su trabajo. Considera importante la tecnología para optimizar sus cultivos y estaría dispuesto a invertir en herramientas que lo ayuden.|
 |Duración entrevista: 7:23   |URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210697_upc_edu_pe/EQVWN-yy1GBDr9kz3T9dgtkBBi8AzL3FYe1IOebfahjo-w?e=rSyGox&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D|
  
+|Nombre entrevistado||
+|-|-|
+|Edad|28 años|
+|Departamento|Lima, Lima|
+|<img src="resources/interviewsPhotos/.png">||
+|Duración entrevista:     |URL: []|
+
+|Nombre entrevistado||
+|-|-|
+|Edad|28 años|
+|Departamento|Lima, Lima|
+|<img src="resources/interviewsPhotos/.png">||
+|Duración entrevista:     |URL: []|
+
 
 <div id='2.2.3.'><h4> 2.2.3. Análisis de entrevistas</h4></div>
 
