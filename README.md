@@ -423,6 +423,14 @@ A partir del análisis competitivo realizado se logró identificar las fortaleza
 <div id='2.2.1.'><h4> 2.2.1. Diseño de entrevistas</h4></div>
 <div id='2.2.2.'><h4> 2.2.2. Registro de entrevistas</h4></div>
 
+|Nombre entrevistado|Fabrizio Buleje|
+|-|-|
+|Edad|26 años|
+|Departamento|Lima, Lima|
+|<img src="resources/interviewsPhotos/EntrevistaFabrizio.png">| Fabrizio, de 26 años, es estudiante de Medicina y aficionado a la jardinería, especialmente al cultivo de tomates. Usa la tecnología frecuentemente para organizar sus estudios y buscar información sobre el cuidado de plantas. Le gustaría una aplicación que le recuerde cuidados, detecte plagas y automatice el riego, ya que facilitaría su trabajo. Considera importante la tecnología para optimizar sus cultivos y estaría dispuesto a invertir en herramientas que lo ayuden.|
+|Duración entrevista: 7:23   |URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210697_upc_edu_pe/EQVWN-yy1GBDr9kz3T9dgtkBBi8AzL3FYe1IOebfahjo-w?e=rSyGox&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D|
+ 
+
 <div id='2.2.3.'><h4> 2.2.3. Análisis de entrevistas</h4></div>
 
 <div id='2.3.'><h3> 2.3 Needfinding</h3></div>
