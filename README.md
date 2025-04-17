@@ -428,7 +428,7 @@ A partir del análisis competitivo realizado se logró identificar las fortaleza
 |-|-|
 |Edad|25 años|
 |Departamento|Lima, Lima|
-|<img src="resources/interviewsPhotos/rodrigopisconti.png">| Sebastián, agricultor de 25 años, monitorea sus cultivos de tomate con observación directa y sensores básicos. Usa apps de clima, pero cree que falta tecnología más precisa. Le interesa recibir alertas sobre plagas, humedad y clima, y valora herramientas que detecten anomalías visuales. Está abierto al uso de sensores IoT y visión artificial. Considera indispensable una app con análisis visual, alertas y recomendaciones. Estaría dispuesto a invertir entre S/ 100 y S/ 300 mensuales si la solución es efectiva, fácil de usar y mejora su productividad.|
+|<img src="resources/interviewsPhotos/entresebas.png">| Sebastián, agricultor de 25 años, monitorea sus cultivos de tomate con observación directa y sensores básicos. Usa apps de clima, pero cree que falta tecnología más precisa. Le interesa recibir alertas sobre plagas, humedad y clima, y valora herramientas que detecten anomalías visuales. Está abierto al uso de sensores IoT y visión artificial. Considera indispensable una app con análisis visual, alertas y recomendaciones. Estaría dispuesto a invertir entre S/ 100 y S/ 300 mensuales si la solución es efectiva, fácil de usar y mejora su productividad.|
 |Duración entrevista: 00:00-05:39 |URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211817_upc_edu_pe/EczyYGjCAJFGmoe2nu2mVV0BTzcriqHs-RY9uRtr1TjcVQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=fVS7kx]|
 
 
