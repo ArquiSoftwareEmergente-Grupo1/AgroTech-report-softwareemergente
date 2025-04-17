@@ -391,6 +391,8 @@ A partir del análisis competitivo realizado se logró identificar las fortaleza
   * Dentro de su vida diaria, ¿tiene incovenientes utilizando dichas herramientas digitales?
   * Alguna vez tuvo que enfrentarse con una situación donde usted no entendía para nada como servía una aplicación, de ser así, ¿cómo sobrellevo ese problema?
 
+<div id='2.2.1.'><h4> 2.2.1. Diseño de entrevistas</h4></div>
+
   <h4>SECTOR AGRICULTORES EXPERIMENTADOS: </h4>
   
 1. ¿Cuál es el proceso actual que sigue para monitorear el estado de sus cultivos de tomate?
@@ -418,10 +420,27 @@ A partir del análisis competitivo realizado se logró identificar las fortaleza
 9. ¿Qué tanto le interesa la trazabilidad o el historial visual del desarrollo de sus tomates?
 10. ¿Qué tan importante le parece usar tecnología para obtener mejores resultados en su cultivo personal?
 
-
-
-<div id='2.2.1.'><h4> 2.2.1. Diseño de entrevistas</h4></div>
 <div id='2.2.2.'><h4> 2.2.2. Registro de entrevistas</h4></div>
+
+***SECTOR AGRICULTORES EXPERIMENTADOS***
+
+|Nombre entrevistado|Barbara Susana Quezada Portalatino|
+|-|-|
+|Edad|20 años|
+|Departamento|Lima, Lima|
+|<img src="resources/interviewsPhotos/rodrigopisconti.png">|Rodrigo Pisconti, un joven de 20 años que sufrió de asma durante su niñez, actualmente sigue siendo sensible a factores ambientales como la humedad y el polvo. Aunque sus síntomas se han reducido, aún experimenta molestias respiratorias varias veces al mes. Usa un deshumidificador y medidores manuales de ambiente, pero no cuenta con tecnología automatizada. Mostró interés en una herramienta que le permita monitorear y controlar el ambiente de su hogar de forma preventiva. Destaca la importancia de la simplicidad, confiabilidad y automatización. Rodrigo se mostró dispuesto a integrar dispositivos inteligentes y pagar por una solución como Chaki’y si mejora su bienestar.|
+|Duración entrevista: 00:00-05:38 |URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211817_upc_edu_pe/EQ7Z-iPKJpNMiwI9G_hAp3gBT6usQq9D6iSu4Ut-Hm2ADg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=L2Kz8N]|
+Nombre entrevistado|Gian Sánchez|
+
+***SECTOR AUTOCULTIVADORES***
+
+|Nombre entrevistado|Rodrigo Pisconti|
+|-|-|
+|Edad|20 años|
+|Departamento|Ica, Ica|
+|<img src="resources/interviewsPhotos/rodrigopisconti.png">|Rodrigo Pisconti, un joven de 20 años que sufrió de asma durante su niñez, actualmente sigue siendo sensible a factores ambientales como la humedad y el polvo. Aunque sus síntomas se han reducido, aún experimenta molestias respiratorias varias veces al mes. Usa un deshumidificador y medidores manuales de ambiente, pero no cuenta con tecnología automatizada. Mostró interés en una herramienta que le permita monitorear y controlar el ambiente de su hogar de forma preventiva. Destaca la importancia de la simplicidad, confiabilidad y automatización. Rodrigo se mostró dispuesto a integrar dispositivos inteligentes y pagar por una solución como Chaki’y si mejora su bienestar.|
+|Duración entrevista: 00:00-05:38 |URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211817_upc_edu_pe/EQ7Z-iPKJpNMiwI9G_hAp3gBT6usQq9D6iSu4Ut-Hm2ADg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=L2Kz8N]|
+Nombre entrevistado|Gian Sánchez|
 
 <div id='2.2.3.'><h4> 2.2.3. Análisis de entrevistas</h4></div>
 
