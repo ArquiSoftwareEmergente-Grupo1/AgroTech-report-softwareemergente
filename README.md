@@ -22,7 +22,7 @@
 |   Fecha    | Versión |      Autor      |                                 Descripción de modificación                                 |
 |:----------:|:-------:|:---------------:|:-------------------------------------------------------------------------------------------:|
 | 06/04/2024 | 1.0     |  Guillen Paolo  | Creación del documento de trabajo en formato markdown junto al realizamiento de la carátula |
-| 06/04/2024 | 1.0     |   |  |
+| 06/04/2024 | 1.0     | Elias Yauri Paucar  | Registro de las entrevistas de cada segmento objetivo |
 | 07/04/2024 | 1.0     |   | |
 
 
