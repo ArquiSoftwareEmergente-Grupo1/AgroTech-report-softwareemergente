@@ -421,14 +421,15 @@ A partir del análisis competitivo realizado se logró identificar las fortaleza
 10. ¿Qué tan importante le parece usar tecnología para obtener mejores resultados en su cultivo personal?
 
 <div id='2.2.2.'><h4> 2.2.2. Registro de entrevistas</h4></div>
+
 ***SECTOR AGRICULTORES EXPERIMENTADOS***
 
-|Nombre entrevistado|Barbara Susana Quezada Portalatino|
+|Nombre entrevistado| ... |
 |-|-|
-|Edad|20 años|
-|Departamento|Lima, Lima|
-|<img src="resources/interviewsPhotos/rodrigopisconti.png">|Bárbara cultiva tomates principalmente por el gusto de consumir alimentos frescos y naturales, además de ser una actividad que disfruta en su tiempo libre. Actualmente, lleva el seguimiento de sus plantas de forma visual y manual, observando el color de las hojas, el crecimiento y la humedad del suelo. Aunque no ha utilizado apps específicas para sus cultivos, estaría muy interesada en una herramienta digital que le brinde alertas sobre enfermedades o falta de agua. Le gustaría recibir información sobre riego adecuado, control de plagas y etapas del desarrollo del tomate. Ha enfrentado dificultades como plagas, hongos y el riego irregular. Considera útil una app que detecte problemas visuales y automatice el riego, y estaría dispuesta a probar una, especialmente si fuera accesible y fácil de usar. También valoraría una herramienta con trazabilidad y registro visual del crecimiento de sus tomates. En general, cree que el uso de tecnología puede mejorar significativamente su experiencia de cultivo en casa.|
-|Duración entrevista: 00:00-05:38 |URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211817_upc_edu_pe/EQ7Z-iPKJpNMiwI9G_hAp3gBT6usQq9D6iSu4Ut-Hm2ADg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=L2Kz8N]|
+|Edad|....|
+|Departamento|....|
+|<img src="resources/interviewsPhotos/rodrigopisconti.png">| Resumen entrevista|
+|Duración entrevista: 00:00-05:38 |URL: [....]|
 
 
 ***SECTOR AUTOCULTIVADORES***
@@ -439,8 +440,9 @@ A partir del análisis competitivo realizado se logró identificar las fortaleza
 |Departamento|Lima, Lima|
 |<img src="resources/interviewsPhotos/rodrigopisconti.png">|Bárbara cultiva tomates principalmente por el gusto de consumir alimentos frescos y naturales, además de ser una actividad que disfruta en su tiempo libre. Actualmente, lleva el seguimiento de sus plantas de forma visual y manual, observando el color de las hojas, el crecimiento y la humedad del suelo. Aunque no ha utilizado apps específicas para sus cultivos, estaría muy interesada en una herramienta digital que le brinde alertas sobre enfermedades o falta de agua. Le gustaría recibir información sobre riego adecuado, control de plagas y etapas del desarrollo del tomate. Ha enfrentado dificultades como plagas, hongos y el riego irregular. Considera útil una app que detecte problemas visuales y automatice el riego, y estaría dispuesta a probar una, especialmente si fuera accesible y fácil de usar. También valoraría una herramienta con trazabilidad y registro visual del crecimiento de sus tomates. En general, cree que el uso de tecnología puede mejorar significativamente su experiencia de cultivo en casa.|
 |Duración entrevista: 00:00-05:38 |URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211817_upc_edu_pe/EQ7Z-iPKJpNMiwI9G_hAp3gBT6usQq9D6iSu4Ut-Hm2ADg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=L2Kz8N]|
-|-|-|
+
 |Nombre entrevistado|Fabrizio Buleje|
+|-|-|
 |Edad|26 años|
 |Departamento|Lima, Lima|
 |<img src="resources/interviewsPhotos/EntrevistaFabrizio.png">| Fabrizio, de 26 años, es estudiante de Medicina y aficionado a la jardinería, especialmente al cultivo de tomates. Usa la tecnología frecuentemente para organizar sus estudios y buscar información sobre el cuidado de plantas. Le gustaría una aplicación que le recuerde cuidados, detecte plagas y automatice el riego, ya que facilitaría su trabajo. Considera importante la tecnología para optimizar sus cultivos y estaría dispuesto a invertir en herramientas que lo ayuden.|
