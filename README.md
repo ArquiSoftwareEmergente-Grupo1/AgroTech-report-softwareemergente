@@ -479,10 +479,21 @@ A partir del análisis competitivo realizado se logró identificar las fortaleza
 <div id='2.2.3.'><h4> 2.2.3. Análisis de entrevistas</h4></div>
 
 **Análisis del segmento de Autocultivadores**
+A partir de las entrevistas, los autocultivadores están orientados más a un aspecto emocional por el tema de querer cultivar sus propios alimentos: 
+
+* Las entrevistas revelaron que los autocultivadores aunque no buscan maximizar la producción, desean tener plantas saludables y sentirse satisfechos con su cultivo. Este hallazgo resalta la importancia de herramientas que ofrezcan una experiencia fácil y educativa para mejorar la salud de sus plantas.
+* Muchos autocultivadores muestran interés por la automatización del riego, especialmente aquellos que no tienen tiempo o no están familiarizados con las mejores prácticas para regar y el hecho de comentarles que esto sería automático gracias a la detección de anomalías, lo consideran super útil.
+* Al mencionarle a los autocultivadores si conocían de anomalías en sus tomates y como podrían resolverlas, ellos se mostraron desconcertados puesto que no conocían de las afecciones que podrían sufrir sus cultivos. Al mencionarles sobre la detección de anomalías de nuestro producto y su accionar automático ellos se sintieron más relajados, sin embargo, comentan que también les gustaría saber cual fue la anomalía y el actuar del producto respectivamente.
+
 
 **Análisis del segmento de Agricultores Experimentados**
 
+Las entrevistas con agricultores experimentados revelan patrones consistentes que refuerzan la necesidad de soluciones tecnológicas como la que buscamos desarrollar:
 
+* Entre los entrevistados, estos confirmaron que las plagas, enfermedades y las variaciones climáticas (como sequías o lluvias excesivas) han afectado gravemente la producción de tomates. Este hallazgo valida la necesidad de una detección temprana de problemas que TomateRitmo busca resolver mediante visión artificial e IoT.
+* Mencionan que a veces por falta de tiempo no se percatan de las enfermedades o problemas de riego hasta que es demasiado tarde, lo que subraya la importancia de alertas en tiempo real y la automatización que ofrecerían soluciones como la que se está desarrollando.
+* Los entrevistados están dispuestos a  pagar siempre que los resultados sean evidentes y se traduzcan en mayor productividad.
+  
 <div id='2.3.'><h3> 2.3 Needfinding</h3></div>
 <div id='2.3.1.'><h4> 2.3.1. User Personas</h4></div>
     <p>En esta sección se presentan las personas que se han identificado como usuarios de la aplicación. Teniendo en cuenta
