@@ -17,7 +17,6 @@
 |       Elias Yauri Paucar        |    U202211817    |
 | Cruz Palomino Adriano Sebastian |    U202210697    |
 | Rengifo Mirabal Randy Becker |    u20211d683    |
-|||
 
 ## Registro de versiones del informe
 |   Fecha    | Versión |      Autor      |                                 Descripción de modificación                                 |
@@ -502,7 +501,13 @@ Las entrevistas con agricultores experimentados revelan patrones consistentes qu
     <p>En esta sección se presentan las personas que se han identificado como usuarios de la aplicación. Teniendo en cuenta
     nuestros segmentos predefinidos, AGRICULTORES EXPERIMENTADOS y AUTOCULTIVADORES A continuación se presentan los User Persona.</p>
 
-    
+ **Agricultores experimentados**
+<img src="resources/CAPITULO2/ExperimentadoUSERPERSONA.png">
+
+ **Autocultivadores**
+<img src="resources/CAPITULO2/AutocultivadoraUSERpersona.png">
+
+ 
 <div id='2.3.2.'><h4> 2.3.2. User Task Matrix</h4></div>
 En esta sección se presenta el User Task Matrix, que concentra las tareas que los User Persona (que representan a cada segmento) realizan actualmente para cumplir sus objetivos. Estas tareas existen independientemente del desarrollo de una solución tecnológica, y han sido identificadas a partir de entrevistas realizadas a agricultores experimentados y autocultivadores.
 Se han considerado dos segmentos principales:
@@ -537,8 +542,29 @@ Las principales diferencias están en la complejidad de las decisiones:
 * Los autocultivadores rara vez detectan problemas técnicos, pero tienen interés en aprender más sobre ellos.
 
 <div id='2.3.3.'><h4> 2.3.3. User Journey Mapping</h4></div>
+
+ **Agricultores experimentados**
+<img src="resources/CAPITULO2/ExperimentadoJourneyMap.png">
+
+ **Autocultivadores**
+<img src="resources/CAPITULO2/AutoCultivadoresJourneyMap.png">
+
 <div id='2.3.4.'><h4> 2.3.4. Empathy Mapping</h4></div>
+
+ **Agricultores experimentados**
+<img src="resources/CAPITULO2/JuanRamirezEmpathyMap.png">
+
+ **Autocultivadores**
+<img src="resources/CAPITULO2/SofiaEmpathyMap.png">
+
 <div id='2.3.5.'><h4> 2.3.5. As-is Scenario Mapping</h4></div>
+
+ **Agricultores experimentados**
+<img src="resources/CAPITULO2/ExperimentadoASISS.jpg">
+
+ **Autocultivadores**
+<img src="resources/CAPITULO2/AutoCultivadorASIS.jpg">
+
 <div id='2.4.'><h3> 2.4 Ubiquitous Language</h3></div>
 
 El siguiente vocabulario reúne términos clave del dominio agrícola utilizados de manera transversal en el proyecto TomateRitmo. Estos términos permiten una comunicación clara entre el equipo de desarrollo, los usuarios y otros actores involucrados, especialmente considerando que el producto se orienta a agricultores que, en su mayoría, aún no integran tecnología avanzada en su práctica diaria.
@@ -558,10 +584,11 @@ El siguiente vocabulario reúne términos clave del dominio agrícola utilizados
 
 <div id='3.'><h2>Capítulo 3: Requirements Specification</h2></div>
 <div id='3.1.'><h3> 3.1. To-be scenario mapping</h3></div>
+
 <p>Se presenta el escenario ideal con nuestra solución de nuestro ususarios incluyendo nuestros 2 segmentos. </p>
-<img src="resources/TO-BEEXPERIMENTADOSjpg">
+<img src="resources/CAPITULO2/ExperimentadoTOBE.jpg">
 <p>La imagen muestra el escenario ideal de AGRICULTORES EXPERIMENTADOS con los pasos y lo que hace, piensa y siente.</p>
-<img src="resources/TO-BEAUTOCULTIVADORES.jpg">
+<img src="resources/CAPITULO2/AutoCultivadorTOBE.jpg">
 <p>La imagen muestra el escenario ideal con los pasos de los AUTOCULTIVADORES y lo que hace, piensa y siente.</p>
 
 
@@ -710,7 +737,7 @@ Para una correcta calificacion de los story points, optamos por seguir la escala
 <div id="4.3.2."><h4>4.3.2. Software Architecture Container Level Diagrams</h4></div>
 <div id="4.3.3."><h4>4.3.3. Software Architecture Deployment Diagrams</h4></div>
 
-<div id='8.'><h2>Anexos</h2></div>
+<div id='8.'><h2>Conclusiones</h2></div>
 
 
 <div id='9.'><h2>Bibliografía</h2></div>
