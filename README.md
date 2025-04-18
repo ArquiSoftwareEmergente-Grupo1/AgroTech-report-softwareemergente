@@ -16,19 +16,21 @@
 |    Guillen Luna, Paolo César    |    U202124343    |
 |       Elias Yauri Paucar        |    U202211817    |
 | Cruz Palomino Adriano Sebastian |    U202210697    |
+| Rengifo Mirabal Randy Becker |    u20211d683    |
 |||
 
 ## Registro de versiones del informe
 |   Fecha    | Versión |      Autor      |                                 Descripción de modificación                                 |
 |:----------:|:-------:|:---------------:|:-------------------------------------------------------------------------------------------:|
-| 06/04/2024 | 1.0     |  Guillen Paolo  | Creación del documento de trabajo en formato markdown junto al realizamiento de la carátula |
-| 06/04/2024 | 1.0     | Elias Yauri Paucar  | Registro de las entrevistas de cada segmento objetivo |
-| 07/04/2024 | 1.0     |   | |
+| 06/04/2025 | 1.0     |  Guillen Paolo  | Creación del documento de trabajo en formato markdown junto al realizamiento de la carátula |
+| 06/04/2025 | 1.0     | Elias Yauri Paucar  | Registro de las entrevistas de cada segmento objetivo |
+| 18/04/2025 | 1.0     | Rengifo Murabal Randy Becker  | Registro de las entrevistas del segmento de Autocultivadores |
+| 07/04/2025 | 1.0     |   | |
 
 
 ## Project Report Collaboration Insights
 
-URL del repositorio del proyecto: [https://github.com/upc-pre-202401-si730-ws53-Error-404]
+URL del repositorio del proyecto: []
 
 
 ## Contenido 
@@ -119,6 +121,7 @@ Nuestro enfoque es práctico, accesible y centrado en el usuario. Creemos que la
 | Mi nombre es **Paolo César Guillen Luna**, estudiante de la carrera de Ingeniería de Software, en la UPC y fanático de los videojuegos. Me considero alguien creativo y con determinación en alcanzar sus metas, dentro del campo del desarrollo de software, me gustaría especializarme en lo que es el testing de este, razón por la cual aparte de seguir la malla curricular de mi carrera también ando aprendiendo herramientas diversas como Playwright, Cypress, etc. |   <img src="resources/teamMembersPhotos/paoloPhoto.jpg"/>   |
 | Mi nombre es **Elias Yauri**, soy una persona muy participativa cuando se trata en el tema laboral y en el trabajo en equipo, siempre trato de que haya una comunicación constante con todos los miembros del grupo para que de esta forma podamos tener toda una buena afinidad como grupo y que el trabajo se realice de manera exitosa.  | <img src='resources/elias.png'/> |
 | Mi nombre es **Adriano Sebastian Cruz Palomino**, tengo 20 años, soy alumno de Ingeniería de Software en la UPC, actualmente estoy cursando el 7mo ciclo. Soy una persona curiosa, responsable, y comprometida con mis estudios, siempre busco aprender más y mejorar mis habilidades. |<img src='resources/teamMembersPhotos/adrianocruz.jpeg'/>|
+| Mi nombre es **Randy Becker Rengifo Mirabal**, tengo 21 años, soy alumno de ls carrera de Ingeniería de Software en la UPC, actualmente estoy cursando el 8mo ciclo. Me considero una persona proactiva, responsable, y comprometido con mis deberes, siempre busco aprender más y mejorar mis habilidades. |<img src='https://postimg.cc/3Wx8mcqk'/>|
 |||
 
 
@@ -463,10 +466,10 @@ A partir del análisis competitivo realizado se logró identificar las fortaleza
  
 |Nombre entrevistado||
 |-|-|
-|Edad|28 años|
+|Edad|23 años|
 |Departamento|Lima, Lima|
-|<img src="resources/interviewsPhotos/.png">||
-|Duración entrevista:     |URL: []|
+|<img src="[](https://i.postimg.cc/V6skxD8r/image.png)">| Fiorella Vilca, tiene 23 años y cultiva tomates en casa. Usa tecnología a diario, aunque a veces le cuesta adaptarse a nuevas apps. Me contó que cultiva porque le gusta saber lo que consume y le resulta terapéutico. Hace seguimiento de sus plantas de forma manual, sin apps específicas, aunque sí busca info en internet. Le interesaría una app que le diga cuánto regar, cómo detectar enfermedades y qué nutrientes usar. Ya tuvo problemas como plantas secas o con manchas y no siempre sabe por qué. Le parecería súper útil una app que automatice el riego y detecte problemas, y estaría dispuesta a pagar entre 100 y 150 soles si le facilita el trabajo. También le interesa tener un historial visual de sus plantas para mejorar en cada temporada. |
+|Duración entrevista: 5:34    |URL: [https://drive.google.com/file/d/1qohFS-LGroUqEyID3zF1VkVbL4mRS6QT/view?usp=sharing]|
 
 |Nombre entrevistado||
 |-|-|
