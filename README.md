@@ -647,8 +647,46 @@ El siguiente vocabulario reúne términos clave del dominio agrícola utilizados
 
 
 <div id='3.4'><h3> 3.4. Product Backlog.</h3></div>
-
 Para una correcta calificacion de los story points, optamos por seguir la escala de Fibonacci
+
+| Orden | ID | Título | Descripción breve | Story Points |
+|:--------------------------------------------------------------:|:-----------------------:| :---: | :-------------: | :-------------: |
+|1 | US05 | Activación automática de riego por baja humedad | Automatiza el riego según los datos del sensor de humedad. | 5|
+|2 | US06 | Notificación por humedad crítica | Envío de alertas cuando la humedad cae a niveles peligrosos. | 3|
+|3 | US13 | Visualización de parámetros en tiempo real | Muestra humedad y temperatura en tiempo real en la app. | 5|
+|4 | US07 | Configuración de umbrales de humedad | Permite al usuario personalizar los niveles críticos de humedad. | 3|
+|5 | US08 | Control manual del sistema de riego | Activa o desactiva el riego manualmente desde la app. | 3|
+|6 | US01 | Identificación automática de hojas enfermas | Detección visual de anomalías en hojas usando visión artificial. | 13|
+|7 | US09 | Alertas por anomalías visuales | Notificación inmediata cuando se detecta una hoja enferma. | 5|
+|8 | US02 | Reporte fotográfico de anomalías | Muestra la imagen de la hoja anómala detectada. | 3|
+|9 | US04 | Confirmación de diagnóstico por el usuario | Permite validar si una anomalía detectada es real o falsa. | 3|
+|10 | US03 | Historial de detecciones visuales | Muestra el historial de anomalías con filtros por tipo. | 5|
+|11 | US10 | Personalización de notificaciones | Configura qué tipos de alertas recibir y sus prioridades. | 3|
+|12 | US11 | Notificaciones sin repetición excesiva | Controla la frecuencia con la que se repiten las alertas. | 2|
+|13 | US12 | Mensajes de resumen diario | Envía al usuario un resumen diario de riego, anomalías y humedad. | 5|
+|14 | US14 | Gráficos de evolución de humedad y temperatura | Muestra cambios en estos parámetros a lo largo del tiempo. | 5|
+|15 | US15 | Comparación entre zonas de cultivo | Compara condiciones ambientales entre diferentes áreas. | 5|
+|16 | US17 | Personalización de zonas de cultivo | Permite nombrar y dividir zonas dentro del cultivo. | 3|
+|17 | US18 | Ajuste de frecuencia de escaneo visual | Configura cada cuánto tiempo se hace el análisis visual. | 3|
+|18 | US19 | Activación/desactivación del modo automático | Permite apagar el modo automático de riego o análisis visual. | 3|
+|19 | US20 | Configuración de prioridades de acción | Define qué acciones se hacen automáticas y cuáles requieren confirmación. | 5|
+|20 | US16 | Exportación de datos ambientales | Descarga o envío automático de datos históricos. | 3|
+|21 | TS01 | API para registrar datos de sensores | Endpoint para guardar datos ambientales (humedad, temperatura, etc.) | 5|
+|22 | TS05 | Alerta por baja humedad del suelo | Generar alertas si la humedad está por debajo del umbral definido | 3|
+|23 | TS06 | Activación automática del sistema de riego | Encender riego si el nivel de humedad está bajo | 5|
+|24 | TS11 | Configuración de umbrales de humedad | Permitir que el usuario defina niveles personalizados de humedad mínima/máxima | 3|
+|25 | TS02 | API para obtener datos históricos | Permitir consultar datos ambientales por fecha | 3|
+|26 | TS12 | Visualización de gráfica de humedad del suelo | Mostrar gráfico de humedad por hora del día | 3|
+|27 | TS04 | Modelo para detectar enfermedades en hojas | Analizar imágenes de hojas para detectar enfermedades automáticamente | 8|
+|28 | TS03 | Almacenamiento de imágenes para análisis | Guardar imágenes de hojas con metadatos (fecha, estado) | 3|
+|29 | TS09 | Interfaz de carga de imágenes desde la app | Pantalla para que el usuario suba fotos desde cámara o galería | 5|
+|30 | TS10 | Vista de alertas en el panel del usuario | Sección en la app que muestra las alertas activas | 3|
+|31 | TS13 | Módulo de recomendaciones por enfermedad | Sugerencias automáticas según tipo de enfermedad detectada | 5|
+|32 | TS08 | Registro de eventos en el sistema | Guardar y consultar eventos como riegos, alertas, errores | 5|
+|33 | TS07 | Desactivar sistema de riego por usuario | Permitir al usuario pausar o reactivar el riego automático | 3|
+|34 | TS14 | Control de acceso para usuarios registrados | Restringir funciones como subida de imágenes y alertas solo a usuarios logueados | 5|
+|35 | TS15 | Recordatorio de revisión semanal del cultivo | Enviar un recordatorio semanal al usuario para revisar el estado del cultivo | 2|
+
 
 <div id="4."><h2>Capítulo IV: Strategic-Level Software Design</h2></div>
 <div id="4.1."><h3>4.1. Strategic-Level Attribute-Driven Design</h3></div>
