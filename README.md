@@ -520,12 +520,35 @@ Se han considerado dos segmentos principales:
 | Usar su experiencia para ajustar el manejo del cultivo         | Alta                   | Alta        | Baja         | Media       |
 | Evaluar si el cultivo está avanzando como esperaba              | Alta                   | Alta        | Alta         | Alta        |
 
+**Análisis de tareas**
+Tanto los agricultores como los autocultivadores observan y cuidan sus cultivos constantemente, aunque por razones distintas: los agricultores buscan productividad, mientras que los autocultivadores priorizan el bienestar de la planta y el aprendizaje.
+Las tareas más frecuentes e importantes en ambos segmentos son:
 
+* Revisar visualmente las plantas
+* Regar manualmente
+* Evaluar si el cultivo está progresando adecuadamente
+  
+Las principales diferencias están en la complejidad de las decisiones:
+
+* Los agricultores experimentados toman decisiones técnicas sobre riego, enfermedades o plagas.
+* Los autocultivadores rara vez detectan problemas técnicos, pero tienen interés en aprender más sobre ellos.
 
 <div id='2.3.3.'><h4> 2.3.3. User Journey Mapping</h4></div>
 <div id='2.3.4.'><h4> 2.3.4. Empathy Mapping</h4></div>
 <div id='2.3.5.'><h4> 2.3.5. As-is Scenario Mapping</h4></div>
 <div id='2.4.'><h3> 2.4 Ubiquitous Language</h3></div>
+
+El siguiente vocabulario reúne términos clave del dominio agrícola utilizados de manera transversal en el proyecto TomateRitmo. Estos términos permiten una comunicación clara entre el equipo de desarrollo, los usuarios y otros actores involucrados, especialmente considerando que el producto se orienta a agricultores que, en su mayoría, aún no integran tecnología avanzada en su práctica diaria.
+
+
+* **Fase fenológica:** 	Etapas de desarrollo de la planta de tomate, como germinación, floración, fructificación y maduración.
+* **Plaga:** Organismos (insectos, hongos, bacterias) que dañan el cultivo y afectan su rendimiento o calidad.
+* **Enfermedad del cultivo:** Alteración fisiológica causada por microorganismos (hongos, virus, bacterias) que generan síntomas visibles en las hojas o frutos.
+* **Estrés hídrico:** Condición en la que la planta no recibe suficiente agua, afectando su crecimiento y productividad.
+* **Manejo del cultivo:** Conjunto de prácticas agrícolas (riego, fertilización, poda, control de plagas, etc.) para asegurar un desarrollo saludable del tomate.
+* **Monitoreo del cultivo:** Observación regular del estado de las plantas para detectar problemas o evaluar su desarrollo. Puede ser visual o mediante sensores.
+* **Riego:** Aplicación de agua al cultivo. Puede hacerse de forma manual, por gravedad, por goteo o automatizado.
+* **Cultivo a pequeña escala:** Producción agrícola realizada en espacios reducidos, como jardines, macetas o huertos urbanos, usual en autocultivadores
 
   
 [//]: #CAPITULO3
