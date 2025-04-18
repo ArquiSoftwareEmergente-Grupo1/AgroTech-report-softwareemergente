@@ -501,6 +501,27 @@ Las entrevistas con agricultores experimentados revelan patrones consistentes qu
 
     
 <div id='2.3.2.'><h4> 2.3.2. User Task Matrix</h4></div>
+En esta sección se presenta el User Task Matrix, que concentra las tareas que los User Persona (que representan a cada segmento) realizan actualmente para cumplir sus objetivos. Estas tareas existen independientemente del desarrollo de una solución tecnológica, y han sido identificadas a partir de entrevistas realizadas a agricultores experimentados y autocultivadores.
+Se han considerado dos segmentos principales:
+
+* Agricultores experimentados: Productores de tomate con varios años de experiencia, que enfrentan desafíos como enfermedades de cultivo, variaciones climáticas y limitaciones de tiempo para el monitoreo.
+* Autocultivadores: Personas que cultivan tomates en casa, generalmente por interés personal o alimentario, con menor experiencia técnica y un enfoque emocional hacia sus plantas.
+
+| Tareas                                                          | Agricultor Experimentado |   | Autocultivador |   |
+| :-------------------------------------------------------------- | :----------------------- | :-: | :------------- | :-: |
+|                                                                 | Frecuencia             | Importancia | Frecuencia   | Importancia |
+| Revisar visualmente el estado de las plantas (hojas, frutos...) | Alta                   | Alta        | Alta         | Alta        |
+| Observar condiciones del clima (lluvia, calor, sequía)          | Alta                   | Alta        | Media        | Alta        |
+| Detectar manualmente enfermedades o plagas                     | Media                  | Alta        | Baja         | Media       |
+| Regar las plantas manualmente                                  | Alta                   | Alta        | Alta         | Alta        |
+| Tomar decisiones sobre riego o fumigación                      | Alta                   | Alta        | Baja         | Media       |
+| Consultar con otros agricultores o vecinos                     | Media                  | Media       | Baja         | Media       |
+| Investigar o preguntar por síntomas en las plantas             | Media                  | Media       | Media        | Alta        |
+| Usar su experiencia para ajustar el manejo del cultivo         | Alta                   | Alta        | Baja         | Media       |
+| Evaluar si el cultivo está avanzando como esperaba              | Alta                   | Alta        | Alta         | Alta        |
+
+
+
 <div id='2.3.3.'><h4> 2.3.3. User Journey Mapping</h4></div>
 <div id='2.3.4.'><h4> 2.3.4. Empathy Mapping</h4></div>
 <div id='2.3.5.'><h4> 2.3.5. As-is Scenario Mapping</h4></div>
