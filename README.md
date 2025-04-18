@@ -567,6 +567,12 @@ El siguiente vocabulario reúne términos clave del dominio agrícola utilizados
 
 <div id='3.2.'><h3> 3.2. User Stories</h3></div>
 
+|User Story ID | Título | Descripción | Criterios de aceptación | Epic ID|
+| :-------------------------------------------------------------- | :----------------------- | :---: | :------------- |
+|US01 | Identificación automática de hojas enfermas | Como agricultor, quiero que el sistema detecte hojas con anomalías para poder actuar rápidamente. | Escenario 1: Captura de anomalía visualDado que la cámara escanea las hojasCuando detecta una señal de enfermedad (color, textura, manchas)Entonces se registra la anomalía y se notifica al usuario.Escenario 2: Clasificación del tipo de enfermedadDado que se detecta una anomalíaCuando el modelo la reconoceEntonces se muestra el tipo de problema detectado (ej. tizón, manchas fúngicas). | EPIC01|
+|US02 | Reporte fotográfico de anomalías | Como usuario, quiero ver la foto exacta de la hoja anómala para confirmar si es una enfermedad. | Escenario 1: Visualización de imagen en la appDado que se ha detectado una anomalíaCuando entro al historial o alertaEntonces puedo ver la imagen destacada con la anomalía resaltada.Escenario 2: Comparación con imágenes de referenciaDado que tengo dudas sobre la anomalíaCuando abro el detalleEntonces veo imágenes de referencia con descripciones. | EPIC01|
+|US03 | Historial de detecciones visuales | Como agricultor, quiero ver un historial de anomalías detectadas en mis cultivos para tomar decisiones de tratamiento. | Escenario 1: Visualización cronológicaDado que accedo al historialCuando selecciono un rango de fechasEntonces veo cada anomalía con su fecha, imagen y tipo.Escenario 2: Filtro por tipo de problemaDado que hay muchas deteccionesCuando filtro por tipo de enfermedadEntonces solo veo las coincidencias. | EPIC01|
+|US04 | Confirmación de diagnóstico por el usuario | Como agricultor, quiero poder confirmar si la anomalía detectada es realmente una enfermedad para entrenar el sistema. | Escenario 1: Confirmación manualDado que veo una detecciónCuando la revisoEntonces puedo marcarla como correcta o falsa.Escenario 2: Retroalimentación para IADado que he confirmado varias vecesCuando doy feedbackEntonces el sistema mejora en sus futuras detecciones. | EPIC01|
 
 <div id='3.3'><h3> 3.3. Impact Mapping. </h3></div>
 
