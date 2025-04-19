@@ -726,6 +726,22 @@ Si bien lo ideal sería realizar nuestra solución en base a microservicios, rea
 <div id="4.1.2."><h4>4.1.2. Attribute-Driven Design Inputs</h4></div>
 <div id="4.1.2.1."><h4>4.1.2.1. Primary Functionality (Primary User Stories)</h4></div>
 <div id="4.1.2.2."><h4>4.1.2.2. Quality Attribute Scenarios</h4></div>
+A continuación se presentan los escenarios para los atributos de calidad identificados en nuestra solución. Se define Quality Attribute Scenario cómo QAS.
+
+**Los siguientes QAS están siendo considerados en un entorno de pruebas académicos.** 
+QAS1 : El sistema procesa un alto volumen de solicitudes simultáneas sin afectar el rendimiento.
+
+**Performance - Throughput**
+| Elemento | Descripción |
+| :------: | :---------- |
+|Estímulo||
+|Fuente de estímulo||
+|Entorno(Medioambiente)||
+|Artefacto||
+|Respuesta||
+|Medida de respuesta||
+
+
 <div id="4.1.2.3."><h4>4.1.2.3. Constraints</h4></div>
 <div id="4.1.3."><h4>4.1.3. Architectural Drivers Backlog</h4></div>
 <div id="4.1.4."><h4>4.1.4. Architectural Design Decisions</h4></div>
