@@ -718,6 +718,11 @@ Para una correcta calificacion de los story points, optamos por seguir la escala
 <div id="4."><h2>Capítulo IV: Strategic-Level Software Design</h2></div>
 <div id="4.1."><h3>4.1. Strategic-Level Attribute-Driven Design</h3></div>
 <div id="4.1.1."><h4>4.1.1. Design Purpose</h4></div>
+
+Nuestro propósito para nuestro proceso de diseño basado en nuestra arquitectura, la cuál se ha definido cómo una arquitectura monolítica separada por módulos.
+Si bien lo ideal sería realizar nuestra solución en base a microservicios, realizarla en una arquitectura monolítica de forma inicial nos ayudará en gran medida a desarrollarlo en un enfoque más ágil con el fin de tener un prototipo funcional lo antes posible. Con ayuda de Domain Driven Design, podremos diferenciar los módulos del negocio a desarrollar y priorizar los core del negocio. Posteriormente se pensaría trasladarlo a un modelo de microservicios en caso el producto tuviese buena aceptación, esto por el tema de la escalabilidad.
+
+
 <div id="4.1.2."><h4>4.1.2. Attribute-Driven Design Inputs</h4></div>
 <div id="4.1.2.1."><h4>4.1.2.1. Primary Functionality (Primary User Stories)</h4></div>
 <div id="4.1.2.2."><h4>4.1.2.2. Quality Attribute Scenarios</h4></div>
@@ -739,7 +744,8 @@ Para una correcta calificacion de los story points, optamos por seguir la escala
 
 <div id='8.'><h2>Conclusiones</h2></div>
 
-
+* **TB1:** Para esta entrega fue primordial aprender sobre el negocio de la agricultura de tomates, al estar enfocandonos en un sector agrícola, aprender sobre este es ideal para cubrir las necesidades de tanto profesionales como agricultores amateurs, mediante el uso de entrevistas e investigación pudimos hallar las necesidades y problemas que sufre actualmente este sector dentro de lo que es nuestro país. En base a esto planteamos los requisitos que estos necesitan y con ayuda de herramientas como "UXPressia" pudimos organizar esta información para tener la información de nuestros segmentos agrupadas respectivamente. A partir de lo mapeado en los requisitos, se planteó realizar una estructura monolítica para nuestra solución, al ser un prototipo lo que buscamos presentar, el uso de esta arquitectura para el desarrollo del proyecto la consideramos como la más adecuada. Finalmente al momento de diseñar nuestra base de datos y plantear la arquitectura con un diagrama C4, pudimos delimitar hasta donde se pensaría llegar con la solución en temas de desarrollo.
+  
 <div id='9.'><h2>Bibliografía</h2></div>
 
 FAO. (2020). Perdidas y desperdicios de alimentos en América Latina. Organización de las Naciones Unidas para la Alimentación y la Agricultura. https://www.fao.org
