@@ -119,7 +119,7 @@ Nuestro enfoque es práctico, accesible y centrado en el usuario. Creemos que la
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------:|
 | Mi nombre es **Paolo César Guillen Luna**, estudiante de la carrera de Ingeniería de Software, en la UPC y fanático de los videojuegos. Me considero alguien creativo y con determinación en alcanzar sus metas, dentro del campo del desarrollo de software, me gustaría especializarme en lo que es el testing de este, razón por la cual aparte de seguir la malla curricular de mi carrera también ando aprendiendo herramientas diversas como Playwright, Cypress, etc. |   <img src="resources/teamMembersPhotos/paoloPhoto.jpg"/>   |
 | Mi nombre es **Elias Yauri**, soy una persona muy participativa cuando se trata en el tema laboral y en el trabajo en equipo, siempre trato de que haya una comunicación constante con todos los miembros del grupo para que de esta forma podamos tener toda una buena afinidad como grupo y que el trabajo se realice de manera exitosa.  | <img src='resources/elias.png'/> |
-| Mi nombre es **Adriano Sebastian Cruz Palomino**, tengo 20 años, soy alumno de Ingeniería de Software en la UPC, actualmente estoy cursando el 7mo ciclo. Soy una persona curiosa, responsable, y comprometida con mis estudios, siempre busco aprender más y mejorar mis habilidades. |<img src='resources/teamMembersPhotos/adrianocruz.jpeg'/>|
+| Mi nombre es **Adriano Sebastian Cruz Palomino**, tengo 20 años, soy alumno de Ingeniería de Software en la UPC, actualmente estoy cursando el 7mo ciclo. Soy una persona curiosa, responsable, y comprometida con mis estudios, siempre busco aprender más y mejorar mis habilidades. |<img src='resources/AdrianoCruz.png'/>|
 | Mi nombre es Randy Becker Rengifo Mirabal, tengo 21 años y soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), actualmente cursando el octavo ciclo. Me considero una persona proactiva, responsable y comprometida con mis deberes. Siempre busco nuevas oportunidades para aprender, crecer profesionalmente y fortalecer mis habilidades tanto técnicas como personales. Tengo gran interés por la tecnología, el desarrollo de software y la innovación. Me adapto con facilidad a distintos entornos de trabajo, disfruto trabajar en equipo y estoy enfocado en encontrar soluciones eficientes a los problemas que se presentan. Además, me apasiona estar en constante aprendizaje, ya sea a través de proyectos académicos, personales o colaborativos.|<img src="https://i.postimg.cc/sfpMdF94/Randy.jpg"/>|
 |||
 
@@ -868,7 +868,14 @@ En base a los "Quality Attribute Scenarios", se presentan las mejoras que se pod
 
 Las alertas se enviarán utilizando Firebase Cloud Messaging con tolerancia a reintentos.
 <div id="4.2."><h3>4.2. Strategic-Level Domain-Driven Design</h3></div>
-<div id="4.2.1."><h4>4.2.1. EventStorming</h4></div>
+<div id="4.2.1."><h4>4.2.1. EventStorming</h4>
+
+El proceso de EventStorming fue utilizado para identificar los eventos clave, comandos, actores y entidades involucradas en el dominio de "TomateRitmo". Esta dinámica colaborativa permitió visualizar de manera integral el flujo de actividades desde que el sistema detecta información del cultivo hasta que el agricultor actúa o revisa los datos.
+
+<img src = "resources/EventStorming.png">
+<img src = "resources/EventStorming2.png">
+ 
+</div>
 <div id="4.2.2."><h4>4.2.2. Candidate Context Discovery</h4></div>
 <div id="4.2.3."><h4>4.2.3. Domain Message Flows Modeling</h4></div>
 <div id="4.2.4."><h4>4.2.4. Bounded Context Canvases</h4></div>
