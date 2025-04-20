@@ -725,27 +725,148 @@ Si bien lo ideal sería realizar nuestra solución en base a microservicios, rea
 
 <div id="4.1.2."><h4>4.1.2. Attribute-Driven Design Inputs</h4></div>
 <div id="4.1.2.1."><h4>4.1.2.1. Primary Functionality (Primary User Stories)</h4></div>
+
+Las funcionalidades primarias de TomateRitmo están alineadas con los objetivos centrales del sistema: brindar asistencia automatizada al agricultor, facilitar la toma de decisiones informadas y mejorar el cuidado del cultivo de tomate mediante el uso de sensores e inteligencia artificial.
+
+Estas funcionalidades han sido seleccionadas considerando su impacto directo en el core del negocio, su relación con atributos de calidad clave como la autonomía operativa, la reactividad del sistema, la usabilidad y la adaptabilidad, así como su dependencia en módulos fundamentales para futuras extensiones del sistema.
+
+A continuación, se listan las historias de usuario consideradas como funcionalidades primarias para el diseño de alto nivel:
+
+|Orden | ID | Título | Descripción breve | Story Points | Justificación|
+|:----:|:--:|:--:|:------:|:--:|:-----|
+|1 | US05 | Activación automática de riego por baja humedad | Automatiza el riego según los datos del sensor de humedad. | 5 | Automatiza la acción más crítica para la salud del cultivo: el riego. Es el corazón funcional del sistema.|
+|2 | US01 | Identificación automática de hojas enfermas | Detección visual de anomalías en hojas usando visión artificial. | 13 | Aporta valor diferencial mediante IA. Es la base para todo el módulo de diagnóstico y alertas visuales.|
+|3 | US06 | Notificación por humedad crítica | Envío de alertas cuando la humedad cae a niveles peligrosos. | 3 | Garantiza que el usuario esté informado en tiempo real si el sistema falla o requiere intervención.|
+|4 | US13 | Visualización de parámetros en tiempo real | Muestra humedad y temperatura en tiempo real en la app. | 5 | Permite al usuario tener supervisión activa sobre las condiciones del cultivo, lo cual mejora la transparencia y confianza en el sistema.|
+|5 | US07 | Configuración de umbrales de humedad | Permite al usuario personalizar los niveles críticos de humedad. | 3 | Brinda flexibilidad al sistema, adaptándolo a distintos tipos de suelos o cultivos, reforzando su adaptabilidad.|
+
 <div id="4.1.2.2."><h4>4.1.2.2. Quality Attribute Scenarios</h4></div>
 A continuación se presentan los escenarios para los atributos de calidad identificados en nuestra solución. Se define Quality Attribute Scenario cómo QAS.
 
 **Los siguientes QAS están siendo considerados en un entorno de pruebas académicos.** 
-QAS1 : El sistema procesa un alto volumen de solicitudes simultáneas sin afectar el rendimiento.
+QAS1: Consulta de parámetros en tiempo real
 
 **Performance - Throughput**
 | Elemento | Descripción |
 | :------: | :---------- |
-|Estímulo||
-|Fuente de estímulo||
-|Entorno(Medioambiente)||
-|Artefacto||
-|Respuesta||
-|Medida de respuesta||
+|Estímulo | El usuario consulta el estado actual de humedad y temperatura del cultivo.|
+|Fuente de estímulo | Usuario de la aplicación móvil TomateRitmo.|
+|Entorno (Medioambiente) | Uso normal del sistema desde el aplicativo móvil.|
+|Artefacto | Módulo de visualización en tiempo real de parámetros ambientales.|
+|Respuesta | El sistema recupera los datos en tiempo real desde la base de datos o caché.|
+|Medida de respuesta | El 95% de las respuestas deben tardar menos de 2 segundos en mostrarse.|
 
+
+QAS2: Recepción de alertas críticas
+**Availability – System Uptime**
+| Elemento | Descripción |
+| :------: | :---------- |
+|Estímulo | El usuario desea recibir una notificación ante una condición de humedad crítica.|
+|Fuente de estímulo | Usuario final o sistema de notificaciones automáticas.|
+|Entorno (Medioambiente) | Condiciones normales de operación, con conexión intermitente.|
+|Artefacto | Módulo de notificaciones y motor de alertas.|
+|Respuesta | El sistema debe garantizar el envío de alertas incluso si el sistema ha estado inactivo brevemente.|
+|Medida de respuesta | El 99% de las alertas deben entregarse correctamente dentro de los 5 minutos siguientes al evento.|
+
+
+QAS3: Escaneo programado de hojas con IA
+**Performance – Latencia del Análisis Visual**
+| Elemento | Descripción |
+| :------: | :---------- |
+|Estímulo | El sistema inicia un escaneo visual automático de las hojas del cultivo.|
+|Fuente de estímulo | Sistema de escaneo programado o manual por el usuario.|
+|Entorno (Medioambiente) | Operación automática con conectividad estable.|
+|Artefacto | Motor de análisis de visión artificial para hojas.|
+|Respuesta | El sistema debe procesar la imagen, aplicar el modelo y generar el resultado en poco tiempo.|
+|Medida de respuesta | El 90% de los análisis deben completarse en menos de 10 segundos desde la captura de imagen.|
+
+QAS4: Detección confiable de enfermedades
+**Reliability – Diagnóstico Visual**
+| Elemento | Descripción |
+| :------: | :---------- |
+|Estímulo | El sistema detecta una posible anomalía en una hoja mediante visión artificial.|
+|Fuente de estímulo | Motor de análisis de imágenes del sistema.|
+|Entorno (Medioambiente) | En escaneos automáticos programados.|
+|Artefacto | Modelo de detección de enfermedades en hojas.|
+|Respuesta | El sistema debe generar una alerta confiable sin falsos positivos excesivos.|
+|Medida de respuesta | Al menos el 90% de las detecciones deben ser correctamente clasificadas como reales o falsas.|
+
+QAS5: Activación manual del riego
+**Usability – Validación de Diagnóstico por el Usuario**
+| Elemento | Descripción |
+| :------: | :---------- |
+|Estímulo | El sistema muestra una hoja detectada como enferma para que el usuario la confirme o rechace.|
+|Fuente de estímulo | Usuario interactuando con la app tras recibir una alerta de detección visual.|
+|Entorno (Medioambiente) | Dentro de la app móvil, luego de una detección automática.|
+|Artefacto | Interfaz de validación de diagnósticos visuales.|
+|Respuesta | El sistema debe permitir validar o descartar la anomalía fácilmente, almacenando el feedback.|
+|Medida de respuesta | El 95% de las validaciones deben completarse en menos de 10 segundos, y el feedback debe guardarse exitosamente.|
 
 <div id="4.1.2.3."><h4>4.1.2.3. Constraints</h4></div>
+
+Los siguientes son los constraints o restricciones que influyen directamente en las decisiones arquitectónicas del producto a desarrollar llamado "TomateRitmo". Estas restricciones pueden provenir de factores tecnológicos, organizacionales o regulatorios:
+
+* **Tecnológicos:**
+
+- El sistema debe funcionar en dispositivos móviles Android con versiones mínimas 8.0 (Oreo) que suele ser las mínimas que llegan a usar los agricultores en base a la información recopilada.
+- La visión artificial debe ejecutarse mediante modelos livianos compatibles con dispositivos de gama media o con capacidad de ejecución en la nube vía API REST.
+
+* **Operacionales:**
+
+- El sistema debe estar disponible al menos el 95% del tiempo durante horarios agrícolas (05:00 a 20:00).
+- La solución debe ser usable en zonas rurales con conectividad intermitente, por lo que debe contar con mecanismos de almacenamiento local y sincronización posterior.
+
+* **Legales / Éticos:**
+
+- El sistema debe cumplir con principios éticos de transparencia en las decisiones automatizadas, incluyendo la explicación de los diagnósticos realizados por IA.
+- Debe proteger los datos de los usuarios bajo normativas de privacidad como la Ley de Protección de Datos Personales en Perú (Ley N.° 29733).
+
 <div id="4.1.3."><h4>4.1.3. Architectural Drivers Backlog</h4></div>
+
+A continuación se presenta un backlog de los principales drivers arquitectónicos, priorizados de acuerdo con su impacto en el sistema TomateRitmo:
+
+|ID | Driver Arquitectónico | Tipo (Calidad, Funcional, Restricción) | Prioridad|
+|:-:|:-:|:-:|:-:|
+|AD1 | Visión artificial para detección de enfermedades | Calidad (Desempeño, Fiabilidad) | Alta|
+|AD2 | Procesamiento en tiempo real de datos IoT | Calidad (Performance, Escalabilidad) | Alta|
+|AD3 | Interfaz amigable y validación de diagnósticos | Calidad (Usabilidad) | Media|
+|AD4 | Tolerancia a la conectividad inestable | Restricción tecnológica / Calidad | Alta|
+|AD5 | Control manual y automático del riego | Funcional | Media|
+|AD6 | Seguridad y privacidad de datos personales | Calidad (Seguridad) / Restricción legal | Alta|
+|AD7 | Soporte multiplataforma móvil | Restricción tecnológica | Media|
+
 <div id="4.1.4."><h4>4.1.4. Architectural Design Decisions</h4></div>
+
+Las siguientes son las decisiones de diseño arquitectónico más relevantes adoptadas durante la planificación de TomateRitmo:
+
+* ADD01 - Modularización por componentes funcionales: Se decidió separar el sistema en módulos clave (captura de datos IoT, análisis IA, notificaciones, interfaz de usuario) para facilitar el mantenimiento y escalabilidad.
+* ADD02 - Uso de arquitectura orientada a eventos: Para la comunicación entre módulos (especialmente alertas y diagnósticos), se empleará una arquitectura basada en eventos que mejora el tiempo de respuesta y desacopla los componentes.
+* ADD04 - Persistencia local y sincronización automática: Para mitigar problemas de conectividad rural, se permite trabajar offline con almacenamiento local, y luego sincronizar con el backend una vez restablecida la conexión, por ahora se planea implementar solo en ciertos dispositivos Android que cuenten con una versión de 10 para arriba por temas de compatibilidad.
+* ADD04 - Modelo AI explicable : Para fomentar la confianza del usuario en las decisiones de la IA, se incluirá una explicación visual y textual básica del porqué se marcó una hoja como “enferma”.
+
 <div id="4.1.5."><h4>4.1.5. Quality Attribute Scenario Refinements</h4></div>
+
+En base a los "Quality Attribute Scenarios", se presentan las mejoras que se podrían realizar a lo largo del desarrollo del producto TomateRitmo y como se podría estar probando de forma acorde.
+
+* **QAS1 (Consulta de parámetros en tiempo real):**
+
+- Se realizarán pruebas de estrés con datos simulados desde sensores físicos y virtuales.
+- Se usará caching local y pruebas A/B para mejorar el tiempo de respuesta.
+
+* **QAS3 y QAS4 (Visión artificial):**
+
+- Los modelos serán entrenados con datasets balanceados de hojas sanas y enfermas de tp,ates de acuerdo a su fase fenológica.
+
+* **QAS5 (Usabilidad en validación del diagnóstico):**
+
+- La validación del diagnóstico se realizaría tras la creación del prototipo inicial, en base a su feedback podremos verificar si los usuarios consideran válida los diagnósticos brindados por la aplicación y si considera adecuado su actuar.
+- El feedback se registrará y analizará en fases tempranas del desarrollo (con base en Lean UX).
+
+* **QAS2 (Notificaciones):**
+
+- Se verificará la entrega bajo múltiples condiciones de red (Wi-Fi/datos móviles).
+
+Las alertas se enviarán utilizando Firebase Cloud Messaging con tolerancia a reintentos.
 <div id="4.2."><h3>4.2. Strategic-Level Domain-Driven Design</h3></div>
 <div id="4.2.1."><h4>4.2.1. EventStorming</h4></div>
 <div id="4.2.2."><h4>4.2.2. Candidate Context Discovery</h4></div>
