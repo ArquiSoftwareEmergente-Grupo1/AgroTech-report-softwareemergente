@@ -874,6 +874,7 @@ El proceso de EventStorming fue utilizado para identificar los eventos clave, co
 
 <img src = "resources/EventStorming.png">
 <img src = "resources/EventStorming2.png">
+<img src = "resources/EventStorming3.png">
  
 </div>
 <div id="4.2.2."><h4>4.2.2. Candidate Context Discovery</h4></div>
