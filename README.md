@@ -943,14 +943,50 @@ Durante esta sesión de descubrimiento de contextos candidatos, el equipo utiliz
 
 A continuación, se muestran capturas del EventStorm en sus distintas fases, que evidencian el proceso de identificación de los contextos candidatos:
 
+Step 1 - Collect Domain Events
+
 <img src = "resources/EventStorming.png">
+
+Step 2 - Refine Domain Events
 <img src = "resources/EventStorming2.png">
+
+Step 3 - Track causes
 <img src = "resources/EventStorming3.png">
+
 <img src = "resources/EventStorming4.png">
 
 </div>
-<div id="4.2.3."><h4>4.2.3. Domain Message Flows Modeling</h4></div>
-<div id="4.2.4."><h4>4.2.4. Bounded Context Canvases</h4></div>
+<div id="4.2.3."><h4>4.2.3. Domain Message Flows Modeling</h4>
+
+# Falta
+
+</div>
+<div id="4.2.4."><h4>4.2.4. Bounded Context Canvases</h4>
+En esta sección se presentan los Bounded Context Canvases derivados del análisis realizado durante las sesiones de EventStorming y Candidate Context Discovery del sistema TomateRitmo. Cada canvas representa un modelo detallado de los contextos delimitados identificados en el dominio, agrupando funcionalidades altamente cohesionadas y desacopladas del resto del sistema.
+
+Los bounded contexts fueron priorizados según su importancia estratégica dentro del sistema, considerando su impacto en la experiencia del usuario, la automatización del cultivo, y la complejidad técnica involucrada. En el caso de TomateRitmo, los contextos definidos son:
+
+1. Análisis de Imágenes y Anomalías
+
+<img src = "resources/BoundedContextCanvasAnalisisImagenes.png">
+
+2. Sistema de Riego Inteligente
+
+<img src = "resources/BoundedContextCanvasSistemaRiego.png">
+
+3. Monitoreo y Sensores IoT
+
+<img src = "resources/BoundedContextCanvasMonitoreoIoT.png">
+
+4. Gestión de Cultivos
+
+<img src = "resources/BoundedContextCanvasGestionCultivos.png">
+
+5. Gestión de Agricultores
+
+<img src = "resources/BoundedContextCanvasGestionAgricultores.png">
+
+</div>
 <div id="4.2.5."><h4>4.2.5. Context Mapping</h4></div>
 <div id="4.3."><h3>4.3. Software Architecture</h3></div>
 <div id="4.3.1."><h4>4.3.1. Software Architecture System Landscape Diagram</h4></div>
