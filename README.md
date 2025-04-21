@@ -873,11 +873,82 @@ Las alertas se enviarán utilizando Firebase Cloud Messaging con tolerancia a re
 El proceso de EventStorming fue utilizado para identificar los eventos clave, comandos, actores y entidades involucradas en el dominio de "TomateRitmo". Esta dinámica colaborativa permitió visualizar de manera integral el flujo de actividades desde que el sistema detecta información del cultivo hasta que el agricultor actúa o revisa los datos.
 
 <img src = "resources/EventStorming.png">
-<img src = "resources/EventStorming2.png">
-<img src = "resources/EventStorming3.png">
  
 </div>
-<div id="4.2.2."><h4>4.2.2. Candidate Context Discovery</h4></div>
+<div id="4.2.2."><h4>4.2.2. Candidate Context Discovery</h4>
+
+Durante esta sesión de descubrimiento de contextos candidatos, el equipo utilizó la técnica look-for-pivotal-events como eje central para descomponer el dominio. Esta técnica se basa en identificar eventos clave del negocio que generan cambios importantes de estado en las entidades, permitiendo agrupar funcionalidades con alta cohesión en torno a dichos eventos.
+
+**Proceso realizado**
+
+1. Inicio con el EventStorm general:
+
+- Se modeló todo el flujo del sistema desde el registro de agricultores hasta el análisis automatizado de cultivos.
+
+- Se colocaron los eventos del dominio (naranjas), comandos (azules), actores (amarillos) y entidades o agregados (anaranjado claro).
+
+2. Identificación de eventos pivote:
+
+- Se analizaron los eventos que marcaban transiciones clave en el negocio, como:
+
+  - Cultivo registrado en el sistema
+
+  - Sensor IoT conectado
+
+  - Zona de monitoreo configurada
+
+  - Monitoreo de cultivo iniciado
+
+  - Riego automático ejecutado
+
+  - Anomalía detectada en cultivo
+
+- Estos eventos ayudaron a delinear fronteras naturales entre distintos procesos y objetivos del sistema.
+
+3. Agrupamiento por cohesión funcional:
+
+- A partir de los eventos pivote, se agruparon elementos relacionados (comandos, eventos, actores, entidades) para formar bounded contexts coherentes y delimitados.
+
+**Bounded Contexts identificados**
+
+1. Gestión de Agricultores:
+
+- Registra y administra la identidad del agricultor.
+
+- Eventos como Nuevo agricultor registrado.
+
+2. Gestión de Cultivos:
+
+- Relacionado con la selección, historial y riego manual de cultivos específicos.
+
+- Eventos como Historial del cultivo visualizado, Riego aplicado al cultivo.
+
+3. Monitoreo y Sensores IoT:
+
+- Activación e inicio del monitoreo de los cultivos por sensores.
+
+- Integra dispositivos y gestiona lectura de datos.
+
+4. Sistema de Riego Inteligente:
+
+- Automatiza o permite riego manual basado en condiciones climáticas.
+
+- Eventos como Necesidad de riego registrada, Sistema de riego activado.
+
+5. Análisis de Imágenes y Anomalías:
+
+- Captura, analiza imágenes y detecta posibles problemas en el cultivo.
+
+- Eventos como Anomalía detectada en cultivo, Notificación enviada al agricultor.
+
+A continuación, se muestran capturas del EventStorm en sus distintas fases, que evidencian el proceso de identificación de los contextos candidatos:
+
+<img src = "resources/EventStorming.png">
+<img src = "resources/EventStorming2.png">
+<img src = "resources/EventStorming3.png">
+<img src = "resources/EventStorming4.png">
+
+</div>
 <div id="4.2.3."><h4>4.2.3. Domain Message Flows Modeling</h4></div>
 <div id="4.2.4."><h4>4.2.4. Bounded Context Canvases</h4></div>
 <div id="4.2.5."><h4>4.2.5. Context Mapping</h4></div>
