@@ -874,6 +874,8 @@ El proceso de EventStorming fue utilizado para identificar los eventos clave, co
 
 <img src = "resources/EventStorming.png">
  
+Link Miro: https://miro.com/welcomeonboard/NDlrcmFyU2hNdVBFUFJvL1pCNG12MDFGSXk4d3ArY3N5a2FrRU5vZmRVcHJJMG53WkltK3hDRC9nWTNmOGRxQUdlQThRUnQ0VlNBT0JybXBJUHpxdjhxR08vcXFoR1FJeE55MHluODNXWFdYamduajFCeXZpZkpWY1kyQUdxZGdnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=924911885159
+
 </div>
 <div id="4.2.2."><h4>4.2.2. Candidate Context Discovery</h4>
 
@@ -954,11 +956,31 @@ Step 3 - Track causes
 <img src = "resources/EventStorming3.png">
 
 <img src = "resources/EventStorming4.png">
-
+ 
+Link Miro: https://miro.com/welcomeonboard/NDlrcmFyU2hNdVBFUFJvL1pCNG12MDFGSXk4d3ArY3N5a2FrRU5vZmRVcHJJMG53WkltK3hDRC9nWTNmOGRxQUdlQThRUnQ0VlNBT0JybXBJUHpxdjhxR08vcXFoR1FJeE55MHluODNXWFdYamduajFCeXZpZkpWY1kyQUdxZGdnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=924911885159
 </div>
 <div id="4.2.3."><h4>4.2.3. Domain Message Flows Modeling</h4>
 
-# Falta
+Para esta sección se aplicó la técnica de Domain Storytelling, con el fin de visualizar la colaboración entre los bounded contexts del sistema TomateRitmo en respuesta a los casos de uso clave del negocio. Se elaboraron diagramas detallados que evidencian cómo interactúan los actores, contextos y sistemas para dar soporte a las funcionalidades más relevantes para los usuarios del sistema, tanto agricultores experimentados como autocultivadores.
+
+A continuación, se presentan los escenarios modelados:
+
+Escenario 1: Activación Automática de Riego
+Este escenario modela el flujo completo desde la detección de una lectura de humedad crítica hasta la activación automática del sistema de riego y la notificación correspondiente al agricultor.
+
+<img src = "resources/MessageFlowEscenario1.png">
+
+Escenario 2: Detección de Anomalías Visuales en Hojas con IA
+Este flujo describe cómo se detectan y reportan problemas visuales en las hojas de las plantas mediante visión artificial.
+
+<img src = "resources/MessageFlowEscenario2.png">
+
+Escenario 3: Visualización de Parámetros en Tiempo Real
+Este escenario muestra cómo un agricultor puede consultar la humedad y temperatura actual del cultivo desde la app.
+
+<img src = "resources/MessageFlowEscenario3.png">
+ 
+Link Miro: https://miro.com/welcomeonboard/NDlrcmFyU2hNdVBFUFJvL1pCNG12MDFGSXk4d3ArY3N5a2FrRU5vZmRVcHJJMG53WkltK3hDRC9nWTNmOGRxQUdlQThRUnQ0VlNBT0JybXBJUHpxdjhxR08vcXFoR1FJeE55MHluODNXWFdYamduajFCeXZpZkpWY1kyQUdxZGdnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=924911885159
 
 </div>
 <div id="4.2.4."><h4>4.2.4. Bounded Context Canvases</h4>
@@ -985,6 +1007,8 @@ Los bounded contexts fueron priorizados según su importancia estratégica dentr
 5. Gestión de Agricultores
 
 <img src = "resources/BoundedContextCanvasGestionAgricultores.png">
+ 
+Link Miro: https://miro.com/welcomeonboard/NDlrcmFyU2hNdVBFUFJvL1pCNG12MDFGSXk4d3ArY3N5a2FrRU5vZmRVcHJJMG53WkltK3hDRC9nWTNmOGRxQUdlQThRUnQ0VlNBT0JybXBJUHpxdjhxR08vcXFoR1FJeE55MHluODNXWFdYamduajFCeXZpZkpWY1kyQUdxZGdnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=924911885159
 
 </div>
 <div id="4.2.5."><h4>4.2.5. Context Mapping</h4></div>
