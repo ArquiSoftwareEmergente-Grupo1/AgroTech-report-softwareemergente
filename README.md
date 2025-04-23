@@ -1012,11 +1012,28 @@ Link Miro: https://miro.com/welcomeonboard/NDlrcmFyU2hNdVBFUFJvL1pCNG12MDFGSXk4d
 
 </div>
 <div id="4.2.5."><h4>4.2.5. Context Mapping</h4></div>
+
+
 <div id="4.3."><h3>4.3. Software Architecture</h3></div>
 <div id="4.3.1."><h4>4.3.1. Software Architecture System Landscape Diagram</h4></div>
+<img src = "resources\CAPITULO4\landscape.png">
+
+Representa el ecosistema completo del software, mostrando TomateRitmo como sistema central y cómo interactúa con sistemas externos como sensores IoT, OpenWeatherMap API, plataforma AI, sistema de riego y bases de datos. Ofrece una visión general de la integración del sistema dentro del panorama tecnológico más amplio.
+
 <div id="4.3.1.1."><h4>4.3.1. Software Architecture Context Level Diagrams</h4></div>
+<img src = "resources\CAPITULO4\context.png">
+
+Ofrece una visión de alto nivel del sistema TomateRitmo, mostrando cómo se relaciona con sus usuarios (autocultivadores y agricultores experimentados) y sistemas externos. Ilustra los flujos de información principales entre el sistema central y las entidades externas como sensores IoT, OpenWeatherMap, servicios de notificaciones y la plataforma de visión artificial.
+
 <div id="4.3.2."><h4>4.3.2. Software Architecture Container Level Diagrams</h4></div>
+<img src = "resources\CAPITULO4\container.png">
+
+Muestra la arquitectura técnica del sistema TomateRitmo, presentando los principales componentes (contenedores) y sus interacciones. Incluye una App Móvil, Web Dashboard, API Gateway, y varios servicios especializados como AI Service, IoT Ingestor, Auth Service y bases de datos. Define claramente cómo los diferentes componentes se comunican entre sí y con sistemas externos.
+
 <div id="4.3.3."><h4>4.3.3. Software Architecture Deployment Diagrams</h4></div>
+<img src = "resources\CAPITULO4\Deployment.png">
+
+
 
 <div id='8.'><h2>Conclusiones</h2></div>
 
