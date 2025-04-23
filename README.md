@@ -4,8 +4,8 @@
 <h4 style="text-align: center;"> Ingeniería de Software </h4>
 <h4 style="text-align: center;"> Arquitecturas De Software Emergentes </h4>
 <h4 style="text-align: center;"> Ciclo 2025-10 </h4>
-<h4 style="text-align: center;"> Código del Curso:  </h4>
-<h4 style="text-align: center;"> NRC:  </h4>
+<h4 style="text-align: center;"> Código del Curso: 1ASI0728 </h4>
+<h4 style="text-align: center;"> NRC: 4265 </h4>
 <h4 style="text-align: center;"> Docente: Rojas Malasquez,  Royer Edelwer  </h4>
 <h4 style="text-align: center;"> Startup: AgroTech  </h4>
 <h4 style="text-align: center;"> Producto:  TomateRitmo </h4>
