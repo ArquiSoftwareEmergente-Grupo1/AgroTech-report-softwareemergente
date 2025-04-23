@@ -22,9 +22,9 @@
 |   Fecha    | Versión |      Autor      |                                 Descripción de modificación                                 |
 |:----------:|:-------:|:---------------:|:-------------------------------------------------------------------------------------------:|
 | 06/04/2025 | 1.0     |  Guillen Paolo  | Creación del documento de trabajo en formato markdown junto al realizamiento de la carátula |
-| 06/04/2025 | 1.0     | Elias Yauri Paucar  | Registro de las entrevistas de cada segmento objetivo |
-| 18/04/2025 | 1.0     | Rengifo Murabal Randy Becker  | Registro de las entrevistas del segmento de Autocultivadores |
-| 07/04/2025 | 1.0     |   | |
+| 06/04/2025 | 1.1     | Elias Yauri Paucar  | Registro de las entrevistas de cada segmento objetivo |
+| 18/04/2025 | 1.2     | Rengifo Murabal Randy Becker  | Registro de las entrevistas del segmento de Autocultivadores |
+| 07/04/2025 | 1.3     |   | |
 
 
 ## Project Report Collaboration Insights
