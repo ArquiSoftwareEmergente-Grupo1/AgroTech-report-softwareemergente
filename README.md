@@ -1011,7 +1011,16 @@ Los bounded contexts fueron priorizados según su importancia estratégica dentr
 Link Miro: https://miro.com/welcomeonboard/NDlrcmFyU2hNdVBFUFJvL1pCNG12MDFGSXk4d3ArY3N5a2FrRU5vZmRVcHJJMG53WkltK3hDRC9nWTNmOGRxQUdlQThRUnQ0VlNBT0JybXBJUHpxdjhxR08vcXFoR1FJeE55MHluODNXWFdYamduajFCeXZpZkpWY1kyQUdxZGdnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=924911885159
 
 </div>
-<div id="4.2.5."><h4>4.2.5. Context Mapping</h4></div>
+<div id="4.2.5."><h4>4.2.5. Context Mapping</h4>
+En esta sección se presenta el Context Mapping de la plataforma TomateRitmo, que muestra las relaciones estratégicas entre los Bounded Contexts identificados durante el diseño. El equipo analizó la distribución de capacidades y exploró distintas alternativas de organización, considerando patrones clásicos de DDD como Conformist, Customer/Supplier, Partnership, ACL y Open Host Service (OHS/PL).
+
+El mapa resultante evidencia cómo se conectan contextos como Gestión de Agricultores, Monitoreo IoT, Análisis de Imágenes y Sistema de Riego, dejando explícitas las dependencias, direcciones (Upstream/Downstream) y tipos de integración utilizados. Esto permite una evolución independiente y controlada de cada parte del sistema.
+
+A continuación, se presenta el diagrama final del Context Mapping para TomateRitmo:
+
+<img src = "resources/ContextMapping.png">
+
+</div>
 <div id="4.3."><h3>4.3. Software Architecture</h3></div>
 <div id="4.3.1."><h4>4.3.1. Software Architecture System Landscape Diagram</h4></div>
 <div id="4.3.1.1."><h4>4.3.1. Software Architecture Context Level Diagrams</h4></div>
