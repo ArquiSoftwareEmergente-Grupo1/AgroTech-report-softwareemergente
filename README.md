@@ -4,8 +4,8 @@
 <h4 style="text-align: center;"> Ingeniería de Software </h4>
 <h4 style="text-align: center;"> Arquitecturas De Software Emergentes </h4>
 <h4 style="text-align: center;"> Ciclo 2025-10 </h4>
-<h4 style="text-align: center;"> Código del Curso:  </h4>
-<h4 style="text-align: center;"> NRC:  </h4>
+<h4 style="text-align: center;"> Código del Curso: 1ASI0728 </h4>
+<h4 style="text-align: center;"> NRC: 4265 </h4>
 <h4 style="text-align: center;"> Docente: Rojas Malasquez,  Royer Edelwer  </h4>
 <h4 style="text-align: center;"> Startup: AgroTech  </h4>
 <h4 style="text-align: center;"> Producto:  TomateRitmo </h4>
@@ -22,14 +22,14 @@
 |   Fecha    | Versión |      Autor      |                                 Descripción de modificación                                 |
 |:----------:|:-------:|:---------------:|:-------------------------------------------------------------------------------------------:|
 | 06/04/2025 | 1.0     |  Guillen Paolo  | Creación del documento de trabajo en formato markdown junto al realizamiento de la carátula |
-| 06/04/2025 | 1.0     | Elias Yauri Paucar  | Registro de las entrevistas de cada segmento objetivo |
-| 18/04/2025 | 1.0     | Rengifo Murabal Randy Becker  | Registro de las entrevistas del segmento de Autocultivadores |
-| 07/04/2025 | 1.0     |   | |
+| 06/04/2025 | 1.1     | Elias Yauri Paucar  | Registro de las entrevistas de cada segmento objetivo |
+| 18/04/2025 | 1.2     | Rengifo Murabal Randy Becker  | Registro de las entrevistas del segmento de Autocultivadores |
+| 07/04/2025 | 1.3     |   | |
 
 
 ## Project Report Collaboration Insights
 
-URL del repositorio del proyecto: []
+URL del repositorio del proyecto: [https://github.com/ArquiSoftwareEmergente-Grupo1]
 
 
 ## Contenido 
@@ -1012,7 +1012,7 @@ Link Miro: https://miro.com/welcomeonboard/NDlrcmFyU2hNdVBFUFJvL1pCNG12MDFGSXk4d
 
 </div>
 <div id="4.2.5."><h4>4.2.5. Context Mapping</h4>
-En esta sección se presenta el Context Mapping de la plataforma TomateRitmo, que muestra las relaciones estratégicas entre los Bounded Contexts identificados durante el diseño. El equipo analizó la distribución de capacidades y exploró distintas alternativas de organización, considerando patrones clásicos de DDD como Conformist, Customer/Supplier, Partnership, ACL y Open Host Service (OHS/PL).
+En esta sección se muestra las relaciones estratégicas entre los Bounded Contexts identificados durante el diseño. El equipo analizó la distribución de capacidades y exploró distintas alternativas de organización, considerando patrones clásicos de DDD como Conformist, Customer/Supplier, Partnership, ACL y Open Host Service (OHS/PL).
 
 El mapa resultante evidencia cómo se conectan contextos como Gestión de Agricultores, Monitoreo IoT, Análisis de Imágenes y Sistema de Riego, dejando explícitas las dependencias, direcciones (Upstream/Downstream) y tipos de integración utilizados. Esto permite una evolución independiente y controlada de cada parte del sistema.
 
@@ -1023,9 +1023,24 @@ A continuación, se presenta el diagrama final del Context Mapping para TomateRi
 </div>
 <div id="4.3."><h3>4.3. Software Architecture</h3></div>
 <div id="4.3.1."><h4>4.3.1. Software Architecture System Landscape Diagram</h4></div>
+<img src = "resources\CAPITULO4\landscape.png">
+
+Representa el ecosistema completo del software, mostrando TomateRitmo como sistema central y cómo interactúa con sistemas externos como sensores IoT, OpenWeatherMap API, plataforma AI, sistema de riego y bases de datos. Ofrece una visión general de la integración del sistema dentro del panorama tecnológico más amplio.
+
 <div id="4.3.1.1."><h4>4.3.1. Software Architecture Context Level Diagrams</h4></div>
+<img src = "resources\CAPITULO4\context.png">
+
+Ofrece una visión de alto nivel del sistema TomateRitmo, mostrando cómo se relaciona con sus usuarios (autocultivadores y agricultores experimentados) y sistemas externos. Ilustra los flujos de información principales entre el sistema central y las entidades externas como sensores IoT, OpenWeatherMap, servicios de notificaciones y la plataforma de visión artificial.
+
 <div id="4.3.2."><h4>4.3.2. Software Architecture Container Level Diagrams</h4></div>
+<img src = "resources\CAPITULO4\container.png">
+
+Muestra la arquitectura técnica del sistema TomateRitmo, presentando los principales componentes (contenedores) y sus interacciones. Incluye una App Móvil, Web Dashboard, API Gateway, y varios servicios especializados como AI Service, IoT Ingestor, Auth Service y bases de datos. Define claramente cómo los diferentes componentes se comunican entre sí y con sistemas externos.
+
 <div id="4.3.3."><h4>4.3.3. Software Architecture Deployment Diagrams</h4></div>
+<img src = "resources\CAPITULO4\Deployment.png">
+
+
 
 <div id='8.'><h2>Conclusiones</h2></div>
 
@@ -1034,14 +1049,12 @@ A continuación, se presenta el diagrama final del Context Mapping para TomateRi
 <div id='9.'><h2>Bibliografía</h2></div>
 
 FAO. (2020). Perdidas y desperdicios de alimentos en América Latina. Organización de las Naciones Unidas para la Alimentación y la Agricultura. https://www.fao.org
-
 IICA. (2022). Transformación digital de la agricultura. Instituto Interamericano de Cooperación para la Agricultura. https://www.iica.int
-
 CEPAL. (2021). La digitalización del agro: Una oportunidad para el desarrollo rural sostenible. Comisión Económica para América Latina y el Caribe. https://www.cepal.org
-
 Banco Mundial. (2019). Hacia una Agricultura 4.0. https://www.worldbank.org
-
 Zhang, Y., et al. (2020). IoT-based smart agriculture: An overview on technologies and applications. Agricultural Systems, Elsevier. https://www.sciencedirect.com/journal/agricultural-systems
 
 
 <div id='10.'><h2>Anexos</h2></div>
+
+Entrevistas: []
