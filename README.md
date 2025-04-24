@@ -681,7 +681,7 @@ El siguiente vocabulario reúne términos clave del dominio agrícola utilizados
 
 <div id='3.3'><h3> 3.3. Impact Mapping. </h3></div>
 
-<img src="resources/TOMATERITMO.png"/>
+<img src="resources/ImpactMappingTomateRitmo.png"/>
 
 
 <div id='3.4'><h3> 3.4. Product Backlog.</h3></div>
