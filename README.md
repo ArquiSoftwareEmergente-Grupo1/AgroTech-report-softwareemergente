@@ -111,6 +111,13 @@ Nuestro enfoque es práctico, accesible y centrado en el usuario. Creemos que la
 
 **Visión:** Agrotech aspira a convertirse en un referente en agricultura automatizada, reconocido por mejorar la calidad de vida del agricultor mediante tecnología de vanguardia, y por su compromiso con una producción agrícola más precisa, sostenible y conectada.
 
+
+**Logo de la startup**
+<img src="resources/logoStartup.png"/>
+
+**Logo del producto**
+<img src="resources/logoProducto.png"/>
+
 <div id='1.1.2.'><h4> 1.1.2. Perfiles de los integrantes del equipo</h4></div>
 
 
@@ -284,7 +291,7 @@ El Lean UX Canvas es una herramienta que se utiliza en el campo del diseño cent
 <div id='2.1.'><h3> 2.1. Competidores</h3></div>
 <div id='2.1.1.'><h4> 2.1.Análisis Competitivo</h4></div>
 
-||TomateRitmo <img src='resources/TomateRitmo.jpg' width="50" height="50"> | <img src='resources/competidor1.jpeg' width="50" height="50">| <img src='resources/competidor2.jpg' width="50" height="50">| <img src='resources/competidor3.jpg' width="50" height="50">| <img src='resources/competidor4.jpg' width="50" height="50">|
+||TomateRitmo <img src='resources/TomateRitmo.jpg' width="50" height="50"> | <img src='resources/competidor1.jpg' width="50" height="50">| <img src='resources/competidor2.png' width="50" height="50">| <img src='resources/competidor3.png' width="50" height="50">| <img src='resources/competidor4.png' width="50" height="50">|
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |**Overview**|Plataforma especializada en el cultivo de tomate, integrando sensores IoT y visión artificial para detección de anomalías a lo largo del cultivo|Solución agrícola que ofrece monitoreo en tiempo real y análisis de datos para mejorar la eficiencia en cultivos diversos.|Sistema de gestión agronómica que utiliza sensores de suelo para proporcionar recomendaciones de riego y fertilización.	|Herramienta de gestión agrícola que digitaliza operaciones y registros para mejorar la toma de decisiones.	|Plataforma que proporciona análisis de datos y predicciones para optimizar la producción y rentabilidad agrícola.|
 |**Ventajas Competitivas**|Enfoque exclusivo en tomate, integración de visión artificial para detección de enfermedades y automatización del cultivo bajo paramétros|Interfaz intuitiva y fácil de usar, adecuada para agricultores con diferentes niveles de experiencia tecnológica.	|Tecnología avanzada de sensores de suelo que proporciona datos precisos para decisiones agronómicas.	|Amplia gama de funciones para la gestión operativa de la finca, incluyendo planificación y seguimiento de tareas.	|Análisis predictivo y seguimiento financiero que ayuda a maximizar la rentabilidad de las explotaciones.|
