@@ -446,11 +446,11 @@ A partir del análisis competitivo realizado se logró identificar las fortaleza
 |<img src="resources/interviewsPhotos/.png">||
 |Duración entrevista:     |URL: []|
 
-|Nombre entrevistado||
+|Nombre entrevistado|Farid Briceño De la Cruz|
 |-|-|
-|Edad|28 años|
-|Departamento|Lima, Lima|
-|<img src="resources/interviewsPhotos/.png">||
+|Edad|20 años|
+|Departamento|Lima, Lima (Ubicación Actual) - Arequipa (Durante su estadía en provincia)|
+|<img src="resources/interviewsPhotos/.png">|Farid nos comenta de su experiencia de agricultor experimentado dentro de su niñez e inicios de su adolescencia, actualmente sigue teniendo contacto con sus familiares que todavía trabaja en chacra, puesto que su familia que se encuentra en Lima es la encargada de vender tomates, en su experiencia nos comenta problemas que sufría los cultivos de tomates en su tiempo que se encontro en provincia y como todavía se encuentra presente, al presentarle la solución de TomateRitmo le parece llamativa y considera que pagar por una aplicación móvil de este tipo la considera rentable, siempre y cuando mejore la productividad de sus tomates y automatice el proceso de la detección de anomalías de este, algo que menciona es que le gustaría que tenga alertas en tiempo real o por aplicación móvil, además de incluir alguna guía educativa para el uso de este.|
 |Duración entrevista:     |URL: []|
 
 ***SECTOR AUTOCULTIVADORES***
@@ -475,13 +475,6 @@ A partir del análisis competitivo realizado se logró identificar las fortaleza
 |Departamento|Lima, Lima|
 | <img src="https://i.postimg.cc/V6skxD8r/image.png" alt='image'/> | Fiorella Vilca, tiene 23 años y cultiva tomates en casa. Usa tecnología a diario, aunque a veces le cuesta adaptarse a nuevas apps. Me contó que cultiva porque le gusta saber lo que consume y le resulta terapéutico. Hace seguimiento de sus plantas de forma manual, sin apps específicas, aunque sí busca info en internet. Le interesaría una app que le diga cuánto regar, cómo detectar enfermedades y qué nutrientes usar. Ya tuvo problemas como plantas secas o con manchas y no siempre sabe por qué. Le parecería súper útil una app que automatice el riego y detecte problemas, y estaría dispuesta a pagar entre 100 y 150 soles si le facilita el trabajo. También le interesa tener un historial visual de sus plantas para mejorar en cada temporada. |
 |Duración entrevista: 5:34    |URL: [https://drive.google.com/file/d/1qohFS-LGroUqEyID3zF1VkVbL4mRS6QT/view?usp=sharing]|
-
-|Nombre entrevistado||
-|-|-|
-|Edad|28 años|
-|Departamento|Lima, Lima|
-|<img src="resources/interviewsPhotos/.png">||
-|Duración entrevista:     |URL: []|
 
 
 <div id='2.2.3.'><h4> 2.2.3. Análisis de entrevistas</h4></div>
