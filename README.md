@@ -451,12 +451,12 @@ A partir del análisis competitivo realizado se logró identificar las fortaleza
 |<img src="resources/interviewsPhotos/entresebas.png">| Sebastián, agricultor de 25 años, monitorea sus cultivos de tomate con observación directa y sensores básicos. Usa apps de clima, pero cree que falta tecnología más precisa. Le interesa recibir alertas sobre plagas, humedad y clima, y valora herramientas que detecten anomalías visuales. Está abierto al uso de sensores IoT y visión artificial. Considera indispensable una app con análisis visual, alertas y recomendaciones. Estaría dispuesto a invertir entre S/ 100 y S/ 300 mensuales si la solución es efectiva, fácil de usar y mejora su productividad.|
 |Duración entrevista: 00:00-05:39 |URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211817_upc_edu_pe/EczyYGjCAJFGmoe2nu2mVV0BTzcriqHs-RY9uRtr1TjcVQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=fVS7kx]|
 
-|Nombre entrevistado||
+|Nombre entrevistado| Karen Mora |
 |-|-|
-|Edad|28 años|
-|Departamento|Lima, Lima|
-|<img src="resources/interviewsPhotos/.png">||
-|Duración entrevista:     |URL: []|
+|Edad|30 años|
+|Departamento|Ecatepec, México|
+|[![image.png](https://i.postimg.cc/yxZwMN92/image.png)](https://postimg.cc/H8TZ5d6t)| Karen Mora Balderas, de 30 años, quien trabaja apoyando a sus padres en la agricultura, específicamente en el cultivo de tomates y otras verduras. Karen mencionó que su relación con la tecnología es limitada, ya que entiende algunas funciones básicas, pero todavía se le complica manejar herramientas digitales más avanzadas. Cuando enfrenta dificultades, suele pedir ayuda a familiares o consultar tutoriales en YouTube. Respecto al trabajo en el campo, Karen explicó que el monitoreo de los cultivos se realiza de forma manual: revisan planta por planta para detectar plagas, enfermedades o problemas de riego. Aunque cuentan con un termómetro sencillo en el invernadero, no utilizan herramientas digitales más allá de eso. Karen considera que sería valioso contar con información en tiempo real sobre el estado de sus cultivos, especialmente para prevenir daños por plagas, sequías o enfermedades. Ha sufrido pérdidas principalmente por sequías y algunas plagas, y le gustaría recibir alertas oportunas que le permitan actuar rápidamente y reducir pérdidas. Al preguntarle sobre qué funcionalidades valoraría en una aplicación para monitoreo agrícola, mencionó que le gustaría recibir alertas en tiempo real, conocer el estado de la tierra, y, si fuera posible, contar con visión artificial o sensores, siempre que sean accesibles económicamente y fáciles de usar. Aclaró que estaría dispuesta a invertir en este tipo de soluciones si tienen garantía de funcionamiento y si los costos son razonables, ya que ayudarían a minimizar pérdidas y optimizar el trabajo. Finalmente, valoraría mucho que una aplicación pudiera ofrecer funciones adicionales como conteo de producción, registro de pérdidas, información sobre calidad del aire y clima, todo centralizado en una sola herramienta, lo cual le resultaría muy útil para la gestión diaria de sus cultivos. |
+|Duración entrevista: 08:59     |URL: [https://drive.google.com/file/d/1jX79W-xQnq9w7dGOKzRZmRLnZPjKtJro/view?usp=sharing]|
 
 |Nombre entrevistado|Farid Briceño De la Cruz|
 |-|-|
