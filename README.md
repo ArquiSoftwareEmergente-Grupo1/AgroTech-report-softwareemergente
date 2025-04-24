@@ -1048,9 +1048,13 @@ Muestra la arquitectura técnica del sistema TomateRitmo, presentando los princi
 <div id='9.'><h2>Bibliografía</h2></div>
 
 FAO. (2020). Perdidas y desperdicios de alimentos en América Latina. Organización de las Naciones Unidas para la Alimentación y la Agricultura. https://www.fao.org
+
 IICA. (2022). Transformación digital de la agricultura. Instituto Interamericano de Cooperación para la Agricultura. https://www.iica.int
+
 CEPAL. (2021). La digitalización del agro: Una oportunidad para el desarrollo rural sostenible. Comisión Económica para América Latina y el Caribe. https://www.cepal.org
+
 Banco Mundial. (2019). Hacia una Agricultura 4.0. https://www.worldbank.org
+
 Zhang, Y., et al. (2020). IoT-based smart agriculture: An overview on technologies and applications. Agricultural Systems, Elsevier. https://www.sciencedirect.com/journal/agricultural-systems
 
 
