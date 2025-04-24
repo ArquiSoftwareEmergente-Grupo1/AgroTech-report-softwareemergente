@@ -4,8 +4,8 @@
 <h4 style="text-align: center;"> Ingeniería de Software </h4>
 <h4 style="text-align: center;"> Arquitecturas De Software Emergentes </h4>
 <h4 style="text-align: center;"> Ciclo 2025-10 </h4>
-<h4 style="text-align: center;"> Código del Curso:  </h4>
-<h4 style="text-align: center;"> NRC:  </h4>
+<h4 style="text-align: center;"> Código del Curso: 1ASI0728 </h4>
+<h4 style="text-align: center;"> NRC: 4265 </h4>
 <h4 style="text-align: center;"> Docente: Rojas Malasquez,  Royer Edelwer  </h4>
 <h4 style="text-align: center;"> Startup: AgroTech  </h4>
 <h4 style="text-align: center;"> Producto:  TomateRitmo </h4>
@@ -22,9 +22,9 @@
 |   Fecha    | Versión |      Autor      |                                 Descripción de modificación                                 |
 |:----------:|:-------:|:---------------:|:-------------------------------------------------------------------------------------------:|
 | 06/04/2025 | 1.0     |  Guillen Paolo  | Creación del documento de trabajo en formato markdown junto al realizamiento de la carátula |
-| 06/04/2025 | 1.0     | Elias Yauri Paucar  | Registro de las entrevistas de cada segmento objetivo |
-| 18/04/2025 | 1.0     | Rengifo Murabal Randy Becker  | Registro de las entrevistas del segmento de Autocultivadores |
-| 07/04/2025 | 1.0     |   | |
+| 06/04/2025 | 1.1     | Elias Yauri Paucar  | Registro de las entrevistas de cada segmento objetivo |
+| 18/04/2025 | 1.2     | Rengifo Murabal Randy Becker  | Registro de las entrevistas del segmento de Autocultivadores |
+| 07/04/2025 | 1.3     |   | |
 
 
 ## Project Report Collaboration Insights
@@ -86,12 +86,29 @@ URL del repositorio del proyecto: [https://github.com/ArquiSoftwareEmergente-Gru
 4.3.2. [Software Architecture Context Level Diagrams](#4.3.2.)<br>
 4.3.3. [Software Architecture Container Level Diagrams](#4.3.3.)<br>
 4.3.4. [Software Architecture Deployment Diagrams](#4.3.4.)<br>
+5. [**Capítulo 5**](#5.)<br>
+6. [**Capítulo 6**](#6.)<br>
+7. [**Capítulo 7**](#7.)<br>
 
 8. [**Conclusiones**](#8.)<br>
 9. [**Bibliografía**](#9.)<br>
 10. [**Anexos**](#10.)<br>
 
 
+## Student Outcomes
+El curso contribuye al cumplimiento del Student Outcome ABET:
+ABET – EAC - Student Outcome 3
+
+**Criterio:** Capacidad de comunicarse efectivamente con un rango de audiencias.
+En el siguiente cuadro se describe las acciones realizadas y enunciados de
+conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
+del ABET – EAC - Student Outcome 3.
+
+
+| Criterio especifico    |    Acciones realizadas| Conclusiones            |
+|----------------|:----------------:|-----------------------------------|
+|Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.|||
+|Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería..|||
 
 
 <div id='1.'><h2>Capítulo I: Introducción</h2></div>
@@ -111,9 +128,14 @@ Nuestro enfoque es práctico, accesible y centrado en el usuario. Creemos que la
 
 **Visión:** Agrotech aspira a convertirse en un referente en agricultura automatizada, reconocido por mejorar la calidad de vida del agricultor mediante tecnología de vanguardia, y por su compromiso con una producción agrícola más precisa, sostenible y conectada.
 
+
+**Logo de la startup**
+<img src="resources/logoStartup.png"/>
+
+**Logo del producto**
+<img src="resources/logoProducto.png"/>
+
 <div id='1.1.2.'><h4> 1.1.2. Perfiles de los integrantes del equipo</h4></div>
-
-
 
 |                                                                                                                                                                                                          Descripción de los perfiles de los integrantes del equipo                                                                                                                                                                                                           |                                                              Foto del integrante                                                              |
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------:|
@@ -121,7 +143,6 @@ Nuestro enfoque es práctico, accesible y centrado en el usuario. Creemos que la
 | Mi nombre es **Elias Yauri**, soy una persona muy participativa cuando se trata en el tema laboral y en el trabajo en equipo, siempre trato de que haya una comunicación constante con todos los miembros del grupo para que de esta forma podamos tener toda una buena afinidad como grupo y que el trabajo se realice de manera exitosa.  | <img src='resources/elias.png'/> |
 | Mi nombre es **Adriano Sebastian Cruz Palomino**, tengo 20 años, soy alumno de Ingeniería de Software en la UPC, actualmente estoy cursando el 7mo ciclo. Soy una persona curiosa, responsable, y comprometida con mis estudios, siempre busco aprender más y mejorar mis habilidades. |<img src='resources/AdrianoCruz.png'/>|
 | Mi nombre es Randy Becker Rengifo Mirabal, tengo 21 años y soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), actualmente cursando el octavo ciclo. Me considero una persona proactiva, responsable y comprometida con mis deberes. Siempre busco nuevas oportunidades para aprender, crecer profesionalmente y fortalecer mis habilidades tanto técnicas como personales. Tengo gran interés por la tecnología, el desarrollo de software y la innovación. Me adapto con facilidad a distintos entornos de trabajo, disfruto trabajar en equipo y estoy enfocado en encontrar soluciones eficientes a los problemas que se presentan. Además, me apasiona estar en constante aprendizaje, ya sea a través de proyectos académicos, personales o colaborativos.|<img src="https://i.postimg.cc/sfpMdF94/Randy.jpg"/>|
-|||
 
 
 
@@ -285,7 +306,7 @@ El Lean UX Canvas es una herramienta que se utiliza en el campo del diseño cent
 <div id='2.1.'><h3> 2.1. Competidores</h3></div>
 <div id='2.1.1.'><h4> 2.1.Análisis Competitivo</h4></div>
 
-||TomateRitmo <img src='resources/TomateRitmo.jpg' width="50" height="50"> | <img src='resources/competidor1.jpeg' width="50" height="50">| <img src='resources/competidor2.jpg' width="50" height="50">| <img src='resources/competidor3.jpg' width="50" height="50">| <img src='resources/competidor4.jpg' width="50" height="50">|
+||TomateRitmo <img src='resources/logoProducto.png' width="50" height="50"> | <img src='resources/competidor1.jpg' width="50" height="50">| <img src='resources/competidor2.png' width="50" height="50">| <img src='resources/competidor3.png' width="50" height="50">| <img src='resources/competidor4.png' width="50" height="50">|
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |**Overview**|Plataforma especializada en el cultivo de tomate, integrando sensores IoT y visión artificial para detección de anomalías a lo largo del cultivo|Solución agrícola que ofrece monitoreo en tiempo real y análisis de datos para mejorar la eficiencia en cultivos diversos.|Sistema de gestión agronómica que utiliza sensores de suelo para proporcionar recomendaciones de riego y fertilización.	|Herramienta de gestión agrícola que digitaliza operaciones y registros para mejorar la toma de decisiones.	|Plataforma que proporciona análisis de datos y predicciones para optimizar la producción y rentabilidad agrícola.|
 |**Ventajas Competitivas**|Enfoque exclusivo en tomate, integración de visión artificial para detección de enfermedades y automatización del cultivo bajo paramétros|Interfaz intuitiva y fácil de usar, adecuada para agricultores con diferentes niveles de experiencia tecnológica.	|Tecnología avanzada de sensores de suelo que proporciona datos precisos para decisiones agronómicas.	|Amplia gama de funciones para la gestión operativa de la finca, incluyendo planificación y seguimiento de tareas.	|Análisis predictivo y seguimiento financiero que ayuda a maximizar la rentabilidad de las explotaciones.|
@@ -433,18 +454,18 @@ A partir del análisis competitivo realizado se logró identificar las fortaleza
 |<img src="resources/interviewsPhotos/entresebas.png">| Sebastián, agricultor de 25 años, monitorea sus cultivos de tomate con observación directa y sensores básicos. Usa apps de clima, pero cree que falta tecnología más precisa. Le interesa recibir alertas sobre plagas, humedad y clima, y valora herramientas que detecten anomalías visuales. Está abierto al uso de sensores IoT y visión artificial. Considera indispensable una app con análisis visual, alertas y recomendaciones. Estaría dispuesto a invertir entre S/ 100 y S/ 300 mensuales si la solución es efectiva, fácil de usar y mejora su productividad.|
 |Duración entrevista: 00:00-05:39 |URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211817_upc_edu_pe/EczyYGjCAJFGmoe2nu2mVV0BTzcriqHs-RY9uRtr1TjcVQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=fVS7kx]|
 
-|Nombre entrevistado||
+|Nombre entrevistado| Karen Mora |
 |-|-|
-|Edad|28 años|
-|Departamento|Lima, Lima|
-|<img src="resources/interviewsPhotos/.png">||
-|Duración entrevista:     |URL: []|
+|Edad|30 años|
+|Departamento|Ecatepec, México|
+|[![image.png](https://i.postimg.cc/yxZwMN92/image.png)](https://postimg.cc/H8TZ5d6t)| Karen Mora Balderas, de 30 años, quien trabaja apoyando a sus padres en la agricultura, específicamente en el cultivo de tomates y otras verduras. Karen mencionó que su relación con la tecnología es limitada, ya que entiende algunas funciones básicas, pero todavía se le complica manejar herramientas digitales más avanzadas. Cuando enfrenta dificultades, suele pedir ayuda a familiares o consultar tutoriales en YouTube. Respecto al trabajo en el campo, Karen explicó que el monitoreo de los cultivos se realiza de forma manual: revisan planta por planta para detectar plagas, enfermedades o problemas de riego. Aunque cuentan con un termómetro sencillo en el invernadero, no utilizan herramientas digitales más allá de eso. Karen considera que sería valioso contar con información en tiempo real sobre el estado de sus cultivos, especialmente para prevenir daños por plagas, sequías o enfermedades. Ha sufrido pérdidas principalmente por sequías y algunas plagas, y le gustaría recibir alertas oportunas que le permitan actuar rápidamente y reducir pérdidas. Al preguntarle sobre qué funcionalidades valoraría en una aplicación para monitoreo agrícola, mencionó que le gustaría recibir alertas en tiempo real, conocer el estado de la tierra, y, si fuera posible, contar con visión artificial o sensores, siempre que sean accesibles económicamente y fáciles de usar. Aclaró que estaría dispuesta a invertir en este tipo de soluciones si tienen garantía de funcionamiento y si los costos son razonables, ya que ayudarían a minimizar pérdidas y optimizar el trabajo. Finalmente, valoraría mucho que una aplicación pudiera ofrecer funciones adicionales como conteo de producción, registro de pérdidas, información sobre calidad del aire y clima, todo centralizado en una sola herramienta, lo cual le resultaría muy útil para la gestión diaria de sus cultivos. |
+|Duración entrevista: 08:59     |URL: [https://drive.google.com/file/d/1jX79W-xQnq9w7dGOKzRZmRLnZPjKtJro/view?usp=sharing]|
 
-|Nombre entrevistado||
+|Nombre entrevistado|Farid Briceño De la Cruz|
 |-|-|
-|Edad|28 años|
-|Departamento|Lima, Lima|
-|<img src="resources/interviewsPhotos/.png">||
+|Edad|20 años|
+|Departamento|Lima, Lima (Ubicación Actual) - Arequipa (Durante su estadía en provincia)|
+|<img src="resources/interviewsPhotos/.png">|Farid nos comenta de su experiencia de agricultor experimentado dentro de su niñez e inicios de su adolescencia, actualmente sigue teniendo contacto con sus familiares que todavía trabaja en chacra, puesto que su familia que se encuentra en Lima es la encargada de vender tomates, en su experiencia nos comenta problemas que sufría los cultivos de tomates en su tiempo que se encontro en provincia y como todavía se encuentra presente, al presentarle la solución de TomateRitmo le parece llamativa y considera que pagar por una aplicación móvil de este tipo la considera rentable, siempre y cuando mejore la productividad de sus tomates y automatice el proceso de la detección de anomalías de este, algo que menciona es que le gustaría que tenga alertas en tiempo real o por aplicación móvil, además de incluir alguna guía educativa para el uso de este.|
 |Duración entrevista:     |URL: []|
 
 ***SECTOR AUTOCULTIVADORES***
@@ -469,13 +490,6 @@ A partir del análisis competitivo realizado se logró identificar las fortaleza
 |Departamento|Lima, Lima|
 | <img src="https://i.postimg.cc/V6skxD8r/image.png" alt='image'/> | Fiorella Vilca, tiene 23 años y cultiva tomates en casa. Usa tecnología a diario, aunque a veces le cuesta adaptarse a nuevas apps. Me contó que cultiva porque le gusta saber lo que consume y le resulta terapéutico. Hace seguimiento de sus plantas de forma manual, sin apps específicas, aunque sí busca info en internet. Le interesaría una app que le diga cuánto regar, cómo detectar enfermedades y qué nutrientes usar. Ya tuvo problemas como plantas secas o con manchas y no siempre sabe por qué. Le parecería súper útil una app que automatice el riego y detecte problemas, y estaría dispuesta a pagar entre 100 y 150 soles si le facilita el trabajo. También le interesa tener un historial visual de sus plantas para mejorar en cada temporada. |
 |Duración entrevista: 5:34    |URL: [https://drive.google.com/file/d/1qohFS-LGroUqEyID3zF1VkVbL4mRS6QT/view?usp=sharing]|
-
-|Nombre entrevistado||
-|-|-|
-|Edad|28 años|
-|Departamento|Lima, Lima|
-|<img src="resources/interviewsPhotos/.png">||
-|Duración entrevista:     |URL: []|
 
 
 <div id='2.2.3.'><h4> 2.2.3. Análisis de entrevistas</h4></div>
@@ -670,7 +684,7 @@ El siguiente vocabulario reúne términos clave del dominio agrícola utilizados
 
 <div id='3.3'><h3> 3.3. Impact Mapping. </h3></div>
 
-<img src="resources/TOMATERITMO.png"/>
+<img src="resources/ImpactMappingTomateRitmo.png"/>
 
 
 <div id='3.4'><h3> 3.4. Product Backlog.</h3></div>
@@ -1011,9 +1025,16 @@ Los bounded contexts fueron priorizados según su importancia estratégica dentr
 Link Miro: https://miro.com/welcomeonboard/NDlrcmFyU2hNdVBFUFJvL1pCNG12MDFGSXk4d3ArY3N5a2FrRU5vZmRVcHJJMG53WkltK3hDRC9nWTNmOGRxQUdlQThRUnQ0VlNBT0JybXBJUHpxdjhxR08vcXFoR1FJeE55MHluODNXWFdYamduajFCeXZpZkpWY1kyQUdxZGdnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=924911885159
 
 </div>
-<div id="4.2.5."><h4>4.2.5. Context Mapping</h4></div>
+<div id="4.2.5."><h4>4.2.5. Context Mapping</h4>
+En esta sección se muestra las relaciones estratégicas entre los Bounded Contexts identificados durante el diseño. El equipo analizó la distribución de capacidades y exploró distintas alternativas de organización, considerando patrones clásicos de DDD como Conformist, Customer/Supplier, Partnership, ACL y Open Host Service (OHS/PL).
 
+El mapa resultante evidencia cómo se conectan contextos como Gestión de Agricultores, Monitoreo IoT, Análisis de Imágenes y Sistema de Riego, dejando explícitas las dependencias, direcciones (Upstream/Downstream) y tipos de integración utilizados. Esto permite una evolución independiente y controlada de cada parte del sistema.
 
+A continuación, se presenta el diagrama final del Context Mapping para TomateRitmo:
+
+<img src = "resources/ContextMapping.png">
+
+</div>
 <div id="4.3."><h3>4.3. Software Architecture</h3></div>
 <div id="4.3.1."><h4>4.3.1. Software Architecture System Landscape Diagram</h4></div>
 <img src = "resources\CAPITULO4\landscape.png">
@@ -1053,3 +1074,5 @@ Zhang, Y., et al. (2020). IoT-based smart agriculture: An overview on technologi
 
 
 <div id='10.'><h2>Anexos</h2></div>
+
+Entrevistas: []
