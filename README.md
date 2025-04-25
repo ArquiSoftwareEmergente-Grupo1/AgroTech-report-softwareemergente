@@ -125,7 +125,7 @@ En esta sección se presenta la descripción del startup y los perfiles de los m
 <div id='1.1.1.'><h4> 1.1.1. Descripción del startup</h4></div> 
 
 Nuestra startup, **AgroTech**, nace con el propósito de transformar la agricultura tradicional mediante el uso de tecnologías emergentes como la visión artificial, el Internet de las Cosas (IoT) y la inteligencia artificial. Nos enfocamos inicialmente en el cultivo de **tomates**, combinando sensores inteligentes con una plataforma móvil/web para monitorear, analizar y automatizar procesos clave del cultivo.
-A diferencia de otros sistemas agrícolas que requieren intervención constante del usuario, TomateRitmo busca ofrecer una experiencia completamente automatizada: desde la detección de anomalías en las hojas (como plagas o enfermedades) hasta el riego automático en respuesta a niveles críticos de sequedad. Esto permite a los agricultores, tanto principiantes como profesionales, optimizar sus recursos, reducir pérdidas y aumentar la productividad sin descuidar la salud del cultivo.
+A diferencia de otros sistemas agrícolas que requieren intervención constante del usuario, TomateRitmo busca ofrecer una experiencia completamente automatizada: desde la detección de anomalías en las **hojas** (como plagas o enfermedades) hasta el riego automático en respuesta a niveles críticos de sequedad. Esto permite a los agricultores, tanto principiantes como profesionales, optimizar sus recursos, reducir pérdidas y aumentar la productividad sin descuidar la salud del cultivo.
 
 Nuestro enfoque es práctico, accesible y centrado en el usuario. Creemos que la tecnología aplicada al campo no solo debe ser eficiente, sino también intuitiva, inclusiva y adaptable a distintos niveles de conocimiento técnico.
 
