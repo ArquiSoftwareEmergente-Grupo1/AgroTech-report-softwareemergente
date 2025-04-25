@@ -21,13 +21,17 @@
 ## Registro de versiones del informe
 |   Fecha    | Versión |      Autor      |                                 Descripción de modificación                                 |
 |:----------:|:-------:|:---------------:|:-------------------------------------------------------------------------------------------:|
-| 06/04/2025 | 1.0     |  Guillen Paolo  | Creación del documento de trabajo en formato markdown junto al realizamiento de la carátula |
-| 06/04/2025 | 1.1     | Elias Yauri Paucar  | Registro de las entrevistas de cada segmento objetivo |
-| 18/04/2025 | 1.2     | Rengifo Murabal Randy Becker  | Registro de las entrevistas del segmento de Autocultivadores |
-| 07/04/2025 | 1.3     |   | |
+| 06/04/2025 | 1.0     |  Guillen Paolo  | Creación del documento de trabajo en formato markdown junto al realizamiento de la carátula y capítulo 1 |
+| 06/04/2025 | 1.1     | Elias Yauri Paucar  | Registro de las entrevistas de cada segmento objetivo y análisis de entrevistas respectivos |
+| 18/04/2025 | 1.2     | Rengifo Murabal Randy Becker  | Mejoras relacionados a los escenarios as-is y to-be  |
+| 22/04/2025 | 1.3     |  Guillen, Paolo; Adriano Cruz; Randy Rengifo; Elias Yauir | Desarrollo conjunto del event storming así como desarrollo del capítulo cuatro desarrollando los diagramas C4 relacionado a nuestra solución TomateRitmo |
 
 
 ## Project Report Collaboration Insights
+
+**TB1**
+
+<img src="resources/tb1Insights.png" width=70%" style="text-align: center;"/>
 
 URL del repositorio del proyecto: [https://github.com/ArquiSoftwareEmergente-Grupo1]
 
@@ -107,8 +111,8 @@ del ABET – EAC - Student Outcome 3.
 
 | Criterio especifico    |    Acciones realizadas| Conclusiones            |
 |----------------|:----------------:|-----------------------------------|
-|Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.|||
-|Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería..|||
+|Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.|Guillen Luna, Paolo César: **TB1:** Realizar entrevistas me ayudó a mejorar mi habla y tener una mejor comunicación esto con la finalidad de obtener los requisitios adecuados que podría necesitar nuestra solución||
+|Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería..|Guillen Luna, Paolo César:**TB1:** Desarrollar esta entrega me ayudó a comunicarme de forma escrita en un entorno académico de mejor manera, puesto que juntar mis ideas en una solución tan extensa como esta y que se pueda comprender es esencial|**TB1:** A nivel de grupo, todos comunicaron de forma escrita de forma excelente por el hecho de juntar los capítulos realizados para transmitir lo que es en sí nuestra aplicación 'Chaki'y'|
 
 
 <div id='1.'><h2>Capítulo I: Introducción</h2></div>
@@ -291,7 +295,7 @@ El Lean UX Canvas es una herramienta que se utiliza en el campo del diseño cent
 
 ## ***Lean UX Canvas realizado en la aplicación web "Figma":*** 
 
-<img src="resources/leanUXcanvasSmartAgro.png"/>
+<img src="resources/leanUXcanvasTomateRitmo.png"/>
 
 
 
