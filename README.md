@@ -105,10 +105,11 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
 del ABET – EAC - Student Outcome 3.
 
 
-| Criterio especifico    |    Acciones realizadas| Conclusiones            |
-|----------------|:----------------:|-----------------------------------|
-|Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.|||
-|Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería..|||
+| Criterio específico | Acciones realizadas | Conclusiones |
+|---------------------|---------------------|--------------|
+| **Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería.** | **Elias Yauri Paucar**  <br> **TB1:**  <br><br> Durante el desarrollo del proyecto, se realizaron presentaciones orales donde se explicó de manera objetiva y clara la arquitectura del sistema diseñada. Se utilizaron diagramas como el *System Landscape Diagram*, *Context Level Diagram*, *Container Level Diagram* y *Deployment Diagram* para ilustrar la estructura y distribución del sistema. Estas exposiciones se adaptaron según el perfil de la audiencia, permitiendo que tanto integrantes del equipo técnico como público no especializado comprendieran los conceptos clave del sistema. Se emplearon recursos visuales y un lenguaje técnico accesible, lo que facilitó la comunicación transversal entre áreas del proyecto. | |
+| **Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería.** | **Elias Yauri Paucar**  <br> **TB1:**  <br><br> Como parte del desarrollo del proyecto, se elaboraron documentos técnicos que describen detalladamente los distintos niveles de la arquitectura de software, incluyendo el *System Landscape*, *Context Level*, *Container Level* y *Deployment Diagrams*. Cada uno de estos fue acompañado de descripciones claras, precisas y objetivas sobre los componentes, relaciones y funciones del sistema. La redacción fue adecuada para un público multidisciplinario, permitiendo que tanto profesionales técnicos como administrativos comprendieran el diseño y alcance de la solución propuesta. | |
+
 
 
 <div id='1.'><h2>Capítulo I: Introducción</h2></div>
