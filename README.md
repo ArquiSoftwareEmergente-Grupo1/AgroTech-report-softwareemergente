@@ -457,14 +457,14 @@ A partir del análisis competitivo realizado se logró identificar las fortaleza
 |Edad|25 años|
 |Departamento|Lima, Lima|
 |<img src="resources/interviewsPhotos/entresebas.png">| Sebastián, agricultor de 25 años, monitorea sus cultivos de tomate con observación directa y sensores básicos. Usa apps de clima, pero cree que falta tecnología más precisa. Le interesa recibir alertas sobre plagas, humedad y clima, y valora herramientas que detecten anomalías visuales. Está abierto al uso de sensores IoT y visión artificial. Considera indispensable una app con análisis visual, alertas y recomendaciones. Estaría dispuesto a invertir entre S/ 100 y S/ 300 mensuales si la solución es efectiva, fácil de usar y mejora su productividad.|
-|Duración entrevista: 00:00-05:39 |URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211817_upc_edu_pe/EczyYGjCAJFGmoe2nu2mVV0BTzcriqHs-RY9uRtr1TjcVQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=fVS7kx]|
+|Duración entrevista: 00:00-05:39 |URL: []|
 
 |Nombre entrevistado| Karen Mora |
 |-|-|
 |Edad|30 años|
 |Departamento|Ecatepec, México|
 |[![image.png](https://i.postimg.cc/yxZwMN92/image.png)](https://postimg.cc/H8TZ5d6t)| Karen Mora Balderas, de 30 años, quien trabaja apoyando a sus padres en la agricultura, específicamente en el cultivo de tomates y otras verduras. Karen mencionó que su relación con la tecnología es limitada, ya que entiende algunas funciones básicas, pero todavía se le complica manejar herramientas digitales más avanzadas. Cuando enfrenta dificultades, suele pedir ayuda a familiares o consultar tutoriales en YouTube. Respecto al trabajo en el campo, Karen explicó que el monitoreo de los cultivos se realiza de forma manual: revisan planta por planta para detectar plagas, enfermedades o problemas de riego. Aunque cuentan con un termómetro sencillo en el invernadero, no utilizan herramientas digitales más allá de eso. Karen considera que sería valioso contar con información en tiempo real sobre el estado de sus cultivos, especialmente para prevenir daños por plagas, sequías o enfermedades. Ha sufrido pérdidas principalmente por sequías y algunas plagas, y le gustaría recibir alertas oportunas que le permitan actuar rápidamente y reducir pérdidas. Al preguntarle sobre qué funcionalidades valoraría en una aplicación para monitoreo agrícola, mencionó que le gustaría recibir alertas en tiempo real, conocer el estado de la tierra, y, si fuera posible, contar con visión artificial o sensores, siempre que sean accesibles económicamente y fáciles de usar. Aclaró que estaría dispuesta a invertir en este tipo de soluciones si tienen garantía de funcionamiento y si los costos son razonables, ya que ayudarían a minimizar pérdidas y optimizar el trabajo. Finalmente, valoraría mucho que una aplicación pudiera ofrecer funciones adicionales como conteo de producción, registro de pérdidas, información sobre calidad del aire y clima, todo centralizado en una sola herramienta, lo cual le resultaría muy útil para la gestión diaria de sus cultivos. |
-|Duración entrevista: 05:39 - 14:48     |URL: [https://drive.google.com/file/d/1jX79W-xQnq9w7dGOKzRZmRLnZPjKtJro/view?usp=sharing]|
+|Duración entrevista: 05:39 - 14:48     |URL: []|
 
 |Nombre entrevistado|Farid Briceño De la Cruz|
 |-|-|
@@ -480,21 +480,21 @@ A partir del análisis competitivo realizado se logró identificar las fortaleza
 |Edad|20 años|
 |Departamento|Lima, Lima|
 |<img src="resources/interviewsPhotos/entrebarb.png">|Bárbara cultiva tomates principalmente por el gusto de consumir alimentos frescos y naturales, además de ser una actividad que disfruta en su tiempo libre. Actualmente, lleva el seguimiento de sus plantas de forma visual y manual, observando el color de las hojas, el crecimiento y la humedad del suelo. Aunque no ha utilizado apps específicas para sus cultivos, estaría muy interesada en una herramienta digital que le brinde alertas sobre enfermedades o falta de agua. Le gustaría recibir información sobre riego adecuado, control de plagas y etapas del desarrollo del tomate. Ha enfrentado dificultades como plagas, hongos y el riego irregular. Considera útil una app que detecte problemas visuales y automatice el riego, y estaría dispuesta a probar una, especialmente si fuera accesible y fácil de usar. También valoraría una herramienta con trazabilidad y registro visual del crecimiento de sus tomates. En general, cree que el uso de tecnología puede mejorar significativamente su experiencia de cultivo en casa.|
-|Duración entrevista: 00:00-05:38 |URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211817_upc_edu_pe/EYErnhcONqxAprytzlOe9eMBvJseAUw1OQhv4jFQ-oYpKQ?e=23bGaG]|
+|Duración entrevista: 30:31-36:12 |URL: []|
 
 |Nombre entrevistado|Fabrizio Buleje|
 |-|-|
 |Edad|26 años|
 |Departamento|Lima, Lima|
 |<img src="resources/interviewsPhotos/EntrevistaFabrizio.png">| Fabrizio, de 26 años, es estudiante de Medicina y aficionado a la jardinería, especialmente al cultivo de tomates. Usa la tecnología frecuentemente para organizar sus estudios y buscar información sobre el cuidado de plantas. Le gustaría una aplicación que le recuerde cuidados, detecte plagas y automatice el riego, ya que facilitaría su trabajo. Considera importante la tecnología para optimizar sus cultivos y estaría dispuesto a invertir en herramientas que lo ayuden.|
-|Duración entrevista: 7:23   |URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210697_upc_edu_pe/EQVWN-yy1GBDr9kz3T9dgtkBBi8AzL3FYe1IOebfahjo-w?e=rSyGox&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D|
+|Duración entrevista: 36:12 - 43:35 |URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210697_upc_edu_pe/EQVWN-yy1GBDr9kz3T9dgtkBBi8AzL3FYe1IOebfahjo-w?e=rSyGox&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D|
  
 |Nombre entrevistado|Fiorella Angela Vilca Valverde|
 |-|-|
 |Edad|23 años|
 |Departamento|Lima, Lima|
 | <img src="https://i.postimg.cc/V6skxD8r/image.png" alt='image'/> | Fiorella Vilca, tiene 23 años y cultiva tomates en casa. Usa tecnología a diario, aunque a veces le cuesta adaptarse a nuevas apps. Me contó que cultiva porque le gusta saber lo que consume y le resulta terapéutico. Hace seguimiento de sus plantas de forma manual, sin apps específicas, aunque sí busca info en internet. Le interesaría una app que le diga cuánto regar, cómo detectar enfermedades y qué nutrientes usar. Ya tuvo problemas como plantas secas o con manchas y no siempre sabe por qué. Le parecería súper útil una app que automatice el riego y detecte problemas, y estaría dispuesta a pagar entre 100 y 150 soles si le facilita el trabajo. También le interesa tener un historial visual de sus plantas para mejorar en cada temporada. |
-|Duración entrevista: 5:34    |URL: [https://drive.google.com/file/d/1qohFS-LGroUqEyID3zF1VkVbL4mRS6QT/view?usp=sharing]|
+|Duración entrevista: 43:35 - 49:11    |URL: []|
 
 
 <div id='2.2.3.'><h4> 2.2.3. Análisis de entrevistas</h4></div>
