@@ -31,7 +31,7 @@
 
 **TB1**
 
-<img src="resources/tb1Insights.png" width=70%" style="text-align: center;"/>
+<img src="resources/tb1Insights.png" width=50%" style="text-align: center;"/>
 
 URL del repositorio del proyecto: [https://github.com/ArquiSoftwareEmergente-Grupo1]
 
