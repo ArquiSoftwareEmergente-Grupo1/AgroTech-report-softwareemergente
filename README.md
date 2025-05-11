@@ -137,8 +137,26 @@ URL del repositorio del proyecto: [https://github.com/ArquiSoftwareEmergente-Gru
 5.5.7. [Bounded Context Software Architecture Code Level Diagrams](#5.5.7)<br>
 5.5.7.1. [Bounded Context Domain Layer Class Diagrams](#5.5.7.1)<br>
 5.5.7.2. [Bounded Context Database Design Diagram](#5.5.7.2)<br>
+6. [**Capítulo 6**](#6)<br>
+6.1. [Style Guidelines](#6.1)<br>
+6.1.1. [General Style Guidelines](#6.1.1)<br>
+6.1.2. [Web, Mobile & Devices Style Guidelines](#6.1.2)<br>
+6.2. [Information Architecture](#6.2)<br>
+6.2.2. [Labeling Systems](#6.2.2)<br>
+6.2.3. [Searching Systems](#6.2.3)<br>
+6.2.4. [SEO Tags and Meta Tags](#6.2.4)<br>
+6.2.5. [Navigation Systems](#6.2.5)<br>
+6.3. [Landing Page UI Design](#6.3)<br>
+6.3.1. [Landing Page Wireframe](#6.3.1)<br>
+6.3.2. [Landing Page Mock-up](#6.3.2)<br>
+6.4. [Applications UX/UI Design](#6.4)<br>
+6.4.1. [Applications Wireframes](#6.4.1)<br>
+6.4.2. [Applications Wireflow Diagrams](#6.4.2)<br>
+6.4.3. [Applications Mock-ups](#6.4.3)<br>
+6.4.4. [Applications User Flow Diagrams](#6.4.4)<br>
+6.5. [Applications Prototyping](#6.5)<br>
 
-6. [**Capítulo 6**](#6.)<br>
+
 7. [**Capítulo 7**](#7.)<br>
 8. [**Conclusiones**](#8.)<br>
 9. [**Bibliografía**](#9.)<br>
@@ -1512,6 +1530,31 @@ Permite la interacción entre el sistema y el agricultor mediante formularios de
 <div id="5.5.7.2"><h5>5.5.7.2 Bounded Context Database Design Diagram</h5></div>
 
 <img src="resources/CAPITULO5/GestionAgricultores_DatabaseDiagram.png">
+
+
+<div id='6.'><h2>Capítulo 6</h2></div>
+
+<div id='6.1'><h3>6.1. Style Guidelines</h3></div>
+<div id='6.1.1'><h4>6.1.1. General Style Guidelines</h4></div>
+<div id='6.1.2'><h4>6.1.2. Web, Mobile & Devices Style Guidelines</h4></div>
+
+<div id='6.2'><h3>6.2. Information Architecture</h3></div>
+<div id='6.2.2'><h4>6.2.2. Labeling Systems</h4></div>
+<div id='6.2.3'><h4>6.2.3. Searching Systems</h4></div>
+<div id='6.2.4'><h4>6.2.4. SEO Tags and Meta Tags</h4></div>
+<div id='6.2.5'><h4>6.2.5. Navigation Systems</h4></div>
+
+<div id='6.3'><h3>6.3. Landing Page UI Design</h3></div>
+<div id='6.3.1'><h4>6.3.1. Landing Page Wireframe</h4></div>
+<div id='6.3.2'><h4>6.3.2. Landing Page Mock-up</h4></div>
+
+<div id='6.4'><h3>6.4. Applications UX/UI Design</h3></div>
+<div id='6.4.1'><h4>6.4.1. Applications Wireframes</h4></div>
+<div id='6.4.2'><h4>6.4.2. Applications Wireflow Diagrams</h4></div>
+<div id='6.4.3'><h4>6.4.3. Applications Mock-ups</h4></div>
+<div id='6.4.4'><h4>6.4.4. Applications User Flow Diagrams</h4></div>
+
+<div id='6.5'><h3>6.5. Applications Prototyping</h3></div>
 
 <div id='8.'><h2>Conclusiones</h2></div>
 
