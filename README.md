@@ -1197,14 +1197,14 @@ Este bounded context se encarga de capturar imágenes de los cultivos, analizarl
     * Envía alertas por email, push o SMS al agricultor.
       
 <div id="5.1.6"><h4>5.1.6 Bounded Context Software Architecture Component Level Diagrams</h4></div>
-<img src="resources/CAPITULO5/Analisis_ComponentDiagram.png">
+[![image.png](https://i.postimg.cc/7P3DwFhM/image.png)](https://postimg.cc/dDVg9S8L)
 
 <div id="5.1.7"><h4>5.1.7 Bounded Context Software Architecture Code Level Diagrams</h4></div>
 <div id="5.1.7.1"><h5>5.1.7.1 Bounded Context Domain Layer Class Diagrams</h5></div>
-<img src="resources/CAPITULO5/Analisis_ClassDiagram.png">
+[![image.png](https://i.postimg.cc/RCfywwzM/image.png)](https://postimg.cc/6TWMX23S)
 
 <div id="5.1.7.2"><h5>5.1.7.2 Bounded Context Database Design Diagram</h5></div>
-<img src="resources/CAPITULO5/Analisis_DatabaseDiagram.png">
+[![image.png](https://i.postimg.cc/g2c795LJ/image.png)](https://postimg.cc/Mv45V9D2)
 
 <div id="5.2"><h3>5.2 Bounded Context: Monitoreo y Sensores IoT</h3></div>
 Este bounded context se encarga de iniciar y controlar el monitoreo de los cultivos mediante sensores ambientales IoT. Integra dispositivos físicos, recopila datos como humedad y temperatura, y los transmite al sistema para su visualización y análisis. Es clave para la detección temprana de condiciones críticas y el funcionamiento del riego automático.
