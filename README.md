@@ -168,7 +168,7 @@ En esta sección se presenta la descripción del startup y los perfiles de los m
 
 <div id='1.1.1.'><h4> 1.1.1. Descripción del startup</h4></div> 
 
-Nuestra startup, **AgroTech**, nace con el propósito de transformar la agricultura tradicional mediante el uso de tecnologías emergentes como la visión artificial, el Internet de las Cosas (IoT) y la inteligencia artificial. Nos enfocamos inicialmente en el cultivo de **tomates**, combinando sensores inteligentes con una plataforma móvil/web para monitorear, analizar y automatizar procesos clave del cultivo.
+Nuestra startup, **AgroTech**, nace con el propósito de transformar la agricultura tradicional mediante el uso de tecnologías emergentes como la visión artificial, el Internet de las Cosas (IoT) y la inteligencia artificial. Nos enfocamos inicialmente en el cultivo de **tomates**, combinando sensores inteligentes con una plataforma web/web para monitorear, analizar y automatizar procesos clave del cultivo.
 A diferencia de otros sistemas agrícolas que requieren intervención constante del usuario, TomateRitmo busca ofrecer una experiencia completamente automatizada: desde la detección de anomalías en las **hojas** (como plagas o enfermedades) hasta el riego automático en respuesta a niveles críticos de sequedad. Esto permite a los agricultores, tanto principiantes como profesionales, optimizar sus recursos, reducir pérdidas y aumentar la productividad sin descuidar la salud del cultivo.
 
 Nuestro enfoque es práctico, accesible y centrado en el usuario. Creemos que la tecnología aplicada al campo no solo debe ser eficiente, sino también intuitiva, inclusiva y adaptable a distintos niveles de conocimiento técnico.
@@ -236,7 +236,7 @@ El IICA (2022) advierte que si no se logra una transformación digital efectiva 
 #### 2H
 ##### How (Cómo)
 ###### ¿Cómo se utilizará el producto?
-El agricultor podrá interactuar con TomateRitmo a través de una app web/móvil que muestra datos en tiempo real sobre humedad del suelo, temperatura ambiental, y estado visual de las hojas mediante visión artificial. Si el sistema detecta sequedad o anomalías (como manchas, mordidas o amarillamiento), se activará el riego automático o se enviará una alerta.
+El agricultor podrá interactuar con TomateRitmo a través de una app web/web que muestra datos en tiempo real sobre humedad del suelo, temperatura ambiental, y estado visual de las hojas mediante visión artificial. Si el sistema detecta sequedad o anomalías (como manchas, mordidas o amarillamiento), se activará el riego automático o se enviará una alerta.
 
 
 ##### How much (Cuánto)
@@ -260,7 +260,7 @@ Entonces, el reto es: ¿Cómo podemos brindar una solución automatizada, precis
 
 Para ello, nos enfocamos en:
 
-* Enfoque centrado en el agricultor: la solución debe ser intuitiva y accesible desde un celular o computadora.
+* Enfoque centrado en el agricultor: la solución debe ser intuitiva y accesible desde una computadora.
 * Alcance claro: Nos centramos en el monitoreo y automatización de riego, detección de anomalías visuales mediante IA, y alertas preventivas.
 * Medidas de éxito: Reducción de pérdidas por estrés hídrico o plagas, incremento en el rendimiento del cultivo, y adopción sostenida del sistema.
 
@@ -277,7 +277,7 @@ Entre las características que consideramos relevantes están:
 * Monitoreo en tiempo real de humedad y temperatura mediante sensores IoT.
 * Visión artificial para detección de anomalías en hojas de tomate.
 * Activación automática de riego si el sistema detecta sequedad.
-* Notificaciones inteligentes al agricultor vía app móvil/web.
+* Notificaciones inteligentes al agricultor vía app web/web.
 * Historial visual y ambiental del cultivo.
 * Control manual o automático del sistema.
 
@@ -362,9 +362,9 @@ El Lean UX Canvas es una herramienta que se utiliza en el campo del diseño cent
 |**Ventajas Competitivas**|Enfoque exclusivo en tomate, integración de visión artificial para detección de enfermedades y automatización del cultivo bajo paramétros|Interfaz intuitiva y fácil de usar, adecuada para agricultores con diferentes niveles de experiencia tecnológica.	|Tecnología avanzada de sensores de suelo que proporciona datos precisos para decisiones agronómicas.	|Amplia gama de funciones para la gestión operativa de la finca, incluyendo planificación y seguimiento de tareas.	|Análisis predictivo y seguimiento financiero que ayuda a maximizar la rentabilidad de las explotaciones.|
 |**Mercado Objetivo**|Agricultores especializados en tomate, tanto profesionales como pequeños productores.	|Agricultores de diversos cultivos que buscan mejorar la eficiencia mediante tecnología accesible.	|Productores agrícolas que requieren datos precisos del suelo para optimizar riego y fertilización.	|Grandes explotaciones agrícolas que necesitan digitalizar y gestionar múltiples aspectos operativos.	|Agricultores interesados en utilizar análisis de datos para mejorar la producción y la rentabilidad.|
 |**Estrategias de Marketing**|Alianzas con cooperativas de tomate y demostraciones en campo	|Promoción a través de ferias agrícolas y asociaciones locales.	|Colaboraciones con distribuidores de equipos agrícolas y presencia en eventos del sector.	|Marketing dirigido a grandes explotaciones y asociaciones agrícolas.	|Campañas digitales enfocadas en la rentabilidad y eficiencia operativa.|
-|**Productos & Servicios**|Sensores de humedad y temperatura, visión artificial para detección de enfermedade y sistema de riego automatizado	|Sensores ambientales, plataforma de análisis de datos y soporte técnico.	|Sensores de suelo, plataforma de análisis agronómico y recomendaciones personalizadas.	|Software de gestión agrícola, aplicaciones móviles y soporte técnico.	|Plataforma de análisis de datos, predicciones de rendimiento y seguimiento financiero.|
+|**Productos & Servicios**|Sensores de humedad y temperatura, visión artificial para detección de enfermedade y sistema de riego automatizado	|Sensores ambientales, plataforma de análisis de datos y soporte técnico.	|Sensores de suelo, plataforma de análisis agronómico y recomendaciones personalizadas.	|Software de gestión agrícola, aplicaciones webes y soporte técnico.	|Plataforma de análisis de datos, predicciones de rendimiento y seguimiento financiero.|
 |**Precios & Costos**|Modelo de suscripción mensual con opciones según el tamaño de la explotación.	|Tarifas escalables según el número de sensores y servicios contratados.	|Precios basados en el número de sensores y el tamaño de la explotación.	|Suscripción anual con diferentes niveles de servicio.	|Modelo freemium con opciones de pago para funciones avanzadas.|
-|**Canales de distribución (WEB y/o Móvil)**|Aplicación web y móvil para Android|Aplicación web y móvil para Android e iOS.	|Aplicación web y móvil para Android e iOS.	|Aplicación web y móvil para Android e iOS.	|Aplicación web y móvil para Android e iOS.	|
+|**Canales de distribución (WEB y/o web)**|Aplicación web |Aplicación web y móvil para Android e iOS.	|Aplicación web y móvil para Android e iOS.	|Aplicación web y móvil para Android e iOS.	|Aplicación web y móvil para Android e iOS.	|
 |**Fortalezas**|Especialización en tomate con integración de tecnologías avanzadas como visión artifical	|Facilidad de uso y soporte técnico accesible.	|Datos precisos del suelo y recomendaciones agronómicas personalizadas.	|Gestión integral de operaciones agrícolas.	|Análisis predictivo y enfoque en la rentabilidad.|
 |**Debilidades**|Enfoque limitado al cultivo de tomate, lo que puede restringir su mercado.	|Menor especialización en cultivos específicos.	|Requiere inversión en sensores y tecnología.	|Puede ser complejo para pequeñas explotaciones.	|Dependencia de la calidad de los datos ingresados por el usuario.|
 |**Oportunidades**|Expansión a otros cultivos, integración con sistemas de mercado y exportación.	|Ampliación de servicios y soporte en más regiones.	|Desarrollo de nuevas funciones basadas en inteligencia artificial.	|Integración con maquinaria agrícola y automatización.	|Alianzas con instituciones financieras para ofrecer servicios adicionales.|
@@ -515,7 +515,7 @@ A partir del análisis competitivo realizado se logró identificar las fortaleza
 |-|-|
 |Edad|20 años|
 |Departamento|Lima, Lima (Ubicación Actual) - Arequipa (Durante su estadía en provincia)|
-|<img src="resources/interviewsPhotos/experimentadoFarid.png">|Farid nos comenta de su experiencia de agricultor experimentado dentro de su niñez e inicios de su adolescencia, actualmente sigue teniendo contacto con sus familiares que todavía trabaja en chacra, puesto que su familia que se encuentra en Lima es la encargada de vender tomates, en su experiencia nos comenta problemas que sufría los cultivos de tomates en su tiempo que se encontro en provincia y como todavía se encuentra presente, al presentarle la solución de TomateRitmo le parece llamativa y considera que pagar por una aplicación móvil de este tipo la considera rentable, siempre y cuando mejore la productividad de sus tomates y automatice el proceso de la detección de anomalías de este, algo que menciona es que le gustaría que tenga alertas en tiempo real o por aplicación móvil, además de incluir alguna guía educativa para el uso de este.|
+|<img src="resources/interviewsPhotos/experimentadoFarid.png">|Farid nos comenta de su experiencia de agricultor experimentado dentro de su niñez e inicios de su adolescencia, actualmente sigue teniendo contacto con sus familiares que todavía trabaja en chacra, puesto que su familia que se encuentra en Lima es la encargada de vender tomates, en su experiencia nos comenta problemas que sufría los cultivos de tomates en su tiempo que se encontro en provincia y como todavía se encuentra presente, al presentarle la solución de TomateRitmo le parece llamativa y considera que pagar por una aplicación web de este tipo la considera rentable, siempre y cuando mejore la productividad de sus tomates y automatice el proceso de la detección de anomalías de este, algo que menciona es que le gustaría que tenga alertas en tiempo real o por aplicación web, además de incluir alguna guía educativa para el uso de este.|
 |Duración entrevista:  14:48 - 30:31  |URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/EYPjbNNRuMNFs-dqTHhm5y0BMp404wumEnN_7yEiyG89dA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=w6xoPz]|
 
 ***SECTOR AUTOCULTIVADORES***
@@ -814,8 +814,8 @@ QAS1: Consulta de parámetros en tiempo real
 | Elemento | Descripción |
 | :------: | :---------- |
 |Estímulo | El usuario consulta el estado actual de humedad y temperatura del cultivo.|
-|Fuente de estímulo | Usuario de la aplicación móvil TomateRitmo.|
-|Entorno (Medioambiente) | Uso normal del sistema desde el aplicativo móvil.|
+|Fuente de estímulo | Usuario de la aplicación web TomateRitmo.|
+|Entorno (Medioambiente) | Uso normal del sistema desde el aplicativo web.|
 |Artefacto | Módulo de visualización en tiempo real de parámetros ambientales.|
 |Respuesta | El sistema recupera los datos en tiempo real desde la base de datos o caché.|
 |Medida de respuesta | El 95% de las respuestas deben tardar menos de 2 segundos en mostrarse.|
@@ -861,7 +861,7 @@ QAS5: Activación manual del riego
 | :------: | :---------- |
 |Estímulo | El sistema muestra una hoja detectada como enferma para que el usuario la confirme o rechace.|
 |Fuente de estímulo | Usuario interactuando con la app tras recibir una alerta de detección visual.|
-|Entorno (Medioambiente) | Dentro de la app móvil, luego de una detección automática.|
+|Entorno (Medioambiente) | Dentro de la app web, luego de una detección automática.|
 |Artefacto | Interfaz de validación de diagnósticos visuales.|
 |Respuesta | El sistema debe permitir validar o descartar la anomalía fácilmente, almacenando el feedback.|
 |Medida de respuesta | El 95% de las validaciones deben completarse en menos de 10 segundos, y el feedback debe guardarse exitosamente.|
@@ -872,7 +872,7 @@ Los siguientes son los constraints o restricciones que influyen directamente en 
 
 * **Tecnológicos:**
 
-- El sistema debe funcionar en dispositivos móviles Android con versiones mínimas 8.0 (Oreo) que suele ser las mínimas que llegan a usar los agricultores en base a la información recopilada.
+- El sistema debe funcionar en computadores con conexión a internet.
 - La visión artificial debe ejecutarse mediante modelos livianos compatibles con dispositivos de gama media o con capacidad de ejecución en la nube vía API REST.
 
 * **Operacionales:**
@@ -897,7 +897,7 @@ A continuación se presenta un backlog de los principales drivers arquitectónic
 |AD4 | Tolerancia a la conectividad inestable | Restricción tecnológica / Calidad | Alta|
 |AD5 | Control manual y automático del riego | Funcional | Media|
 |AD6 | Seguridad y privacidad de datos personales | Calidad (Seguridad) / Restricción legal | Alta|
-|AD7 | Soporte multiplataforma móvil | Restricción tecnológica | Media|
+|AD7 | Soporte multiplataforma web | Restricción tecnológica | Media|
 
 <div id="4.1.4."><h4>4.1.4. Architectural Design Decisions</h4></div>
 
@@ -905,7 +905,7 @@ Las siguientes son las decisiones de diseño arquitectónico más relevantes ado
 
 * ADD01 - Modularización por componentes funcionales: Se decidió separar el sistema en módulos clave (captura de datos IoT, análisis IA, notificaciones, interfaz de usuario) para facilitar el mantenimiento y escalabilidad.
 * ADD02 - Uso de arquitectura orientada a eventos: Para la comunicación entre módulos (especialmente alertas y diagnósticos), se empleará una arquitectura basada en eventos que mejora el tiempo de respuesta y desacopla los componentes.
-* ADD04 - Persistencia local y sincronización automática: Para mitigar problemas de conectividad rural, se permite trabajar offline con almacenamiento local, y luego sincronizar con el backend una vez restablecida la conexión, por ahora se planea implementar solo en ciertos dispositivos Android que cuenten con una versión de 10 para arriba por temas de compatibilidad.
+* ADD04 - Persistencia local y sincronización automática: Para mitigar problemas de conectividad rural, se permite trabajar offline con almacenamiento local, y luego sincronizar con el backend una vez restablecida la conexión, por ahora se planea implementar solo en dispositivos de escritorio que cuenten con una versión de Windows 10 y navegador CHrome por temas de compatibilidad.
 * ADD04 - Modelo AI explicable : Para fomentar la confianza del usuario en las decisiones de la IA, se incluirá una explicación visual y textual básica del porqué se marcó una hoja como “enferma”.
 
 <div id="4.1.5."><h4>4.1.5. Quality Attribute Scenario Refinements</h4></div>
@@ -928,7 +928,7 @@ En base a los "Quality Attribute Scenarios", se presentan las mejoras que se pod
 
 * **QAS2 (Notificaciones):**
 
-- Se verificará la entrega bajo múltiples condiciones de red (Wi-Fi/datos móviles).
+- Se verificará la entrega bajo múltiples condiciones de red (Wi-Fi/datos webes).
 
 Las alertas se enviarán utilizando Firebase Cloud Messaging con tolerancia a reintentos.
 <div id="4.2."><h3>4.2. Strategic-Level Domain-Driven Design</h3></div>
@@ -1099,12 +1099,62 @@ Ofrece una visión de alto nivel del sistema TomateRitmo, mostrando cómo se rel
 <div id="4.3.2."><h4>4.3.2. Software Architecture Container Level Diagrams</h4></div>
 <img src = "resources\CAPITULO4\container.png">
 
-Muestra la arquitectura técnica del sistema TomateRitmo, presentando los principales componentes (contenedores) y sus interacciones. Incluye una App Móvil, Web Dashboard, API Gateway, y varios servicios especializados como AI Service, IoT Ingestor, Auth Service y bases de datos. Define claramente cómo los diferentes componentes se comunican entre sí y con sistemas externos.
+Muestra la arquitectura técnica del sistema TomateRitmo, presentando los principales componentes (contenedores) y sus interacciones. Incluye una App web, Web Dashboard, API Gateway, y varios servicios especializados como AI Service, IoT Ingestor, Auth Service y bases de datos. Define claramente cómo los diferentes componentes se comunican entre sí y con sistemas externos.
 
 <div id="4.3.3."><h4>4.3.3. Software Architecture Deployment Diagrams</h4></div>
 <img src = "resources\CAPITULO4\Deployment.png">
 
+<div id='5.'><h2>Capítulo 5</h2></div>
 
+<div id="5.1"><h3>5.1 Bounded Context: Bounded Context Name 1</h3></div>
+<div id="5.1.1"><h4>5.1.1 Domain Layer</h4></div>
+<div id="5.1.2"><h4>5.1.2 Interface Layer</h4></div>
+<div id="5.1.3"><h4>5.1.3 Application Layer</h4></div>
+<div id="5.1.4"><h4>5.1.4 Infrastructure Layer</h4></div>
+<div id="5.1.6"><h4>5.1.6 Bounded Context Software Architecture Component Level Diagrams</h4></div>
+<div id="5.1.7"><h4>5.1.7 Bounded Context Software Architecture Code Level Diagrams</h4></div>
+<div id="5.1.7.1"><h5>5.1.7.1 Bounded Context Domain Layer Class Diagrams</h5></div>
+<div id="5.1.7.2"><h5>5.1.7.2 Bounded Context Database Design Diagram</h5></div>
+
+<div id="5.2"><h3>5.2 Bounded Context: Bounded Context Name 2</h3></div>
+<div id="5.2.1"><h4>5.2.1 Domain Layer</h4></div>
+<div id="5.2.2"><h4>5.2.2 Interface Layer</h4></div>
+<div id="5.2.3"><h4>5.2.3 Application Layer</h4></div>
+<div id="5.2.4"><h4>5.2.4 Infrastructure Layer</h4></div>
+<div id="5.2.6"><h4>5.2.6 Bounded Context Software Architecture Component Level Diagrams</h4></div>
+<div id="5.2.7"><h4>5.2.7 Bounded Context Software Architecture Code Level Diagrams</h4></div>
+<div id="5.2.7.1"><h5>5.2.7.1 Bounded Context Domain Layer Class Diagrams</h5></div>
+<div id="5.2.7.2"><h5>5.2.7.2 Bounded Context Database Design Diagram</h5></div>
+
+<div id="5.3"><h3>5.3 Bounded Context: Bounded Context Name 3</h3></div>
+<div id="5.3.1"><h4>5.3.1 Domain Layer</h4></div>
+<div id="5.3.2"><h4>5.3.2 Interface Layer</h4></div>
+<div id="5.3.3"><h4>5.3.3 Application Layer</h4></div>
+<div id="5.3.4"><h4>5.3.4 Infrastructure Layer</h4></div>
+<div id="5.3.6"><h4>5.3.6 Bounded Context Software Architecture Component Level Diagrams</h4></div>
+<div id="5.3.7"><h4>5.3.7 Bounded Context Software Architecture Code Level Diagrams</h4></div>
+<div id="5.3.7.1"><h5>5.3.7.1 Bounded Context Domain Layer Class Diagrams</h5></div>
+<div id="5.3.7.2"><h5>5.3.7.2 Bounded Context Database Design Diagram</h5></div>
+
+<div id="5.4"><h3>5.4 Bounded Context: Bounded Context Name 4</h3></div>
+<div id="5.4.1"><h4>5.4.1 Domain Layer</h4></div>
+<div id="5.4.2"><h4>5.4.2 Interface Layer</h4></div>
+<div id="5.4.3"><h4>5.4.3 Application Layer</h4></div>
+<div id="5.4.4"><h4>5.4.4 Infrastructure Layer</h4></div>
+<div id="5.4.6"><h4>5.4.6 Bounded Context Software Architecture Component Level Diagrams</h4></div>
+<div id="5.4.7"><h4>5.4.7 Bounded Context Software Architecture Code Level Diagrams</h4></div>
+<div id="5.4.7.1"><h5>5.4.7.1 Bounded Context Domain Layer Class Diagrams</h5></div>
+<div id="5.4.7.2"><h5>5.4.7.2 Bounded Context Database Design Diagram</h5></div>
+
+<div id="5.5"><h3>5.5 Bounded Context: Bounded Context Name 5</h3></div>
+<div id="5.5.1"><h4>5.5.1 Domain Layer</h4></div>
+<div id="5.5.2"><h4>5.5.2 Interface Layer</h4></div>
+<div id="5.5.3"><h4>5.5.3 Application Layer</h4></div>
+<div id="5.5.4"><h4>5.5.4 Infrastructure Layer</h4></div>
+<div id="5.5.6"><h4>5.5.6 Bounded Context Software Architecture Component Level Diagrams</h4></div>
+<div id="5.5.7"><h4>5.5.7 Bounded Context Software Architecture Code Level Diagrams</h4></div>
+<div id="5.5.7.1"><h5>5.5.7.1 Bounded Context Domain Layer Class Diagrams</h5></div>
+<div id="5.5.7.2"><h5>5.5.7.2 Bounded Context Database Design Diagram</h5></div>
 
 <div id='8.'><h2>Conclusiones</h2></div>
 
