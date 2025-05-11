@@ -1106,55 +1106,412 @@ Muestra la arquitectura técnica del sistema TomateRitmo, presentando los princi
 
 <div id='5.'><h2>Capítulo 5</h2></div>
 
-<div id="5.1"><h3>5.1 Bounded Context: Bounded Context Name 1</h3></div>
+<div id="5.1"><h3>5.1 Bounded Context: Análisis de Imágenes y Anomalías</h3></div>
+Este bounded context se encarga de capturar imágenes de los cultivos, analizarlas mediante visión artificial y detectar posibles problemas como enfermedades o plagas. A partir del análisis, se generan alertas y reportes visuales que permiten al agricultor tomar decisiones informadas.
+
+**Eventos clave:** Anomalía detectada en cultivo, Notificación enviada al agricultor.
+
 <div id="5.1.1"><h4>5.1.1 Domain Layer</h4></div>
+**Entidades (Entities)**
+* AnomaliaDetectada
+    * AnomaliaId (GUID)
+    * ZonaCultivoId (GUID)
+    * TipoAnomalia (enum: Enfermedad, Plaga, Otro)
+    * Gravedad (enum: Baja, Media, Alta)
+    * FechaDeteccion (datetime)
+    * ImagenURL (string)
+* ConfiguracionAnalisis
+    * FrecuenciaEscaneo (int - minutos)
+    * ModelosActivos (lista de identificadores de modelos)
+
+**Value Objects**
+* ResultadoAnalisis
+    * Confianza (decimal)
+    * EtiquetaDetectada (string)
+    * RutaImagenProcesada (string)
+
+**Aggregate Root**
+* AnomaliaDetectada
+
+**Domain Services**
+* ServicioAnalisisImagenes
+    * AnalizarImagen(imagen: Imagen) → ResultadoAnalisis
+    * DetectarAnomalia(resultado: ResultadoAnalisis) → AnomaliaDetectada
+
 <div id="5.1.2"><h4>5.1.2 Interface Layer</h4></div>
+**Command Handlers**
+* ProcesarImagenCommandHandler
+    * Ejecuta la lógica de análisis al recibir una imagen.
+* NotificarAnomaliaCommandHandler
+    * Lanza la notificación en caso de detección.
+
+**Event Handlers**
+* NuevaImagenRecibidaHandler
+    * Dispara análisis al recibir nueva imagen desde IoT o App.
+
+**Application Services**
+* AnalisisService
+    * ProcesarImagenSubida(dto: ImagenDTO)
+    * EnviarNotificacion(anomalia: AnomaliaDetectada)
+      
 <div id="5.1.3"><h4>5.1.3 Application Layer</h4></div>
+**API**
+* POST /api/analisis/imagen
+* GET /api/anomalias/historial
+
+**Webhooks**
+* POST /webhook/nueva-imagen: Para recibir imágenes desde dispositivos o la app.
+
 <div id="5.1.4"><h4>5.1.4 Infrastructure Layer</h4></div>
+**Repositorios**
+* AnomaliaRepository
+    * Guardar(anomalia: AnomaliaDetectada)
+    * ObtenerHistorialPorZona(zonaId)
+
+**Adaptadores**
+* AnalizadorModeloML
+    * Se conecta al modelo de IA entrenado para clasificar imágenes.
+* AlmacenamientoImagenes
+    * Guarda y recupera imágenes originales y procesadas.
+
+**Otros**
+* ServicioNotificaciones
+    * Envía alertas por email, push o SMS al agricultor.
+      
 <div id="5.1.6"><h4>5.1.6 Bounded Context Software Architecture Component Level Diagrams</h4></div>
+<img src="resources/CAPITULO5/Analisis_ComponentDiagram.png">
+
 <div id="5.1.7"><h4>5.1.7 Bounded Context Software Architecture Code Level Diagrams</h4></div>
 <div id="5.1.7.1"><h5>5.1.7.1 Bounded Context Domain Layer Class Diagrams</h5></div>
-<div id="5.1.7.2"><h5>5.1.7.2 Bounded Context Database Design Diagram</h5></div>
+<img src="resources/CAPITULO5/Analisis_ClassDiagram.png">
 
-<div id="5.2"><h3>5.2 Bounded Context: Bounded Context Name 2</h3></div>
+<div id="5.1.7.2"><h5>5.1.7.2 Bounded Context Database Design Diagram</h5></div>
+<img src="resources/CAPITULO5/Analisis_DatabaseDiagram.png">
+
+<div id="5.2"><h3>5.2 Bounded Context: Monitoreo y Sensores IoT</h3></div>
+Este bounded context se encarga de iniciar y controlar el monitoreo de los cultivos mediante sensores ambientales IoT. Integra dispositivos físicos, recopila datos como humedad y temperatura, y los transmite al sistema para su visualización y análisis. Es clave para la detección temprana de condiciones críticas y el funcionamiento del riego automático.
+
 <div id="5.2.1"><h4>5.2.1 Domain Layer</h4></div>
+**Entidades (Entities)**
+* SensorAmbiental
+    * SensorId (GUID)
+    * TipoSensor (enum: Humedad, Temperatura, Luminosidad)
+    * Ubicacion (string)
+    * Estado (enum: Activo, Inactivo)
+* LecturaAmbiental
+    * SensorId (GUID)
+    * FechaHora (datetime)
+    * Valor (decimal)
+
+**Value Objects**
+* RangoCritico
+    * Minimo (decimal)
+    * Maximo (decimal)
+
+**Aggregate Root**
+* SensorAmbiental
+
+**Domain Services**
+* ServicioMonitoreo
+    * ProcesarLectura(sensorId, valor)
+    * DetectarCondicionesCriticas()
+      
 <div id="5.2.2"><h4>5.2.2 Interface Layer</h4></div>
+**Event Handlers**
+* SensorDataReceivedHandler
+    * Procesa las nuevas lecturas desde los sensores.
+
+**Application Services**
+* MonitoreoService
+    * GuardarLectura(LecturaAmbientalDTO)
+    * EvaluarCondiciones()
+
+**DTOs**
+* LecturaAmbientalDTO
+    * sensorId
+    * valor
+    * fechaHora
+  
 <div id="5.2.3"><h4>5.2.3 Application Layer</h4></div>
+**API**
+* POST /api/sensores/lecturas
+* GET /api/sensores/estado
+
+**Webhooks**
+* POST /webhook/sensor-dato: recibe lectura de sensor IoT.
+  
 <div id="5.2.4"><h4>5.2.4 Infrastructure Layer</h4></div>
+**Repositorios**
+* SensorRepository
+    * GuardarLectura
+    * ObtenerEstado
+    * ObtenerHistorial
+
+**Adaptadores**
+* SensorIoTAdapter
+    * Traduce mensajes MQTT o HTTP de los dispositivos físicos.
+* AlmacenamientoLocalAdapter
+    * Guarda temporalmente lecturas en caso de desconexión.
+
+**Otros**
+* MonitorLogger
+    * Registro de eventos e incidencias del monitoreo.
+      
 <div id="5.2.6"><h4>5.2.6 Bounded Context Software Architecture Component Level Diagrams</h4></div>
+<img src="resources/CAPITULO5/MonitoresSensoresIoT_ComponentDiagram.png">
+
 <div id="5.2.7"><h4>5.2.7 Bounded Context Software Architecture Code Level Diagrams</h4></div>
 <div id="5.2.7.1"><h5>5.2.7.1 Bounded Context Domain Layer Class Diagrams</h5></div>
-<div id="5.2.7.2"><h5>5.2.7.2 Bounded Context Database Design Diagram</h5></div>
+<img src="resources/CAPITULO5/MonitoresSensoresIoT_ClassDiagram.png">
 
-<div id="5.3"><h3>5.3 Bounded Context: Bounded Context Name 3</h3></div>
+<div id="5.2.7.2"><h5>5.2.7.2 Bounded Context Database Design Diagram</h5></div>
+<img src="resources/CAPITULO5/MonitoresSensoresIoT_DatabaseDiagram.png">
+
+<div id="5.3"><h3>5.3 Bounded Context: Sistema de Riego Inteligente </h3></div>
+Este bounded context se encarga de activar o desactivar el sistema de riego de forma automática o manual, en función de los niveles de humedad del suelo u otras condiciones ambientales. Integra sensores, reglas de disparo y control de dispositivos físicos de riego.
+
+**Eventos clave:** Necesidad de riego registrada, Sistema de riego activado.
+
 <div id="5.3.1"><h4>5.3.1 Domain Layer</h4></div>
+**Entidades (Entities)**
+* Riego
+    * RiegoId (GUID)
+    * ZonaCultivoId (GUID)
+    * Modo (enum: Automático, Manual)
+    * Estado (enum: Activo, Inactivo)
+    * FechaHoraInicio (datetime)
+    * DuracionMinutos (int)
+* ReglaDeRiego
+    * ReglaId (GUID)
+    * UmbralHumedadMinima (decimal)
+    * Accion (enum: ActivarRiego, NotificarAgricultor)
+
+**Value Objects**
+* CondicionHumedad
+    * ValorActual (decimal)
+    * Umbral (decimal)
+
+**Aggregate Root**
+* Riego
+
+**Domain Services**
+* ServicioRiegoInteligente
+    * EvaluarYAplicarRiego()
+    * ProgramarRiegoManual(zona, duracion)
+
 <div id="5.3.2"><h4>5.3.2 Interface Layer</h4></div>
+
+**Command Handlers**
+* ActivarRiegoCommandHandler
+    * Inicia el riego en la zona especificada.
+* DetenerRiegoCommandHandler
+    * Finaliza el riego manual o automático.
+
+**Event Handlers**
+* BajaHumedadDetectadaHandler
+    * Reacciona ante condiciones críticas y lanza comandos de riego.
+      
 <div id="5.3.3"><h4>5.3.3 Application Layer</h4></div>
+
+**Application Services**
+* RiegoService
+    * IniciarRiegoManual(zona, minutos)
+    * RevisarCondicionesYActivar()
+
+**API**
+* POST /api/riego/manual
+* GET /api/riego/estado
+
+**Webhooks**
+* POST /webhook/activar-riego: activación automática desde monitoreo.
+  
 <div id="5.3.4"><h4>5.3.4 Infrastructure Layer</h4></div>
+
+**Repositorios**
+* RiegoRepository
+    * GuardarEstado, ObtenerRiegosActivos
+
+**Adaptadores**
+* RiegoHardwareAdapter
+    * Ejecuta comandos físicos hacia válvulas o bombas.
+* CondicionesRepositoryAdapter
+    * Consulta sensores para evaluar el estado actual.
+
+**Otros**
+* RiegoLogger
+    * Guarda eventos de activación/desactivación de riego.
+
 <div id="5.3.6"><h4>5.3.6 Bounded Context Software Architecture Component Level Diagrams</h4></div>
+
+<img src="resources/CAPITULO5/SistemaRiego_ComponentDiagram.png">
+
 <div id="5.3.7"><h4>5.3.7 Bounded Context Software Architecture Code Level Diagrams</h4></div>
 <div id="5.3.7.1"><h5>5.3.7.1 Bounded Context Domain Layer Class Diagrams</h5></div>
-<div id="5.3.7.2"><h5>5.3.7.2 Bounded Context Database Design Diagram</h5></div>
+<img src="resources/CAPITULO5/SistemaRiego_ClassDiagram.png">
 
-<div id="5.4"><h3>5.4 Bounded Context: Bounded Context Name 4</h3></div>
+<div id="5.3.7.2"><h5>5.3.7.2 Bounded Context Database Design Diagram</h5></div>
+<img src="resources/CAPITULO5/SistemaRiego_DatabaseDiagram.png">
+
+
+<div id="5.4"><h3>5.4 Bounded Context: Gestión de Cultivos </h3></div>
+Este bounded context está relacionado con la administración de cultivos individuales, su historial y control manual del riego. Aquí se centraliza toda la actividad operativa asociada al manejo de un cultivo.
+
 <div id="5.4.1"><h4>5.4.1 Domain Layer</h4></div>
+
+**Entidades (Entities)**
+* Cultivo
+    * CultivoId (GUID)
+    * Nombre (string)
+    * Zona (string)
+    * Tipo (string)
+    * EstadoActual (enum: Activo, EnReposo, Finalizado)
+    * Historial (List<RegistroCultivo>)
+* RegistroCultivo
+    * Fecha (datetime)
+    * Evento (string)
+    * Descripcion (string)
+
+**Aggregate Root**
+* Cultivo
+
+**Domain Events**
+* CultivoRegistrado
+* RiegoAplicado
+* HistorialVisualizado
+
+**Domain Services**
+* ServicioCultivo
+    * AplicarRiego(cultivoId: GUID)
+    * AgregarEventoHistorial(cultivoId, evento)
+      
 <div id="5.4.2"><h4>5.4.2 Interface Layer</h4></div>
+
+**Command Handlers**
+* RegistrarCultivoCommandHandler
+* AplicarRiegoCommandHandler
+
+**Query Handlers**
+* ConsultarHistorialCultivoHandler
+
+**Application Services**
+* CultivoService
+    * RegistrarCultivo(dto)
+    * AplicarRiego(id)
+    * VerHistorial(id)
+
+
 <div id="5.4.3"><h4>5.4.3 Application Layer</h4></div>
+
+**API**
+* POST /api/cultivos
+* PUT /api/cultivos/{id}/riego
+* GET /api/cultivos/{id}/historial
+  
 <div id="5.4.4"><h4>5.4.4 Infrastructure Layer</h4></div>
+
+**Repositorios**
+* CultivoRepository
+    * GetById, Save, AgregarEvento
+
+**Base de Datos**
+* PostgresCultivoStore
+
+**Otros**
+* LoggerRiego: Guarda logs de riegos aplicados
+  
 <div id="5.4.6"><h4>5.4.6 Bounded Context Software Architecture Component Level Diagrams</h4></div>
+<img src="resources/CAPITULO5/GestionCultivos_ComponentDiagram.png">
+
 <div id="5.4.7"><h4>5.4.7 Bounded Context Software Architecture Code Level Diagrams</h4></div>
+
 <div id="5.4.7.1"><h5>5.4.7.1 Bounded Context Domain Layer Class Diagrams</h5></div>
+
+<img src="resources/CAPITULO5/GestionCultivos_DomainDiagram.png">
+
 <div id="5.4.7.2"><h5>5.4.7.2 Bounded Context Database Design Diagram</h5></div>
 
-<div id="5.5"><h3>5.5 Bounded Context: Bounded Context Name 5</h3></div>
+<img src="resources/CAPITULO5/GestionCultivos_DatabaseDiagram.png">
+
+<div id="5.5"><h3>5.5 Bounded Context: Gestión de Agricultores </h3></div>
+Este bounded context se encarga de registrar y administrar la identidad de los agricultores, manteniendo información personal, zonas de cultivo asignadas y preferencias de notificación. Es esencial para personalizar la experiencia y asociar acciones o eventos a un usuario responsable.
+
 <div id="5.5.1"><h4>5.5.1 Domain Layer</h4></div>
+
+**Entidades (Entities)**
+* Agricultor
+    * AgricultorId (GUID)
+    * NombreCompleto (string)
+    * Email (string)
+    * Telefono (string)
+    * ZonaCultivoAsignada (string)
+    * PreferenciasNotificacion (ValueObject)
+
+**Value Objects**
+* PreferenciasNotificacion
+    * TipoAlerta (enum: Crítica, Moderada, Informativa)
+    * Canal (enum: Email, SMS, App)
+
+**Aggregate Root**
+* Agricultor es la raíz del agregado.
+
+**Domain Events**
+* NuevoAgricultorRegistrado
+
+**Domain Services**
+* GestorDeRegistroAgricultores
+    * RegistrarAgricultor(dto: DatosAgricultor): Agricultor
+
 <div id="5.5.2"><h4>5.5.2 Interface Layer</h4></div>
+
+Permite la interacción entre el sistema y el agricultor mediante formularios de registro y configuración de alertas.
+
+**Command Handlers**
+* RegistrarAgricultorCommandHandler
+* ActualizarPreferenciasNotificacionCommandHandler
+
+**Event Handlers**
+* NotificarRegistroHandler
+    * Envia confirmación al agricultor tras su registro.
+  
 <div id="5.5.3"><h4>5.5.3 Application Layer</h4></div>
+
+**Application Services**
+* AgricultorService
+    * RegistrarNuevoAgricultor(dto)
+    * ActualizarPreferencias(dto)
+    * ObtenerAgricultores()
+
+**API**
+* POST /api/agricultores
+* PUT /api/agricultores/{id}/preferencias
+* GET /api/agricultores
+
 <div id="5.5.4"><h4>5.5.4 Infrastructure Layer</h4></div>
+
+**Repositorios**
+* AgricultorRepository
+    * GetById, Save, ListAll
+
+**Notificación**
+* EmailNotifier
+* SMSNotifier
+
+**Persistencia**
+* SQLAgricultorStore
+    * Implementación de IAgricultorRepository
+  
 <div id="5.5.6"><h4>5.5.6 Bounded Context Software Architecture Component Level Diagrams</h4></div>
+
+<img src="resources/CAPITULO5/GestionAgricultores_ComponentDiagram.png">
+
 <div id="5.5.7"><h4>5.5.7 Bounded Context Software Architecture Code Level Diagrams</h4></div>
 <div id="5.5.7.1"><h5>5.5.7.1 Bounded Context Domain Layer Class Diagrams</h5></div>
+
+<img src="resources/CAPITULO5/GestionAgricultores_DomainDiagram.png">
+
 <div id="5.5.7.2"><h5>5.5.7.2 Bounded Context Database Design Diagram</h5></div>
+
+<img src="resources/CAPITULO5/GestionAgricultores_DatabaseDiagram.png">
 
 <div id='8.'><h2>Conclusiones</h2></div>
 
