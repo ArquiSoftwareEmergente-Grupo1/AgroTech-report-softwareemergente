@@ -14,7 +14,7 @@
 |             Nombre              | Código de alumno |
 |:-------------------------------:|:----------------:|
 |    Guillen Luna, Paolo César    |    U202124343    |
-|       Elias Yauri Paucar        |    U202211817    |
+|       Yauri Paucar Elias        |    U202211817    |
 | Cruz Palomino Adriano Sebastian |    U202210697    |
 | Rengifo Mirabal Randy Becker    |    u20211d683    |
 
