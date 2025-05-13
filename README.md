@@ -1221,6 +1221,7 @@ Este bounded context se encarga de capturar imágenes de los cultivos, analizarl
 **Eventos clave:** Anomalía detectada en cultivo, Notificación enviada al agricultor.
 
 <div id="5.1.1"><h4>5.1.1 Domain Layer</h4></div>
+
 **Entidades (Entities)**
 * AnomaliaDetectada
     * AnomaliaId (GUID)
@@ -1248,6 +1249,7 @@ Este bounded context se encarga de capturar imágenes de los cultivos, analizarl
     * DetectarAnomalia(resultado: ResultadoAnalisis) → AnomaliaDetectada
 
 <div id="5.1.2"><h4>5.1.2 Interface Layer</h4></div>
+
 **Command Handlers**
 * ProcesarImagenCommandHandler
     * Ejecuta la lógica de análisis al recibir una imagen.
@@ -1264,6 +1266,7 @@ Este bounded context se encarga de capturar imágenes de los cultivos, analizarl
     * EnviarNotificacion(anomalia: AnomaliaDetectada)
       
 <div id="5.1.3"><h4>5.1.3 Application Layer</h4></div>
+
 **API**
 * POST /api/analisis/imagen
 * GET /api/anomalias/historial
@@ -1272,6 +1275,7 @@ Este bounded context se encarga de capturar imágenes de los cultivos, analizarl
 * POST /webhook/nueva-imagen: Para recibir imágenes desde dispositivos o la app.
 
 <div id="5.1.4"><h4>5.1.4 Infrastructure Layer</h4></div>
+
 **Repositorios**
 * AnomaliaRepository
     * Guardar(anomalia: AnomaliaDetectada)
@@ -1304,6 +1308,7 @@ Este bounded context se encarga de capturar imágenes de los cultivos, analizarl
 Este bounded context se encarga de iniciar y controlar el monitoreo de los cultivos mediante sensores ambientales IoT. Integra dispositivos físicos, recopila datos como humedad y temperatura, y los transmite al sistema para su visualización y análisis. Es clave para la detección temprana de condiciones críticas y el funcionamiento del riego automático.
 
 <div id="5.2.1"><h4>5.2.1 Domain Layer</h4></div>
+
 **Entidades (Entities)**
 * SensorAmbiental
     * SensorId (GUID)
@@ -1329,6 +1334,7 @@ Este bounded context se encarga de iniciar y controlar el monitoreo de los culti
     * DetectarCondicionesCriticas()
       
 <div id="5.2.2"><h4>5.2.2 Interface Layer</h4></div>
+
 **Event Handlers**
 * SensorDataReceivedHandler
     * Procesa las nuevas lecturas desde los sensores.
@@ -1345,6 +1351,7 @@ Este bounded context se encarga de iniciar y controlar el monitoreo de los culti
     * fechaHora
   
 <div id="5.2.3"><h4>5.2.3 Application Layer</h4></div>
+
 **API**
 * POST /api/sensores/lecturas
 * GET /api/sensores/estado
@@ -1353,6 +1360,7 @@ Este bounded context se encarga de iniciar y controlar el monitoreo de los culti
 * POST /webhook/sensor-dato: recibe lectura de sensor IoT.
   
 <div id="5.2.4"><h4>5.2.4 Infrastructure Layer</h4></div>
+
 **Repositorios**
 * SensorRepository
     * GuardarLectura
@@ -1385,6 +1393,7 @@ Este bounded context se encarga de activar o desactivar el sistema de riego de f
 **Eventos clave:** Necesidad de riego registrada, Sistema de riego activado.
 
 <div id="5.3.1"><h4>5.3.1 Domain Layer</h4></div>
+
 **Entidades (Entities)**
 * Riego
     * RiegoId (GUID)
