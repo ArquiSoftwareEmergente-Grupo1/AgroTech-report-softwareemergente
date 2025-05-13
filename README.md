@@ -1110,18 +1110,108 @@ A continuación, se presenta el diagrama final del Context Mapping para TomateRi
 
 Representa el ecosistema completo del software, mostrando TomateRitmo como sistema central y cómo interactúa con sistemas externos como sensores IoT, OpenWeatherMap API, plataforma AI, sistema de riego y bases de datos. Ofrece una visión general de la integración del sistema dentro del panorama tecnológico más amplio.
 
+**Propósito:**  
+Brindar una visión general de los componentes principales y sus interacciones.
+
+**Arquitectura:**
+- **Frontend:**  
+  `Chaki'y App`: Aplicación web o SAP (Single Page Application) para usuarios.
+- **Backend:**  
+  `Sistema IoT`: Red de sensores (temperatura, humedad) y actuadores (purificadores, humidificadores).
+- **Dependencias externas:**  
+  - `Google Weather`: Datos meteorológicos en tiempo real.
+  - `Servicio de Email`: Notificaciones push/correo.
+
+**Flujos principales:**
+1. Usuarios acceden a la app vía HTTPS.
+2. La app controla dispositivos IoT mediante MQTT/HTTP.
+3. Se consultan datos externos (API de clima) y se envían alertas (SMTP).
+
+**Tecnologías clave:**  
+HTTPS, MQTT, APIs REST, SMTP.
+
 <div id="4.3.1.1."><h4>4.3.1. Software Architecture Context Level Diagrams</h4></div>
 <img src = "resources\CAPITULO4\context.png">
 
 Ofrece una visión de alto nivel del sistema TomateRitmo, mostrando cómo se relaciona con sus usuarios (autocultivadores y agricultores experimentados) y sistemas externos. Ilustra los flujos de información principales entre el sistema central y las entidades externas como sensores IoT, OpenWeatherMap, servicios de notificaciones y la plataforma de visión artificial.
+
+**Propósito:**  
+Mostrar cómo el sistema interactúa con usuarios y sistemas externos, definiendo el alcance global.
+
+**Elementos principales:**
+- **Actores:**
+  - `Usuario adulto`: Personas con problemas respiratorios que monitorean su entorno.
+  - `Usuario tutor`: Padres/madres que supervisan las condiciones ambientales para niños con afecciones respiratorias.
+- **Sistema central:**  
+  `Chaki'y`: Solución IoT que recopila datos ambientales, genera alertas y controla dispositivos.
+- **Sistemas externos:**  
+  - `Google Weather API`: Proporciona datos meteorológicos externos.
+  - `Servicio de Email`: Envía notificaciones a usuarios.
+  - `Sistema Médico` (opcional): Integración con historiales clínicos.
+
+**Flujos clave:**
+1. Usuarios interactúan con la interfaz web/móvil para configurar alertas y controlar dispositivos.
+2. Chaki'y consulta datos climáticos externos y envía notificaciones por correo.
+3. Integración opcional con sistemas médicos para recomendaciones personalizadas.
+
+**Tecnologías destacadas:**  
+API REST (Google Weather), SMTP (emails), HL7/FHIR (historiales médicos).
 
 <div id="4.3.2."><h4>4.3.2. Software Architecture Container Level Diagrams</h4></div>
 <img src = "resources\CAPITULO4\container.png">
 
 Muestra la arquitectura técnica del sistema TomateRitmo, presentando los principales componentes (contenedores) y sus interacciones. Incluye una App web, Web Dashboard, API Gateway, y varios servicios especializados como AI Service, IoT Ingestor, Auth Service y bases de datos. Define claramente cómo los diferentes componentes se comunican entre sí y con sistemas externos.
 
+**Propósito:**  
+Detallar la arquitectura interna con microservicios y componentes IoT.
+
+**Componentes clave:**
+- **Frontend:**  
+  `Aplicación Web` (React/Angular): Interfaz de usuario.
+- **Backend (Microservicios):**  
+  - `API Gateway`: Punto único de entrada.
+  - `Servicio de Monitoreo`: Procesa datos de sensores.
+  - `Servicio de Automatización`: Ejecuta reglas ambientales.
+- **Bases de datos:**  
+  - `TimescaleDB`: Almacena series temporales (datos de sensores).
+  - `PostgreSQL`: Configuraciones de usuarios.
+- **IoT/Edge:**  
+  - `Edge Gateway` (Raspberry Pi): Procesamiento local.
+  - `Sensores` (ESP32): Humedad, calidad del aire.
+  - `Actuadores`: Control de dispositivos.
+
+**Flujos técnicos:**
+1. Sensores → Edge Gateway → Message Broker (Kafka) → Servicios backend.
+2. Automatización envía comandos a actuadores vía MQTT.
+
+**Tecnologías destacadas:**  
+Kafka (eventos), MQTT (IoT), TimescaleDB (series temporales), React (frontend).
+
 <div id="4.3.3."><h4>4.3.3. Software Architecture Deployment Diagrams</h4></div>
 <img src = "resources\CAPITULO4\Deployment.png">
+
+**Propósito:**  
+Mostrar la infraestructura física/cloud donde se ejecuta el sistema.
+
+**Entornos:**
+- **Cloud (AWS/Azure/GCP):**  
+  - `Aplicación Web`: Frontend en React.
+  - `Backend`: Microservicios (Node.js/Python) + PostgreSQL/TimescaleDB.
+  - `Message Broker`: Kafka/RabbitMQ para eventos.
+- **Edge (Hogar del usuario):**  
+  - `Gateway local` (Raspberry Pi): Procesa datos de sensores.
+  - `Red de sensores`: Dispositivos ESP32 (WiFi/Zigbee).
+  - `Actuadores`: Purificadores/humidificadores conectados.
+
+**Conectividad:**
+1. **Cloud-Edge:**  
+   - Sincronización de datos vía MQTT/HTTPS.
+   - Funcionamiento offline con caché local (SQLite).
+2. **Usuarios:**  
+   - Acceden a la app web mediante HTTPS.
+
+**Tecnologías clave:**  
+Kubernetes (orquestación cloud), MQTT (IoT), SQLite (edge), HTTPS.
 
 <div id='5.'><h2>Capítulo 5</h2></div>
 
