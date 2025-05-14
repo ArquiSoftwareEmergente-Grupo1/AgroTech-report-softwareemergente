@@ -207,7 +207,7 @@ Nuestro enfoque es práctico, accesible y centrado en el usuario. Creemos que la
 
 |                                                                                                                                                                                                          Descripción de los perfiles de los integrantes del equipo                                                                                                                                                                                                           |                                                              Foto del integrante                                                              |
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------:|
-| Mi nombre es **Paolo César Guillen Luna**, estudiante de la carrera de Ingeniería de Software, en la UPC y fanático de los videojuegos. Me considero alguien creativo y con determinación en alcanzar sus metas, dentro del campo del desarrollo de software, me gustaría especializarme en lo que es el testing de este, razón por la cual aparte de seguir la malla curricular de mi carrera también ando aprendiendo herramientas diversas como Playwright, Cypress, etc. |   <img src="resources/teamMembersPhotos/paoloPhoto.jpg"/>   |
+| Mi nombre es **Paolo César Guillen Luna**, estudiante de la carrera de Ingeniería de Software, en la UPC y fanático de los videojuegos. Me considero alguien creativo y con determinación en alcanzar sus metas, dentro del campo del desarrollo de software, me gustaría especializarme en lo que es el testing de este, razón por la cual aparte de seguir la malla curricular de mi carrera también ando aprendiendo herramientas diversas como Playwright, Cypress, etc. |   <img src="resources/paoloPhoto.jpg"/>   |
 | Mi nombre es **Elias Yauri**, soy una persona muy participativa cuando se trata en el tema laboral y en el trabajo en equipo, siempre trato de que haya una comunicación constante con todos los miembros del grupo para que de esta forma podamos tener toda una buena afinidad como grupo y que el trabajo se realice de manera exitosa.  | <img src='resources/elias.png'/> |
 | Mi nombre es **Adriano Sebastian Cruz Palomino**, tengo 20 años, soy alumno de Ingeniería de Software en la UPC, actualmente estoy cursando el 7mo ciclo. Soy una persona curiosa, responsable, y comprometida con mis estudios, siempre busco aprender más y mejorar mis habilidades. |<img src='resources/AdrianoCruz.png'/>|
 | Mi nombre es Randy Becker Rengifo Mirabal, tengo 21 años y soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), actualmente cursando el octavo ciclo. Me considero una persona proactiva, responsable y comprometida con mis deberes. Siempre busco nuevas oportunidades para aprender, crecer profesionalmente y fortalecer mis habilidades tanto técnicas como personales. Tengo gran interés por la tecnología, el desarrollo de software y la innovación. Me adapto con facilidad a distintos entornos de trabajo, disfruto trabajar en equipo y estoy enfocado en encontrar soluciones eficientes a los problemas que se presentan. Además, me apasiona estar en constante aprendizaje, ya sea a través de proyectos académicos, personales o colaborativos.|<img src="https://i.postimg.cc/sfpMdF94/Randy.jpg"/>|
@@ -1781,7 +1781,41 @@ Estos elementos permiten que tanto agricultores experimentados como nuevos usuar
 
 <div id='6.3'><h3>6.3. Landing Page UI Design</h3></div>
 <div id='6.3.1'><h4>6.3.1. Landing Page Wireframe</h4></div>
+
+Esta vista representa la estructura básica y jerarquizada de la landing page de **TomateRitmo**. A través de un enfoque de diseño centrado en el contenido y la conversión, se definieron las siguientes secciones clave:
+
+- **Encabezado fijo** con navegación horizontal, íconos y botón destacado de "Sign up".
+- **Hero section** centrada en captar la atención del visitante, con un mensaje principal, botón de acción y fondo visual que ocupará toda la anchura de la pantalla.
+- **Sección de beneficios o funcionalidades**, que emplea íconos distribuidos horizontalmente para representar gráficamente los principales servicios del sistema.
+- **Planes de suscripción**, dispuestos en tarjetas verticales con diferente jerarquía visual para destacar el plan premium.
+- **Testimonio de usuarios**, en formato carrusel, diseñado para reforzar la confianza en el producto mediante evidencia social.
+- **Formulario de contacto**, con campos organizados para mantener la claridad en la interacción.
+- **Equipo de trabajo**, con tarjetas individuales que presentan a los miembros del equipo.
+- **Pie de página**, con enlaces secundarios, datos de contacto, redes sociales y derechos de autor.
+
+Este wireframe permite validar la arquitectura general de la página antes de aplicar estilos visuales, y garantiza una navegación fluida y orientada a la conversión.
+
+<img src="resources/CAPITULO6/Landing-Page-Wireframe.png">
+
+
 <div id='6.3.2'><h4>6.3.2. Landing Page Mock-up</h4></div>
+
+El mock-up de la landing page de **TomateRitmo** aplica todos los lineamientos de estilo definidos en el sistema de diseño. Este diseño visual incluye los colores oficiales de la marca, la tipografía establecida y los íconos representativos del ámbito agrícola.
+
+Entre los aspectos destacados del diseño visual se encuentran:
+
+- **Fondo de imagen a pantalla completa** en el hero section, mostrando tomates frescos como símbolo directo del cultivo objetivo del producto.
+- **Tipografía clara y moderna**, jerarquizada para facilitar la lectura y guiar la atención del usuario.
+- **Íconos ilustrativos personalizados**, para cada funcionalidad principal: detección visual, riego automático, monitoreo en tiempo real y alertas inteligentes.
+- **Diseño de tarjetas de precios**, con contraste cromático para resaltar la progresión de funcionalidades entre los planes Básico, Regular y Premium.
+- **Testimonios auténticos**, con fotografía real de usuario objetivo, generando confianza y proximidad.
+- **Formulario de contacto simple**, con una combinación de color cálido (naranja) que destaca sobre el fondo verde y fomenta la interacción.
+- **Presentación del equipo de desarrollo**, con tarjetas individuales que humanizan la propuesta del producto.
+- **Pie de página completo**, que reúne tanto datos de contacto como enlaces útiles y accesos a redes sociales.
+
+Este mock-up muestra el producto en una etapa avanzada de diseño, listo para ser validado con usuarios y posteriormente implementado en entorno web.
+
+<img src="resources/CAPITULO6/Landing-Page-Mock-Up.png">
 
 <div id='6.4'><h3>6.4. Applications UX/UI Design</h3></div>
 <div id='6.4.1'><h4>6.4.1. Applications Wireframes</h4></div>
