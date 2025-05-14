@@ -1682,17 +1682,43 @@ Poppins Bold: para títulos principales.
 <img src="resources/CAPITULO6/Tipografia.png">
 
 **Colors**  
-El sistema de color de TomateRitmo se basa en la psicología del color aplicada al contexto agrícola. Los colores principales definidos son:
+El sistema de color de **TomateRitmo** fue definido estratégicamente para generar una experiencia visual alineada con los valores del producto: sostenibilidad, precisión tecnológica y conexión con la tierra. La paleta se divide en colores primarios, secundarios, de wireframe y de texto, todos aplicados de manera consistente a lo largo de la interfaz.
 
-Verde (#4CAF50): representa vida, frescura y salud del cultivo.
+**Colores Primarios**  
+- **Main Green**: `#005F40`  
+  Representa la esencia de lo natural, frescura y vitalidad. Es el color predominante en botones primarios, encabezados destacados y fondo del header.  
+- **Main White**: `#FFFFFF`  
+  Se utiliza como base de la interfaz para brindar claridad, limpieza visual y contraste con los componentes de acción.
 
-Marrón (#795548): conecta con la tierra, estabilidad y entorno rural.
+**Colores Secundarios**  
+- **Secondary Green**: `#337D50`  
+  Refuerza la identidad vegetal en secciones complementarias y hover states.  
+- **Light Red**: `#9A5D4E`  
+  Inspirado en el color del tomate maduro, este tono aporta calidez y cercanía a la interfaz. Se utiliza en secciones visuales clave para reforzar la identidad del cultivo y también en botones o detalles gráficos que buscan llamar la atención del usuario.  
+- **Dark Brown**: `#743E31`  
+  Comunica firmeza y conexión con el suelo agrícola, usado en fondos secundarios o acentos visuales.  
+- **Olive Drab**: `#9D7C58`  
+  Color de soporte para distinguir tarjetas informativas, etiquetas o botones secundarios.
 
-Grises neutros: usados en wireframes para facilitar decisiones estructurales antes de aplicar branding visual.
+**Colores para Wireframes**  
+Estos colores fueron usados en las etapas tempranas del diseño (mock-ups estructurales) para construir jerarquía visual sin interferencias cromáticas:
 
-Esta paleta crea una atmósfera de confianza y armonía visual que refuerza el vínculo con la naturaleza y la tecnología amigable.
+- **Darker Gray**: `#706F6F`  
+- **Light Gray**: `#8F8F8F`  
+- **White Gray**: `#D9D9D9`  
+- **Black**: `#000000`
+
+**Colores de Texto**  
+Para mantener un contraste óptimo y buena legibilidad, se definieron tres variantes principales:
+
+- **Black**: `#000000` para encabezados, texto de cuerpo y elementos clave.
+- **White**: `#FFFFFF` en botones o fondos oscuros.
+- **Dark Green**: `#005F40`, usado ocasionalmente en subtítulos o destacados para mantener unidad con la identidad visual.
+
+Esta paleta no solo cumple una función estética, sino que también aporta al reconocimiento visual de los elementos interactivos, estados del sistema y diferenciación de contenido en la interfaz.
 
 <img src="resources/CAPITULO6/Colores.png">
+
 
 **Spacing**  
 El espaciado dentro de la interfaz sigue un sistema modular con márgenes y paddings uniformes (8px, 16px, 24px, etc.), facilitando el orden visual y la alineación de elementos. Este esquema se adapta a los distintos tamaños de pantalla mediante reglas de diseño responsive, garantizando una distribución consistente en desktop, tablet y mobile.
