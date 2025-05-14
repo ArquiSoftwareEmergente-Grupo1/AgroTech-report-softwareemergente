@@ -1900,7 +1900,7 @@ Mensaje de éxito que indica que la acción de riego manual se ejecutó correcta
 
 **Análisis Visual**  
 Módulo de análisis de hojas donde se permite cargar imágenes para que el sistema detecte posibles enfermedades.  
-<img src="resources/CAPITULO6/Wireframes/Análisis Visual.png">
+<img src="resources/CAPITULO6/Wireframes/Análisis-Visual.png">
 
 **Análisis Visual - Diagnóstico comprobado**  
 Resultado de un análisis visual exitoso con diagnóstico confirmado de una enfermedad en la hoja.  
