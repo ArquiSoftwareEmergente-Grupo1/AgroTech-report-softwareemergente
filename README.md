@@ -137,7 +137,7 @@ URL del repositorio del proyecto: [https://github.com/ArquiSoftwareEmergente-Gru
 5.5.7. [Bounded Context Software Architecture Code Level Diagrams](#5.5.7)<br>
 5.5.7.1. [Bounded Context Domain Layer Class Diagrams](#5.5.7.1)<br>
 5.5.7.2. [Bounded Context Database Design Diagram](#5.5.7.2)<br>
-6. [**Capítulo 6**](#6)<br>
+6. [**Capítulo 6**](#6.)<br>
 6.1. [Style Guidelines](#6.1)<br>
 6.1.1. [General Style Guidelines](#6.1.1)<br>
 6.1.2. [Web, Mobile & Devices Style Guidelines](#6.1.2)<br>
@@ -1638,14 +1638,146 @@ Permite la interacción entre el sistema y el agricultor mediante formularios de
 <div id='6.'><h2>Capítulo 6</h2></div>
 
 <div id='6.1'><h3>6.1. Style Guidelines</h3></div>
+
+El sistema de diseño definido para TomateRitmo constituye la base estética, comunicacional y funcional sobre la cual se construye toda la experiencia digital de la solución. Su propósito es garantizar consistencia visual, claridad comunicativa y coherencia de interacción en todos los entornos en los que se implemente el producto, desde su versión web hasta futuras versiones móviles o adaptadas a otros dispositivos.
+
+Este sistema centralizado de lineamientos fue diseñado pensando en nuestro público objetivo: agricultores y autocultivadores, muchos de ellos con experiencia limitada en el uso de herramientas digitales, pero con necesidades reales de control, monitoreo y respuesta oportuna ante eventos que puedan afectar sus cultivos. En ese sentido, cada elemento de este sistema responde a un objetivo funcional, sin descuidar la identidad de marca ni la percepción de profesionalismo.
+
+Entre los componentes claves del sistema de estilo destacan:
+
+El nombre del producto, TomateRitmo, que refleja la capacidad de la plataforma para seguir el "ritmo" del cultivo del tomate, monitoreando su estado a través de sensores e inteligencia artificial, y permitiendo una intervención rápida y precisa.
+
+La identidad visual, basada en los colores verde y marrón, refuerza la conexión con la naturaleza y la tierra, evocando salud, frescura y confiabilidad. Esta paleta fue seleccionada intencionalmente para generar cercanía y tranquilidad en el usuario.
+
+La tipografía elegida, Poppins, es moderna, versátil y de alta legibilidad, lo que permite construir interfaces limpias, jerarquizadas y accesibles, compatibles tanto con navegadores modernos como con dispositivos de gama media.
+
+El sistema de espaciado y márgenes, pensado en modularidad, asegura orden visual, legibilidad y una experiencia de navegación clara y sin saturaciones, incluso en pantallas pequeñas o con múltiples componentes simultáneos.
+
+El tono comunicacional implementado en los textos de la interfaz, alertas y descripciones es sereno, accesible y respetuoso, enfocado en explicar acciones o eventos de forma sencilla, pero sin subestimar al usuario.
+
 <div id='6.1.1'><h4>6.1.1. General Style Guidelines</h4></div>
+
+Esta sección establece los fundamentos visuales y comunicacionales del producto TomateRitmo, definiendo una guía base compartida por todo el equipo de desarrollo y diseño. Las decisiones aquí detalladas garantizan una experiencia coherente, accesible y profesional a lo largo de la interfaz web, móvil y demás representaciones digitales del producto.
+
+**Branding**  
+TomateRitmo es una solución tecnológica orientada a monitorear la salud del cultivo de tomate, combinando visión artificial, sensores IoT y automatización del riego. El nombre hace referencia al “ritmo” natural de crecimiento del cultivo y a cómo la plataforma lo analiza de forma inteligente y continua. Su identidad busca comunicar cercanía, inteligencia y conexión con la tierra, destacando su valor como herramienta innovadora al servicio del agricultor.
+
+**Logotipo del Startup:**
+
+<img src="resources/CAPITULO6/logoStartup.png">
+
+**Logotipo del producto:**
+
+<img src="resources/CAPITULO6/logoProducto.png">
+
+**Typography**
+Se seleccionó la familia tipográfica Poppins por su estilo moderno, redondeado y altamente legible en entornos digitales. Este tipo de letra transmite profesionalismo sin perder calidez, lo cual es ideal para interfaces que desean ser percibidas como accesibles y confiables. Se utilizaron las siguientes variantes para jerarquía visual:
+
+Poppins Regular: para texto base.
+
+Poppins Medium y SemiBold: para subtítulos e ítems destacados.
+
+Poppins Bold: para títulos principales.
+
+<img src="resources/CAPITULO6/Tipografia.png">
+
+**Colors**  
+El sistema de color de TomateRitmo se basa en la psicología del color aplicada al contexto agrícola. Los colores principales definidos son:
+
+Verde (#4CAF50): representa vida, frescura y salud del cultivo.
+
+Marrón (#795548): conecta con la tierra, estabilidad y entorno rural.
+
+Grises neutros: usados en wireframes para facilitar decisiones estructurales antes de aplicar branding visual.
+
+Esta paleta crea una atmósfera de confianza y armonía visual que refuerza el vínculo con la naturaleza y la tecnología amigable.
+
+<img src="resources/CAPITULO6/Colores.png">
+
+**Spacing**  
+El espaciado dentro de la interfaz sigue un sistema modular con márgenes y paddings uniformes (8px, 16px, 24px, etc.), facilitando el orden visual y la alineación de elementos. Este esquema se adapta a los distintos tamaños de pantalla mediante reglas de diseño responsive, garantizando una distribución consistente en desktop, tablet y mobile.
+
+**Tone of Voice & Communication Style**  
+La comunicación visual y textual de TomateRitmo se basa en un tono respetuoso, claro y sereno, con lenguaje sencillo que prioriza la comprensión por parte de usuarios con diferentes niveles de experiencia digital. A continuación se indican los ejes tonales adoptados:
+
+Divertido / Serio: Equilibrado, con una inclinación hacia lo serio, sin perder calidez.
+
+Formal / Casual: Formal accesible, evitando tecnicismos innecesarios.
+
+Respetuoso / Irreverente: Siempre respetuoso, en línea con el público agrícola.
+
+Entusiasta / Sereno: Sereno, con enfoque en transmitir control y confianza en la automatización.
+
+**Referencia de diseño**  
+La inspiración general del sistema de diseño fue tomada de patrones de Design Systems como Material Design, adaptándolos al contexto agrícola y a las limitaciones técnicas de los usuarios objetivo. Esta base permitió establecer una lógica visual que mantiene la coherencia y optimiza la experiencia del usuario.
+
 <div id='6.1.2'><h4>6.1.2. Web, Mobile & Devices Style Guidelines</h4></div>
+El diseño visual de TomateRitmo se adapta a distintos dispositivos para garantizar una experiencia fluida, intuitiva y coherente tanto en entornos web como móviles. Para lograrlo, se aplicaron principios de diseño responsivo, reorganización de componentes y simplificación de interacciones.
+
+En la versión web, se prioriza una navegación estructurada desde un panel lateral y superior, con componentes visuales amplios y bien distribuidos. Los formularios, tarjetas de información y paneles de control están pensados para brindar una experiencia clara, especialmente útil para usuarios que consultan información detallada del estado del cultivo.
+
+En este entorno, se respeta los siguientes principios:
+
+- Botones e íconos universales, como tachos, alertas, y flechas, que refuerzan la intuición del usuario.
+
+- Pop-ups accesibles, centrados y con botones de “Aceptar”, “Cancelar” y “Cerrar”, optimizados para no interferir con la experiencia.
+
+- Colores consistentes con el branding definido: verde para acciones positivas, rojo para advertencias y gris para estados neutros.
 
 <div id='6.2'><h3>6.2. Information Architecture</h3></div>
+
+La arquitectura de información de TomateRitmo está diseñada para ofrecer un flujo de navegación claro, accesible y lógico para todo tipo de usuarios. El contenido se organiza de forma jerárquica y secuencial, permitiendo un aprendizaje progresivo y la rápida ubicación de funcionalidades clave.
+
+Desde la Landing Page hasta el Panel de Control, se prioriza el agrupamiento visual por contexto de uso: monitoreo, riego, análisis y configuración. El objetivo es reducir la carga cognitiva y mejorar la orientación, facilitando el acceso incluso a usuarios con escasa experiencia digital.
+
 <div id='6.2.2'><h4>6.2.2. Labeling Systems</h4></div>
+
+Para asegurar la comprensión inmediata del contenido, se utilizaron etiquetas simples, directas y consistentes en toda la interfaz. Las secciones y botones emplean palabras claves como:
+"Cultivos", "Riego", "Análisis Visual", "Historial", "Configurar" y "Mi perfil".
+
+Todas las tarjetas, menús y vistas principales cuentan con títulos visibles y orientadores. Las acciones críticas (activar riego, guardar, eliminar) están acompañadas de verbos de acción claros. El uso de texto breve evita ambigüedades y mejora la velocidad de navegación.
+
 <div id='6.2.3'><h4>6.2.3. Searching Systems</h4></div>
+
+El sistema de búsqueda en TomateRitmo está pensado para facilitar el acceso a información almacenada sobre cultivos y eventos. Las principales funcionalidades de búsqueda incluyen:
+
+- Filtro por nombre de cultivo y fecha de creación.
+
+- Historial con orden cronológico inverso y filtros por fecha.
+
+Tras cada búsqueda, los resultados se muestran en tarjetas o tablas con etiquetas destacadas, fechas y botones de acción rápida. Esto permite al usuario obtener una visión clara y actuar de inmediato si es necesario.
+
 <div id='6.2.4'><h4>6.2.4. SEO Tags and Meta Tags</h4></div>
+
+Para mejorar la visibilidad del proyecto en motores de búsqueda, se implementaron las siguientes metaetiquetas en la Landing Page y plataforma web:
+
+```html
+<title>TomateRitmo - Agricultura Inteligente</title>
+<meta charset="UTF-8">
+<meta name="description" content="TomateRitmo es una solución web de monitoreo agrícola que automatiza el riego y detecta enfermedades en hojas de tomate mediante IA e IoT.">
+<meta name="keywords" content="agricultura inteligente, cultivo de tomate, riego automático, visión artificial, sensores agrícolas, monitoreo de cultivos">
+<meta name="author" content="Agrotech">
+<meta name="copyright" content="Copyright Agrotech team">
+```
+
+Estos elementos mejoran el posicionamiento en buscadores (SEO) y garantizan la correcta interpretación del contenido por parte de rastreadores web.
+
 <div id='6.2.5'><h4>6.2.5. Navigation Systems</h4></div>
+
+La navegación dentro de TomateRitmo está diseñada para ser predecible, jerárquica y basada en tareas. El usuario siempre sabe en qué sección se encuentra y qué acción puede realizar a continuación.
+
+Las decisiones clave incluyen:
+
+Menú lateral persistente con acceso rápido a las secciones principales.
+
+Botones en el menu lateral con accesos contextuales (perfil, alertas, logout).
+
+Flujos guiados, por ejemplo, para añadir un cultivo o registrar un riego, que siguen una secuencia paso a paso.
+
+Pop-ups y mensajes contextuales que acompañan al usuario en tareas críticas, sin interrumpir el flujo general.
+
+Estos elementos permiten que tanto agricultores experimentados como nuevos usuarios puedan completar sus objetivos de forma satisfactoria desde el primer uso.
+
 
 <div id='6.3'><h3>6.3. Landing Page UI Design</h3></div>
 <div id='6.3.1'><h4>6.3.1. Landing Page Wireframe</h4></div>
@@ -1653,11 +1785,162 @@ Permite la interacción entre el sistema y el agricultor mediante formularios de
 
 <div id='6.4'><h3>6.4. Applications UX/UI Design</h3></div>
 <div id='6.4.1'><h4>6.4.1. Applications Wireframes</h4></div>
+
+**LogIn**  
+Pantalla de inicio de sesión donde el usuario introduce su correo electrónico y contraseña para acceder a la plataforma.  
+<img src="resources/CAPITULO6/Wireframes/LogIn.png">
+
+**LogIn - Fallido**  
+Variante de la pantalla de inicio de sesión con mensaje de error por credenciales incorrectas o fallidas.  
+<img src="resources/CAPITULO6/Wireframes/LogIn-Fallido.png">
+
+**Register**  
+Formulario de registro para nuevos usuarios, donde deben ingresar su nombre, correo electrónico, y contraseña.  
+<img src="resources/CAPITULO6/Wireframes/Register.png">
+
+**Suscripción**  
+Pantalla donde se muestran los diferentes planes de suscripción disponibles con sus respectivos precios y beneficios.  
+<img src="resources/CAPITULO6/Wireframes/Suscripcion.png">
+
+**Pagar**  
+Interfaz para completar el pago de la suscripción elegida, incluyendo campos para método de pago y confirmación.  
+<img src="resources/CAPITULO6/Wireframes/Pagar.png">
+
+**Mi perfil**  
+Visualización del perfil del usuario con su información personal editable como nombre, correo y rol asignado.  
+<img src="resources/CAPITULO6/Wireframes/Mi-perfil.png">
+
+**Panel de Control**  
+Vista principal después del login, que resume los indicadores clave del sistema: cultivos, riego y análisis visual.  
+<img src="resources/CAPITULO6/Wireframes/Panel-de-Control.png">
+
+**Cultivos**  
+Módulo de gestión de cultivos, donde se muestra una tabla con los cultivos registrados y sus detalles básicos.  
+<img src="resources/CAPITULO6/Wireframes/Cultivos.png">
+
+**Añadir Cultivo**  
+Modal para agregar un nuevo cultivo, con campos para tipo, ubicación y parámetros personalizados.  
+<img src="resources/CAPITULO6/Wireframes/Añadir-Cultivo.png">
+
+**Añadir Cultivo - Exitoso**  
+Confirmación visual de que el nuevo cultivo fue añadido correctamente al sistema.  
+<img src="resources/CAPITULO6/Wireframes/Añadir-Cultivo-Exitoso.png">
+
+**Riego Automático**  
+Panel para configurar y monitorear el riego automático, incluyendo sensores de humedad y programación.  
+<img src="resources/CAPITULO6/Wireframes/Riego-Automático.png">
+
+**Riego Manual**  
+Interfaz donde el usuario puede activar el riego de forma manual seleccionando el cultivo y tipo de riego.  
+<img src="resources/CAPITULO6/Wireframes/Riego-Manual.png">
+
+**Riego Manual - Riego exitoso**  
+Mensaje de éxito que indica que la acción de riego manual se ejecutó correctamente.  
+<img src="resources/CAPITULO6/Wireframes/Riego-Manual-Riego-exitoso.png">
+
+**Análisis Visual**  
+Módulo de análisis de hojas donde se permite cargar imágenes para que el sistema detecte posibles enfermedades.  
+<img src="resources/CAPITULO6/Wireframes/Análisis Visual.png">
+
+**Análisis Visual - Diagnóstico comprobado**  
+Resultado de un análisis visual exitoso con diagnóstico confirmado de una enfermedad en la hoja.  
+<img src="resources/CAPITULO6/Wireframes/Análisis-Visual-Diagnostico-comprobado.png">
+
+**Historial de Reportes**  
+Vista del historial de reportes generados por el sistema, con opción para filtrar y revisar eventos pasados.  
+<img src="resources/CAPITULO6/Wireframes/Historial-de-Reportes.png">
+
+**Historial de Reportes - Reporte Exportado**  
+Muestra un reporte que ha sido exportado, incluyendo datos tabulares y gráficos ambientales.  
+<img src="resources/CAPITULO6/Wireframes/Historial-de-Reportes-Reporte-Expotado.png">
+
 <div id='6.4.2'><h4>6.4.2. Applications Wireflow Diagrams</h4></div>
+
+
+
 <div id='6.4.3'><h4>6.4.3. Applications Mock-ups</h4></div>
+
+**LogIn**  
+Pantalla de inicio de sesión con diseño visual aplicado, donde el usuario introduce su correo y contraseña.  
+<img src="resources/CAPITULO6/MockUps/LogIn.png">
+
+**LogIn - Fallido**  
+Mock-up que muestra la alerta visual por intento de inicio de sesión con credenciales incorrectas.  
+<img src="resources/CAPITULO6/MockUps/LogIn-Fallido.png">
+
+**Register**  
+Diseño de la pantalla de registro, con campos estilizados para ingresar datos personales del nuevo usuario.  
+<img src="resources/CAPITULO6/MockUps/Register.png">
+
+**Suscripción**  
+Pantalla de suscripción con diseño visual de los diferentes planes disponibles y botón de selección.  
+<img src="resources/CAPITULO6/MockUps/Suscripcion.png">
+
+**Pagar**  
+Mock-up del formulario de pago con estilos aplicados y campos para tarjeta de crédito/débito.  
+<img src="resources/CAPITULO6/MockUps/Pagar.png">
+
+**Mi perfil**  
+Diseño de la sección de perfil con vista clara de los datos personales y opción de edición.  
+<img src="resources/CAPITULO6/MockUps/Mi-perfil.png">
+
+**Panel de Control**  
+Vista principal del sistema con elementos visuales como gráficos e iconos para navegación rápida.  
+<img src="resources/CAPITULO6/MockUps/Panel-de-Control.png">
+
+**Cultivos**  
+Mock-up del módulo de cultivos, con tabla estilizada que permite ver, editar o eliminar registros.  
+<img src="resources/CAPITULO6/MockUps/Cultivos.png">
+
+**Añadir Cultivo**  
+Ventana emergente con campos visualmente jerarquizados para añadir un nuevo cultivo.  
+<img src="resources/CAPITULO6/MockUps/Añadir-Cultivo.png">
+
+**Añadir Cultivo - Exitoso**  
+Confirmación con diseño limpio que informa sobre el éxito en el registro del cultivo.  
+<img src="resources/CAPITULO6/MockUps/Añadir-Cultivo-Exitoso.png">
+
+**Riego Automático**  
+Panel visualmente organizado para gestionar riego automático, con datos de humedad en tiempo real.  
+<img src="resources/CAPITULO6/MockUps/Riego-Automático.png">
+
+**Riego Manual**  
+Diseño de la interfaz para riego manual, con controles intuitivos y selección de cultivo.  
+<img src="resources/CAPITULO6/MockUps/Riego-Manual.png">
+
+**Riego Manual - Riego exitoso**  
+Notificación visual confirmando que el riego manual se realizó correctamente.  
+<img src="resources/CAPITULO6/MockUps/Riego-Manual-Riego-exitoso.png">
+
+**Análisis Visual**  
+Interfaz para cargar imágenes de hojas con elementos visuales destacados para análisis.  
+<img src="resources/CAPITULO6/MockUps/Análisis-Visual.png">
+
+**Análisis Visual - Diagnóstico comprobado**  
+Mock-up del resultado del análisis visual con detalles gráficos del diagnóstico identificado.  
+<img src="resources/CAPITULO6/MockUps/Análisis-Visual-Diagnostico-comprobado.png">
+
+**Historial de Reportes**  
+Diseño visual del historial de reportes, con tarjetas informativas y opción de vista gráfica.  
+<img src="resources/CAPITULO6/MockUps/Historial-de-Reportes.png">
+
+**Historial de Reportes - Reporte Exportado**  
+Mock-up del reporte generado con detalles exportados y gráficos ambientales incluidos.  
+<img src="resources/CAPITULO6/MockUps/Historial-de-Reportes-Reporte-Expotado.png">
+
 <div id='6.4.4'><h4>6.4.4. Applications User Flow Diagrams</h4></div>
 
+
+
 <div id='6.5'><h3>6.5. Applications Prototyping</h3></div>
+
+**Prototipo Navegable**  
+Representación interactiva del flujo completo de la aplicación web, que permite simular la navegación entre las pantallas diseñadas.
+
+<img src="resources/CAPITULO6/Prototype.png">
+
+Url Figma: [Link Figma](https://www.figma.com/proto/ggq6jW5mYoQ4aSStfHaPTI/Web-Application?node-id=50-1607&p=f&t=JAxaIJA9953YIqKg-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=50%3A1607)
+
 
 <div id='8.'><h2>Conclusiones</h2></div>
 
