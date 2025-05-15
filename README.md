@@ -1305,6 +1305,9 @@ Esta sección profundiza en la implementación de los componentes del bounded co
 
 <div id="5.1.7.2"><h5>5.1.7.2 Bounded Context Database Design Diagram</h5></div>
 
+**Diagrama completo de nuestro sistema (por ahora bd relacional) donde se ven las tablas principales con las que se trabajaran**
+
+<img src = "resources/tomateRitmoDatabaseFinalDiagram.png">
 
 
 <div id="5.2"><h3>5.2 Bounded Context: Monitoreo y Sensores IoT</h3></div>
