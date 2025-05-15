@@ -1916,7 +1916,45 @@ Muestra un reporte que ha sido exportado, incluyendo datos tabulares y gráficos
 
 <div id='6.4.2'><h4>6.4.2. Applications Wireflow Diagrams</h4></div>
 
+Esta sección presenta los wireflows desarrollados para cada uno de los User Goals identificados en base a los perfiles de usuario objetivo de la aplicación TomateRitmo. Cada flujo representa gráficamente la secuencia de pantallas y decisiones del usuario para completar una tarea, incluyendo los cambios de estado de la interfaz y puntos críticos de experiencia (Happy/Unhappy points).
 
+User Goal 1: Iniciar sesión correctamente
+Descripción del flujo:
+El usuario introduce sus credenciales. Si son correctas, accede al panel de control donde visualiza el estado de su cultivo. En caso de error, el sistema muestra un mensaje indicando que las credenciales son inválidas.
+
+<img src="resources/CAPITULO6/Wireflows/Wireflow1.png">
+
+User Goal 2: Registrarse y activar una suscripción
+Descripción del flujo:
+El usuario completa el formulario de registro, selecciona el plan de suscripción adecuado (básico, regular o premium) y accede automáticamente al panel principal con su cuenta activa.
+
+<img src="resources/CAPITULO6/Wireflows/Wireflow2.png">
+
+User Goal 3: Registrar un nuevo cultivo
+Descripción del flujo:
+El usuario ingresa a la sección de “Cultivos”, hace clic en “Añadir cultivo”, completa el formulario emergente y ve reflejado el nuevo cultivo en la lista de registros activos.
+
+<img src="resources/CAPITULO6/Wireflows/Wireflow3.png">
+
+User Goal 4: Analizar visualmente una hoja
+Descripción del flujo:
+El usuario sube una imagen de hoja a través del módulo “Análisis Visual”. El sistema genera un diagnóstico automático, que puede ser confirmado o corregido, y se registra como alerta.
+
+<img src="resources/CAPITULO6/Wireflows/Wireflow4.png">
+
+User Goal 5: Ejecutar un riego manual
+Descripción del flujo:
+Desde el panel de riego, el usuario selecciona el tipo de riego manual, escoge el cultivo a regar y ejecuta la orden. El sistema confirma la acción con un mensaje de éxito.
+
+<img src="resources/CAPITULO6/Wireflows/Wireflow5.png">
+
+User Goal 6: Consultar el historial de reportes
+Descripción del flujo:
+El usuario accede al historial, filtra por fecha o evento, y puede exportar los datos en un archivo. También puede visualizar gráficos ambientales asociados a los registros.
+
+<img src="resources/CAPITULO6/Wireflows/Wireflow6.png">
+
+URL Miro: [Link Miro](https://miro.com/app/board/uXjVI_sIm0o=/?share_link_id=128411326592)
 
 <div id='6.4.3'><h4>6.4.3. Applications Mock-ups</h4></div>
 
@@ -1990,7 +2028,43 @@ Mock-up del reporte generado con detalles exportados y gráficos ambientales inc
 
 <div id='6.4.4'><h4>6.4.4. Applications User Flow Diagrams</h4></div>
 
+Esta sección presenta los User Flows definidos para los principales objetivos de usuario en la solución TomateRitmo. Cada flujo se deriva de los wireflows previamente establecidos y se complementa con los mock-ups de alta fidelidad que representan los estados reales de la aplicación.
 
+User Goal 1: Iniciar sesión correctamente
+Explicación del flujo:
+El usuario accede a la pantalla de login e ingresa sus credenciales. Si son correctas (happy path), es redirigido al panel principal donde visualiza los datos de su cultivo. Si las credenciales son inválidas (unhappy path), el sistema muestra un mensaje de error y permite reintentar.
+
+<img src="resources/CAPITULO6/UserFlows/UserFlow1.png">
+
+User Goal 2: Registrar un nuevo cultivo
+Explicación del flujo:
+Desde la sección “Cultivos”, el usuario accede al botón "Registrar cultivo". El sistema despliega un modal con un formulario. Si completa todos los campos y guarda (happy path), el nuevo cultivo se añade correctamente al listado. Si falta información o se cancela, el flujo se interrumpe (unhappy path).
+
+<img src="resources/CAPITULO6/UserFlows/UserFlow2.png">
+
+User Goal 3: Registrarse y activar una suscripción
+Explicación del flujo:
+El usuario llena el formulario de registro. Tras crear la cuenta, se le presentan los planes de suscripción. Al elegir uno (happy path), se habilita el acceso a todas las funciones de la plataforma. Un flujo alternativo contempla que el usuario cierre el proceso antes de seleccionar un plan (unhappy path).
+
+<img src="resources/CAPITULO6/UserFlows/UserFlow3.png">
+
+User Goal 4: Validar el análisis de una hoja
+Explicación del flujo:
+El usuario accede al módulo de análisis visual. Luego de que el sistema detecta una anomalía, el usuario puede confirmar o corregir el diagnóstico. Si lo valida (happy path), se registra una alerta exitosa. En caso contrario, el sistema permite enviar una corrección (unhappy path).
+
+<img src="resources/CAPITULO6/UserFlows/UserFlow4.png">
+
+User Goal 5: Ejecutar riego manual
+Explicación del flujo:
+Desde el panel de riego, el usuario selecciona el modo manual y escoge un cultivo. Al hacer clic en “Regar” (happy path), el sistema ejecuta la acción y muestra una notificación de éxito. Si no se elige ningún cultivo o falla la conexión, se muestra un mensaje de error (unhappy path).
+
+<img src="resources/CAPITULO6/UserFlows/UserFlow5.png">
+
+User Goal 6: Exportar historial de reportes
+Explicación del flujo:
+El usuario accede al historial, filtra los eventos y pulsa “Exportar datos”. Si la acción se ejecuta correctamente (happy path), se muestra un mensaje confirmando la exportación. En caso de error o falta de conexión (unhappy path), se notifica al usuario que no se pudo generar el archivo.
+
+<img src="resources/CAPITULO6/UserFlows/UserFlow6.png">
 
 <div id='6.5'><h3>6.5. Applications Prototyping</h3></div>
 
