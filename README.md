@@ -1293,7 +1293,7 @@ Este bounded context se encarga de capturar imágenes de los cultivos, analizarl
       
 <div id="5.1.6"><h4>5.1.6 Bounded Context Software Architecture Component Level Diagrams</h4></div>
 
-
+[![image.png](https://i.postimg.cc/pT9jmsMY/image.png)](https://postimg.cc/mzskqNDt)
 
 <div id="5.1.7"><h4>5.1.7 Bounded Context Software Architecture Code Level Diagrams</h4></div>
 
