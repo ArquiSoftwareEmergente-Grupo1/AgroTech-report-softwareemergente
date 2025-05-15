@@ -2077,6 +2077,8 @@ El usuario accede al historial, filtra los eventos y pulsa “Exportar datos”.
 
 <img src="resources/CAPITULO6/UserFlows/UserFlow6.png">
 
+URL Miro: [Link Miro](https://miro.com/app/board/uXjVI_sIm0o=/?share_link_id=128411326592)
+
 <div id='6.5'><h3>6.5. Applications Prototyping</h3></div>
 
 **Prototipo Navegable**  
