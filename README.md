@@ -1855,7 +1855,7 @@ Entre los aspectos destacados del diseño visual se encuentran:
 
 Este mock-up muestra el producto en una etapa avanzada de diseño, listo para ser validado con usuarios y posteriormente implementado en entorno web.
 
-<img src="resources/CAPITULO6/Landing-Page-Mock-up.pang">
+<img src="resources/CAPITULO6/Landing-Page-Mock-up.png">
 
 <div id='6.4'><h3>6.4. Applications UX/UI Design</h3></div>
 <div id='6.4.1'><h4>6.4.1. Applications Wireframes</h4></div>
