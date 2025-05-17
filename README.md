@@ -21,17 +21,17 @@
 ## Registro de versiones del informe
 |   Fecha    | Versión |      Autor      |                                 Descripción de modificación                                 |
 |:----------:|:-------:|:---------------:|:-------------------------------------------------------------------------------------------:|
-| 06/04/2025 | 1.0     |  Guillen Paolo  | Creación del documento de trabajo en formato markdown junto al realizamiento de la carátula y capítulo 1 |
-| 06/04/2025 | 1.1     | Yauri Paucar, Elias  | Registro de las entrevistas de cada segmento objetivo y análisis de entrevistas respectivos |
-| 18/04/2025 | 1.2     | Rengifo Murabal, Randy Becker  | Mejoras relacionados a los escenarios as-is y to-be  |
-| 22/04/2025 | 1.3     |  Guillen, Paolo; Adriano Cruz; Randy Rengifo; Yauri, Elias | Desarrollo conjunto del event storming así como desarrollo del capítulo cuatro desarrollando los diagramas C4 relacionado a nuestra solución TomateRitmo |
-| 22/04/2025 | 1.4     |  | Desarrollo conjunto del event storming así como desarrollo del capítulo cuatro desarrollando los diagramas C4 relacionado a nuestra solución TomateRitmo |
-| 22/04/2025 | 1.5     |   | Desarrollo conjunto del event storming así como desarrollo del capítulo cuatro desarrollando los diagramas C4 relacionado a nuestra solución TomateRitmo |
-| 22/04/2025 | 1.6     |  r | Desarrollo conjunto del event storming así como desarrollo del capítulo cuatro desarrollando los diagramas C4 relacionado a nuestra solución TomateRitmo |
-| 22/04/2025 | 1.7     |  | Desarrollo conjunto del event storming así como desarrollo del capítulo cuatro desarrollando los diagramas C4 relacionado a nuestra solución TomateRitmo |
-| 22/04/2025 | 1.8     | | Desarrollo conjunto del event storming así como desarrollo del capítulo cuatro desarrollando los diagramas C4 relacionado a nuestra solución TomateRitmo |
-| 22/04/2025 | 1.9     | | Desarrollo conjunto del event storming así como desarrollo del capítulo cuatro desarrollando los diagramas C4 relacionado a nuestra solución TomateRitmo |
-| 22/04/2025 | 2.0     |   | Desarrollo conjunto del event storming así como desarrollo del capítulo cuatro desarrollando los diagramas C4 relacionado a nuestra solución TomateRitmo |
+| 06/04/2025 | 1.0     |  Guillen, Paolo  | Creación del documento de trabajo en formato markdown junto al realizamiento de la carátula y capítulo 1 |
+| 06/04/2025 | 1.1     | Yauri , Elias  | Registro de las entrevistas de cada segmento objetivo y análisis de entrevistas respectivos |
+| 18/04/2025 | 1.2     | Rengifo , Randy   | Mejoras relacionados a los escenarios as-is y to-be  |
+| 22/04/2025 | 1.3     |  Guillen, Paolo; Cruz, Adriano;  Rengifo, Daniel ; Yauri, Elias | Desarrollo conjunto del event storming así como desarrollo del capítulo cuatro desarrollando los diagramas C4 relacionado a nuestra solución TomateRitmo |
+| 28/04/2025 | 1.4     |   Guillen, Paolo | Desarrollo de bounded context de gestión de cultivos y agricultores |
+| 30/04/2025 | 1.5     |  Cruz, Adriano;  Rengifo, Daniel ; Yauri, Elias   | Desarrollo de bounded context de anomalías, monitoreo IoT y riego inteligente |
+| 01/05/2025 | 1.6     |  Guillen, Paolo; Cruz, Adriano;  Rengifo, Daniel ; Yauri, Elias  | Desarrollo de documentación restante relacionado a las capas de nuestros bounded context (application layer, infrastructure layer) |
+| 05/04/2025 | 1.7     |  Guillen, Paolo; Cruz, Adriano;  Rengifo, Daniel ; Yauri, Elias  | Mejoras descriptivas de imágenes del LeanUXCanvas|
+| 08/04/2025 | 1.8     | Cruz, Adriano | Desarrollo de mockups de la landing page de TomateRitmo |
+| 09/04/2025 | 1.9     | Cruz, Adriano; Yauri, Elias | Desarrollo final relacionado a los diseños de la aplicación web en la aplicación de Figma |
+| 15/04/2025 | 2.0     | Guillen, Paolo; Cruz, Adriano;  Rengifo, Daniel ; Yauri, Elias   | Correcciones finales relacionados a enlaces, descripción de imagenes y formato del reporte |
 
 
 ## Project Report Collaboration Insights
@@ -40,6 +40,12 @@
 <img src="resources/tb1Insights.png"/>
 
 Insights proporcioonado por github en lo trabajado hasta la fecha del primer entregable
+
+
+**TP**
+<img src="resources/tpInsights.png"/>
+
+Insights proporcioonado por github en lo trabajado hasta la fecha del entregable parcial
 
 URL del repositorio del proyecto: [https://github.com/ArquiSoftwareEmergente-Grupo1]
 
@@ -368,7 +374,7 @@ El Lean UX Canvas es una herramienta que se utiliza en el campo del diseño cent
 
 <img src="resources/leanUXcanvasTomateRitmo.png"/>
 
-
+Este Lean UX Canvas permite visualizar los supuestos clave, las necesidades del usuario y las funcionalidades propuestas para el proyecto TomateRitmo, facilitando la alineación del equipo y la validación temprana de ideas.
 
 <div id='1.3.'><h3> 1.3. Segmento Objetivo</h3></div>
 
@@ -643,17 +649,18 @@ Las principales diferencias están en la complejidad de las decisiones:
 
  **Agricultores experimentados**
 <img src="resources/CAPITULO2/JuanRamirezEmpathyMap.png">
-
+Mapa de empatía que refleja los pensamientos, emociones y necesidades de un agricultor experimentado, con el fin de comprender mejor su experiencia y expectativas en el manejo de cultivos.
  **Autocultivadores**
 <img src="resources/CAPITULO2/SofiaEmpathyMap.png">
-
+Mapa de empatía que describe el perfil de un autocultivador, enfocándose en sus motivaciones, frustraciones y comportamientos al utilizar tecnología agrícola.
 <div id='2.3.5.'><h4> 2.3.5. As-is Scenario Mapping</h4></div>
 
  **Agricultores experimentados**
 <img src="resources/CAPITULO2/ExperimentadoASISS.jpg">
-
+Escenario actual que ilustra cómo un agricultor experimentado gestiona sus cultivos sin apoyo tecnológico, identificando puntos de dolor y oportunidades de mejora.
  **Autocultivadores**
 <img src="resources/CAPITULO2/AutoCultivadorASIS.jpg">
+Representación del flujo de actividades de un autocultivador en su estado actual, destacando los retos que enfrenta y las oportunidades para introducir soluciones digitales.
 
 <div id='2.4.'><h3> 2.4 Ubiquitous Language</h3></div>
 
@@ -1038,13 +1045,13 @@ A continuación, se muestran capturas del EventStorm en sus distintas fases, que
 Step 1 - Collect Domain Events
 
 <img src = "resources/EventStorming.png">
-
+Primera fase del Event Storming donde se recopilan todos los eventos de dominio relevantes relacionados con la gestión de cultivos, permitiendo visualizar el flujo general del sistema.
 Step 2 - Refine Domain Events
 <img src = "resources/EventStorming2.png">
-
+Refinamiento de los eventos de dominio identificados, agrupándolos y ajustando su granularidad para mejorar la comprensión del comportamiento del sistema.
 Step 3 - Track causes
 <img src = "resources/EventStorming3.png">
-
+Identificación de los comandos, agregados y actores que causan los eventos, facilitando el diseño de la lógica del dominio.
 <img src = "resources/EventStorming4.png">
  
 Link Miro: https://miro.com/welcomeonboard/NDlrcmFyU2hNdVBFUFJvL1pCNG12MDFGSXk4d3ArY3N5a2FrRU5vZmRVcHJJMG53WkltK3hDRC9nWTNmOGRxQUdlQThRUnQ0VlNBT0JybXBJUHpxdjhxR08vcXFoR1FJeE55MHluODNXWFdYamduajFCeXZpZkpWY1kyQUdxZGdnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=924911885159
