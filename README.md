@@ -1664,7 +1664,7 @@ Esta capa proporciona las implementaciones concretas de las abstracciones defini
       
 <div id="5.5.6"><h4>5.5.6 Bounded Context Software Architecture Component Level Diagrams</h4></div>
 
-<img src="resources/CAPITULO5/<img src="resources/CAPITULO5/GestionDeAgricultoresBC.png">">
+<img src="resources/CAPITULO5/GestionDeAgricultoresBC.png">
 
 <div id="5.5.7"><h4>5.5.7 Bounded Context Software Architecture Code Level Diagrams</h4></div>
 
@@ -1672,7 +1672,7 @@ Esta sección profundiza en la implementación de los componentes del bounded co
 
 <div id="5.5.7.1"><h5>5.5.7.1 Bounded Context Domain Layer Class Diagrams</h5></div>
 
-<img src="resources/CAPITULO5/<img src="resources/CAPITULO5/2.png">">
+<img src="resources/CAPITULO5/2.png">
 
 <div id="5.5.7.2"><h5>5.5.7.2 Bounded Context Database Design Diagram</h5></div>
 
