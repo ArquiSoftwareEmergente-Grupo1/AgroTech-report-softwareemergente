@@ -1228,6 +1228,7 @@ Este bounded context se encarga de capturar imágenes de los cultivos, analizarl
 **Eventos clave:** Anomalía detectada en cultivo, Notificación enviada al agricultor.
 
 <div id="5.1.1"><h4>5.1.1 Domain Layer</h4></div>
+La capa de dominio para el Análisis de Imágenes y Anomalías se centra en la lógica de negocio pura relacionada con la detección de problemas en los cultivos a través del procesamiento de imágenes. Aquí se definen las entidades clave como `AnomaliaDetectada` y `ConfiguracionAnalisis`, junto con el Value Object `ResultadoAnalisis`. Los Domain Services, como `ServicioAnalisisImagenes`, encapsulan los algoritmos y la lógica para analizar las imágenes y determinar si existen anomalías relevantes, abstrayéndose de los detalles de implementación de la inteligencia artificial o el almacenamiento de imágenes.
 
 **Entidades (Entities)**
 * AnomaliaDetectada
@@ -1256,6 +1257,7 @@ Este bounded context se encarga de capturar imágenes de los cultivos, analizarl
     * DetectarAnomalia(resultado: ResultadoAnalisis) → AnomaliaDetectada
 
 <div id="5.1.2"><h4>5.1.2 Interface Layer</h4></div>
+Esta capa actúa como intermediaria entre el mundo exterior (como la recepción de nuevas imágenes) y la lógica de análisis del dominio. Los Command Handlers (`ProcesarImagenCommandHandler` y `NotificarAnomaliaCommandHandler`) reciben órdenes para iniciar el análisis de una imagen o para disparar una notificación cuando se detecta una anomalía. El Event Handler `NuevaImagenRecibidaHandler` reacciona a la llegada de nuevas imágenes, ya sea desde dispositivos IoT o la aplicación móvil, y desencadena el proceso de análisis en la capa de dominio.
 
 **Command Handlers**
 * ProcesarImagenCommandHandler
@@ -1271,8 +1273,9 @@ Este bounded context se encarga de capturar imágenes de los cultivos, analizarl
 * AnalisisService
     * ProcesarImagenSubida(dto: ImagenDTO)
     * EnviarNotificacion(anomalia: AnomaliaDetectada)
-      
+
 <div id="5.1.3"><h4>5.1.3 Application Layer</h4></div>
+La capa de aplicación orquesta los servicios del dominio para implementar casos de uso específicos. El `AnalisisService` define las operaciones de alto nivel, como procesar una imagen subida por un usuario o enviar una notificación cuando se detecta una anomalía. La API y los Webhooks proporcionan los puntos de entrada para interactuar con estas funcionalidades, permitiendo tanto la carga directa de imágenes para análisis como la recepción automática de imágenes desde otros sistemas.
 
 **API**
 * POST /api/analisis/imagen
@@ -1282,6 +1285,7 @@ Este bounded context se encarga de capturar imágenes de los cultivos, analizarl
 * POST /webhook/nueva-imagen: Para recibir imágenes desde dispositivos o la app.
 
 <div id="5.1.4"><h4>5.1.4 Infrastructure Layer</h4></div>
+En la capa de infraestructura se encuentran las implementaciones concretas de las abstracciones definidas en las capas superiores. El `AnomaliaRepository` se encarga de la persistencia de las anomalías detectadas. Los Adaptadores actúan como puentes hacia servicios externos: `AnalizadorModeloML` se comunica con el modelo de inteligencia artificial entrenado para realizar la clasificación de imágenes, y `AlmacenamientoImagenes` gestiona el almacenamiento y la recuperación de las imágenes. Finalmente, el `ServicioNotificaciones` implementa la lógica para enviar alertas a los agricultores a través de diferentes canales.
 
 **Repositorios**
 * AnomaliaRepository
@@ -1302,6 +1306,8 @@ Este bounded context se encarga de capturar imágenes de los cultivos, analizarl
 
 [![image.png](https://i.postimg.cc/pT9jmsMY/image.png)](https://postimg.cc/mzskqNDt)
 
+**Diagrama de componente de bounded context de análisis de imágenes y anomalías**
+
 <div id="5.1.7"><h4>5.1.7 Bounded Context Software Architecture Code Level Diagrams</h4></div>
 
 Esta sección profundiza en la implementación de los componentes del bounded context de Análisis de Imágenes y Anomalías, presentando diagramas que muestran la estructura de clases y el diseño de la base de datos respectivo a este bounded context.
@@ -1310,17 +1316,21 @@ Esta sección profundiza en la implementación de los componentes del bounded co
 
 [![class-diagram.png](https://i.postimg.cc/KY97kGfX/class-diagram.png)](https://postimg.cc/TyD5BXBQ)
 
+**Diagrama de clases relacionado al bounded context Análisis de imágenes y anomalías que estariamos tomando en cuenta para TomateRitmo**
+
 <div id="5.1.7.2"><h5>5.1.7.2 Bounded Context Database Design Diagram</h5></div>
 
 **Diagrama completo de nuestro sistema (por ahora bd relacional) donde se ven las tablas principales con las que se trabajaran**
 
 <img src = "resources/tomateRitmoDatabaseFinalDiagram.png">
 
+**Sección de la BD relacionada al Bounded context actual**
 
 <div id="5.2"><h3>5.2 Bounded Context: Monitoreo y Sensores IoT</h3></div>
 Este bounded context se encarga de iniciar y controlar el monitoreo de los cultivos mediante sensores ambientales IoT. Integra dispositivos físicos, recopila datos como humedad y temperatura, y los transmite al sistema para su visualización y análisis. Es clave para la detección temprana de condiciones críticas y el funcionamiento del riego automático.
 
 <div id="5.2.1"><h4>5.2.1 Domain Layer</h4></div>
+Dentro de la capa de dominio del Monitoreo y Sensores IoT, se define la esencia del sistema de recopilación y análisis de datos ambientales. Aquí se modelan las entidades fundamentales como los Sensores Ambientales y las Lecturas Ambientales, junto con los Value Objects que representan rangos críticos para las mediciones. Los Domain Services encapsulan la lógica de negocio para procesar las lecturas recibidas y detectar si alguna condición ambiental se encuentra fuera de los parámetros seguros, activando posibles alertas o acciones en otros bounded contexts.
 
 **Entidades (Entities)**
 * SensorAmbiental
@@ -1345,8 +1355,9 @@ Este bounded context se encarga de iniciar y controlar el monitoreo de los culti
 * ServicioMonitoreo
     * ProcesarLectura(sensorId, valor)
     * DetectarCondicionesCriticas()
-      
+
 <div id="5.2.2"><h4>5.2.2 Interface Layer</h4></div>
+La capa de interfaz para el Monitoreo y Sensores IoT actúa como un puente entre el mundo exterior (principalmente los dispositivos IoT) y el corazón del sistema. El Event Handler `SensorDataReceivedHandler` es el encargado de recibir y procesar los datos brutos provenientes de los sensores. Los Application Services exponen las funcionalidades clave de este bounded context, como guardar las lecturas recibidas y evaluar si las condiciones actuales ameritan alguna acción. Los DTOs facilitan la transferencia de datos entre capas, asegurando que la información se maneje de manera eficiente.
 
 **Event Handlers**
 * SensorDataReceivedHandler
@@ -1362,8 +1373,9 @@ Este bounded context se encarga de iniciar y controlar el monitoreo de los culti
     * sensorId
     * valor
     * fechaHora
-  
+
 <div id="5.2.3"><h4>5.2.3 Application Layer</h4></div>
+La capa de aplicación del Monitoreo y Sensores IoT define cómo se exponen las funcionalidades del dominio a través de diferentes canales. La API proporciona puntos de entrada para que otros sistemas o interfaces de usuario consulten el estado de los sensores o envíen nuevas lecturas. Los Webhooks actúan como receptores de eventos, permitiendo que los dispositivos IoT envíen datos de manera asíncrona al sistema para su procesamiento.
 
 **API**
 * POST /api/sensores/lecturas
@@ -1371,8 +1383,9 @@ Este bounded context se encarga de iniciar y controlar el monitoreo de los culti
 
 **Webhooks**
 * POST /webhook/sensor-dato: recibe lectura de sensor IoT.
-  
+
 <div id="5.2.4"><h4>5.2.4 Infrastructure Layer</h4></div>
+En la capa de infraestructura del Monitoreo y Sensores IoT se encuentran las implementaciones concretas necesarias para interactuar con el mundo exterior y persistir los datos. Los Repositorios se encargan de almacenar las lecturas de los sensores y el estado de los dispositivos. Los Adaptadores juegan un papel crucial al traducir los protocolos de comunicación utilizados por los dispositivos IoT (como MQTT o HTTP) a un formato que el sistema pueda entender. El `AlmacenamientoLocalAdapter` proporciona una capa de resiliencia al guardar temporalmente las lecturas en caso de problemas de conexión. Finalmente, el `MonitorLogger` registra la actividad del sistema para facilitar el diagnóstico y seguimiento.
 
 **Repositorios**
 * SensorRepository
@@ -1406,6 +1419,7 @@ Este bounded context se encarga de activar o desactivar el sistema de riego de f
 **Eventos clave:** Necesidad de riego registrada, Sistema de riego activado.
 
 <div id="5.3.1"><h4>5.3.1 Domain Layer</h4></div>
+La capa de dominio para el Sistema de Riego Inteligente alberga la lógica central y las reglas de negocio que determinan cuándo y cómo se debe activar el riego. Aquí se definen las entidades clave como el propio Riego y las Reglas de Riego, junto con los Value Objects que representan las condiciones ambientales. Los Domain Services encapsulan la lógica compleja para evaluar las condiciones y tomar decisiones sobre el riego, formando el corazón inteligente del sistema.
 
 **Entidades (Entities)**
 * Riego
@@ -1434,6 +1448,7 @@ Este bounded context se encarga de activar o desactivar el sistema de riego de f
     * ProgramarRiegoManual(zona, duracion)
 
 <div id="5.3.2"><h4>5.3.2 Interface Layer</h4></div>
+Esta capa sirve como punto de interacción para activar o supervisar el sistema de riego. Los Command Handlers reciben las órdenes para iniciar o detener el riego, ya sea de forma manual a través de una interfaz de usuario o automáticamente desencadenado por otros sistemas. Los Event Handlers, por otro lado, reaccionan a eventos importantes dentro del dominio, como la detección de bajos niveles de humedad, y pueden desencadenar acciones como iniciar el riego.
 
 **Command Handlers**
 * ActivarRiegoCommandHandler
@@ -1444,8 +1459,9 @@ Este bounded context se encarga de activar o desactivar el sistema de riego de f
 **Event Handlers**
 * BajaHumedadDetectadaHandler
     * Reacciona ante condiciones críticas y lanza comandos de riego.
-      
+
 <div id="5.3.3"><h4>5.3.3 Application Layer</h4></div>
+La capa de aplicación orquesta los servicios del dominio para exponer funcionalidades específicas a los usuarios o a otros sistemas. El RiegoService define los casos de uso principales, como iniciar un riego manual o revisar las condiciones ambientales para la activación automática. La API y los Webhooks proporcionan los puntos de entrada para interactuar con estas funcionalidades, permitiendo tanto el control directo como la integración con otros componentes del sistema.
 
 **Application Services**
 * RiegoService
@@ -1458,8 +1474,9 @@ Este bounded context se encarga de activar o desactivar el sistema de riego de f
 
 **Webhooks**
 * POST /webhook/activar-riego: activación automática desde monitoreo.
-  
+
 <div id="5.3.4"><h4>5.3.4 Infrastructure Layer</h4></div>
+En la capa de infraestructura se encuentran las implementaciones concretas que hacen posible el funcionamiento del sistema de riego. Los Repositorios se encargan de la persistencia del estado del riego. Los Adaptadores actúan como puentes hacia el mundo exterior, interactuando con el hardware de riego para ejecutar las acciones físicas y consultando los sensores para obtener las condiciones ambientales actuales. Finalmente, los Loggers registran la actividad del sistema para su seguimiento y diagnóstico.
 
 **Repositorios**
 * RiegoRepository
@@ -1474,6 +1491,7 @@ Este bounded context se encarga de activar o desactivar el sistema de riego de f
 **Otros**
 * RiegoLogger
     * Guarda eventos de activación/desactivación de riego.
+      
 
 <div id="5.3.6"><h4>5.3.6 Bounded Context Software Architecture Component Level Diagrams</h4></div>
 
@@ -1494,6 +1512,7 @@ Esta sección profundiza en la implementación de los componentes del bounded co
 Este bounded context está relacionado con la administración de cultivos individuales, su historial y control manual del riego. Aquí se centraliza toda la actividad operativa asociada al manejo de un cultivo.
 
 <div id="5.4.1"><h4>5.4.1 Domain Layer</h4></div>
+En esta capa se encuentra la definición central de lo que significa un cultivo dentro de nuestro sistema. Aquí se modelan las reglas de negocio más importantes, las entidades que representan los conceptos clave y los eventos que ocurren en el ciclo de vida de un cultivo. Es donde se establece el "lenguaje ubicuo" del dominio, asegurando que todos los involucrados entiendan los términos y procesos de la misma manera.
 
 **Entidades (Entities)**
 * Cultivo
@@ -1520,8 +1539,9 @@ Este bounded context está relacionado con la administración de cultivos indivi
 * ServicioCultivo
     * AplicarRiego(cultivoId: GUID)
     * AgregarEventoHistorial(cultivoId, evento)
-      
+
 <div id="5.4.2"><h4>5.4.2 Interface Layer</h4></div>
+Esta capa actúa como la puerta de entrada a las funcionalidades del contexto de Gestión de Cultivos. Su propósito principal es facilitar la comunicación entre el sistema y el mundo exterior, ya sea a través de interfaces de usuario, APIs para otras aplicaciones o la recepción de eventos. Los Command Handlers procesan las solicitudes de acciones, mientras que los Query Handlers se encargan de obtener información.
 
 **Command Handlers**
 * RegistrarCultivoCommandHandler
@@ -1536,15 +1556,16 @@ Este bounded context está relacionado con la administración de cultivos indivi
     * AplicarRiego(id)
     * VerHistorial(id)
 
-
 <div id="5.4.3"><h4>5.4.3 Application Layer</h4></div>
+La capa de aplicación es la responsable de orquestar las operaciones del dominio para ejecutar los casos de uso de la aplicación. No contiene lógica de negocio intrínseca, sino que coordina las entidades, servicios de dominio y repositorios para lograr tareas específicas del usuario. Aquí se definen los flujos de trabajo de alto nivel y se exponen las funcionalidades principales a través de una API.
 
 **API**
 * POST /api/cultivos
 * PUT /api/cultivos/{id}/riego
 * GET /api/cultivos/{id}/historial
-  
+
 <div id="5.4.4"><h4>5.4.4 Infrastructure Layer</h4></div>
+En esta capa se encuentran las implementaciones concretas de las abstracciones definidas en las capas superiores. Es la encargada de manejar los detalles técnicos como la persistencia de datos, la comunicación con servicios externos y el registro de eventos. Aquí se decide cómo se almacenan los cultivos, cómo se envían las notificaciones o cómo se registran las acciones, sin que las capas de dominio o aplicación necesiten conocer estos detalles.
 
 **Repositorios**
 * CultivoRepository
@@ -1557,7 +1578,7 @@ Este bounded context está relacionado con la administración de cultivos indivi
 * LoggerRiego: Guarda logs de riegos aplicados
   
 <div id="5.4.6"><h4>5.4.6 Bounded Context Software Architecture Component Level Diagrams</h4></div>
-<img src="resources/CAPITULO5/GestionCultivos_ComponentDiagram.png">
+<img src="resources/CAPITULO5/GestionDeCultivosBC.png">
 
 <div id="5.4.7"><h4>5.4.7 Bounded Context Software Architecture Code Level Diagrams</h4></div>
 
@@ -1565,7 +1586,7 @@ Esta sección profundiza en la implementación de los componentes del bounded co
 
 <div id="5.4.7.1"><h5>5.4.7.1 Bounded Context Domain Layer Class Diagrams</h5></div>
 
-<img src="resources/CAPITULO5/GestionCultivos_DomainDiagram.png">
+<img src="resources/CAPITULO5/1.png">
 
 <div id="5.4.7.2"><h5>5.4.7.2 Bounded Context Database Design Diagram</h5></div>
 
@@ -1575,6 +1596,7 @@ Esta sección profundiza en la implementación de los componentes del bounded co
 Este bounded context se encarga de registrar y administrar la identidad de los agricultores, manteniendo información personal, zonas de cultivo asignadas y preferencias de notificación. Es esencial para personalizar la experiencia y asociar acciones o eventos a un usuario responsable.
 
 <div id="5.5.1"><h4>5.5.1 Domain Layer</h4></div>
+En esta capa se define el corazón del negocio, con las reglas, entidades y lógica principal relacionadas con los agricultores.
 
 **Entidades (Entities)**
 * Agricultor
@@ -1601,8 +1623,7 @@ Este bounded context se encarga de registrar y administrar la identidad de los a
     * RegistrarAgricultor(dto: DatosAgricultor): Agricultor
 
 <div id="5.5.2"><h4>5.5.2 Interface Layer</h4></div>
-
-Permite la interacción entre el sistema y el agricultor mediante formularios de registro y configuración de alertas.
+Esta capa se encarga de la interacción con el usuario o con otros sistemas, presentando la funcionalidad del dominio.
 
 **Command Handlers**
 * RegistrarAgricultorCommandHandler
@@ -1611,8 +1632,9 @@ Permite la interacción entre el sistema y el agricultor mediante formularios de
 **Event Handlers**
 * NotificarRegistroHandler
     * Envia confirmación al agricultor tras su registro.
-  
+
 <div id="5.5.3"><h4>5.5.3 Application Layer</h4></div>
+Aquí se orquestan las operaciones del dominio para cumplir casos de uso específicos de la aplicación.
 
 **Application Services**
 * AgricultorService
@@ -1626,6 +1648,7 @@ Permite la interacción entre el sistema y el agricultor mediante formularios de
 * GET /api/agricultores
 
 <div id="5.5.4"><h4>5.5.4 Infrastructure Layer</h4></div>
+Esta capa proporciona las implementaciones concretas de las abstracciones definidas en capas superiores, como el acceso a bases de datos o servicios externos.
 
 **Repositorios**
 * AgricultorRepository
@@ -1638,10 +1661,10 @@ Permite la interacción entre el sistema y el agricultor mediante formularios de
 **Persistencia**
 * SQLAgricultorStore
     * Implementación de IAgricultorRepository
-  
+      
 <div id="5.5.6"><h4>5.5.6 Bounded Context Software Architecture Component Level Diagrams</h4></div>
 
-<img src="resources/CAPITULO5/GestionAgricultores_ComponentDiagram.png">
+<img src="resources/CAPITULO5/<img src="resources/CAPITULO5/GestionDeAgricultoresBC.png">">
 
 <div id="5.5.7"><h4>5.5.7 Bounded Context Software Architecture Code Level Diagrams</h4></div>
 
@@ -1649,7 +1672,7 @@ Esta sección profundiza en la implementación de los componentes del bounded co
 
 <div id="5.5.7.1"><h5>5.5.7.1 Bounded Context Domain Layer Class Diagrams</h5></div>
 
-<img src="resources/CAPITULO5/GestionAgricultores_DomainDiagram.png">
+<img src="resources/CAPITULO5/<img src="resources/CAPITULO5/2.png">">
 
 <div id="5.5.7.2"><h5>5.5.7.2 Bounded Context Database Design Diagram</h5></div>
 
