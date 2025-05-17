@@ -1332,6 +1332,7 @@ Esta sección profundiza en la implementación de los componentes del bounded co
 <img src = "resources/tomateRitmoDatabaseFinalDiagram.png">
 
 **Sección de la BD relacionada al Bounded context actual**
+<img src = "resources/CAPITULO5/diagramBC/1.png">
 
 <div id="5.2"><h3>5.2 Bounded Context: Monitoreo y Sensores IoT</h3></div>
 Este bounded context se encarga de iniciar y controlar el monitoreo de los cultivos mediante sensores ambientales IoT. Integra dispositivos físicos, recopila datos como humedad y temperatura, y los transmite al sistema para su visualización y análisis. Es clave para la detección temprana de condiciones críticas y el funcionamiento del riego automático.
@@ -1418,7 +1419,9 @@ En la capa de infraestructura del Monitoreo y Sensores IoT se encuentran las imp
 <img src="resources/CAPITULO5/monitoreoclass.png">
 
 <div id="5.2.7.2"><h5>5.2.7.2 Bounded Context Database Design Diagram</h5></div>
-<img src="resources/CAPITULO5/MonitoresSensoresIoT_DatabaseDiagram.png">
+
+**Sección de la BD relacionada al Bounded context actual**
+<img src = "resources/CAPITULO5/diagramBC/2.png">
 
 <div id="5.3"><h3>5.3 Bounded Context: Sistema de Riego Inteligente </h3></div>
 Este bounded context se encarga de activar o desactivar el sistema de riego de forma automática o manual, en función de los niveles de humedad del suelo u otras condiciones ambientales. Integra sensores, reglas de disparo y control de dispositivos físicos de riego.
@@ -1512,8 +1515,9 @@ Esta sección profundiza en la implementación de los componentes del bounded co
 <img src="resources/CAPITULO5/riegoclass.png">
 
 <div id="5.3.7.2"><h5>5.3.7.2 Bounded Context Database Design Diagram</h5></div>
-<img src="resources/CAPITULO5/SistemaRiego_DatabaseDiagram.png">
 
+**Sección de la BD relacionada al Bounded context actual**
+<img src = "resources/CAPITULO5/diagramBC/3.png">
 
 <div id="5.4"><h3>5.4 Bounded Context: Gestión de Cultivos </h3></div>
 Este bounded context está relacionado con la administración de cultivos individuales, su historial y control manual del riego. Aquí se centraliza toda la actividad operativa asociada al manejo de un cultivo.
@@ -1597,7 +1601,8 @@ Esta sección profundiza en la implementación de los componentes del bounded co
 
 <div id="5.4.7.2"><h5>5.4.7.2 Bounded Context Database Design Diagram</h5></div>
 
-<img src="resources/CAPITULO5/GestionCultivos_DatabaseDiagram.png">
+**Sección de la BD relacionada al Bounded context actual**
+<img src = "resources/CAPITULO5/diagramBC/4.png">
 
 <div id="5.5"><h3>5.5 Bounded Context: Gestión de Agricultores </h3></div>
 Este bounded context se encarga de registrar y administrar la identidad de los agricultores, manteniendo información personal, zonas de cultivo asignadas y preferencias de notificación. Es esencial para personalizar la experiencia y asociar acciones o eventos a un usuario responsable.
@@ -1683,8 +1688,8 @@ Esta sección profundiza en la implementación de los componentes del bounded co
 
 <div id="5.5.7.2"><h5>5.5.7.2 Bounded Context Database Design Diagram</h5></div>
 
-<img src="resources/CAPITULO5/GestionAgricultores_DatabaseDiagram.png">
-
+**Sección de la BD relacionada al Bounded context actual**
+<img src = "resources/CAPITULO5/diagramBC/5.png">
 
 <div id='6.'><h2>Capítulo VI: Solution UX Design</h2></div>
 
