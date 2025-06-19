@@ -2367,14 +2367,40 @@ Durante el Sprint 1, los siguientes commits fueron realizados en los repositorio
 
 
 <div id='7.2.1.4.'><h4>7.2.1.4. Testing Suite Evidence for Sprint Review</h4></div>
+
+Durante el Sprint 1, el equipo implementó una **suite de pruebas automatizadas de aceptación** (Acceptance Testing) utilizando el enfoque **BDD (Behavior Driven Development)** con el lenguaje **Gherkin**. Estas pruebas están directamente alineadas con las principales **User Stories** priorizadas del Epic 01 (detección visual) y del Epic 04 (visualización de parámetros en tiempo real).
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on (Date) |
+|------------|--------|-----------|----------------|----------------------|----------------------|
+| ArquiSoftwareEmergente-Grupo1/AgroTech-report-softwareemergente | features testing suite | d9ef2db | feat: add gherkin test for user story 13 | - | 19/06/2025 |
+| ArquiSoftwareEmergente-Grupo1/AgroTech-report-softwareemergente | features testing suite | c960e8e | feat: add gherkin test for user story 9  | - | 19/06/2025 |
+| ArquiSoftwareEmergente-Grupo1/AgroTech-report-softwareemergente | features testing suite | 9ef0b2d | feat: add gherkin test for user story 5  | - | 19/06/2025 |
+| ArquiSoftwareEmergente-Grupo1/AgroTech-report-softwareemergente | features testing suite | acfcb23 | feat: add gherkin test for user story 3  | - | 19/06/2025 |
+| ArquiSoftwareEmergente-Grupo1/AgroTech-report-softwareemergente | features testing suite | 08c626a | feat: add gherkin test for user story 2  | - | 19/06/2025 |
+| ArquiSoftwareEmergente-Grupo1/AgroTech-report-softwareemergente | features testing suite | 1a8fd19 | feat: add gherkin test for user story 1  | - | 19/06/2025 |
+
 <div id='7.2.1.5.'><h4>7.2.1.5. Execution Evidence for Sprint Review</h4></div>
+
+
 <div id='7.2.1.6.'><h4>7.2.1.6. Services Documentation Evidence for Sprint Review</h4></div>
+
+
+
 <div id='7.2.1.7.'><h4>7.2.1.7. Software Deployment Evidence for Sprint Review</h4></div>
+
+
+
 <div id='7.2.1.8.'><h4>7.2.1.8. Team Collaboration Insights during Sprint</h4></div>
 
+
+
+
 <div id='7.3.'><h3>7.3. Validation Interviews</h3></div>
+
 <div id='7.3.1.'><h4>7.3.1. Diseño de Entrevistas</h4></div>
+
 <div id='7.3.2.'><h4>7.3.2. Registro de Entrevistas</h4></div>
+
 <div id='7.3.3.'><h4>7.3.3. Evaluaciones según heurísticas</h4></div>
 
 <div id='7.4.'><h3>7.4. Video About-the-Product</h3></div>
