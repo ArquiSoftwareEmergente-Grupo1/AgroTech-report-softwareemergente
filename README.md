@@ -169,8 +169,30 @@ URL del repositorio del proyecto: [https://github.com/ArquiSoftwareEmergente-Gru
 6.4.4. [Applications User Flow Diagrams](#6.4.4)<br>
 6.5. [Applications Prototyping](#6.5)<br>
 
-
 7. [**Capítulo VII: Product Implementation, Validation & Deployment**](#7.)<br>
+7.1. [Software Configuration Management](#7.1.)<br>
+7.1.1. [Software Development Environment Configuration](#7.1.1.)<br>
+7.1.2. [Source Code Management](#7.1.2.)<br>
+7.1.3. [Source Code Style Guide & Conventions](#7.1.3.)<br>
+7.1.4. [Software Deployment Configuration](#7.1.4.)<br>
+7.2. [Solution Implementation](#7.2.)<br>
+7.2.1. [Sprint 1](#7.2.1.)<br>
+7.2.1.1. [Sprint Planning 1](#7.2.1.1.)<br>
+7.2.1.2. [Sprint Backlog 1](#7.2.1.2.)<br>
+7.2.1.3. [Development Evidence for Sprint Review](#7.2.1.3.)<br>
+7.2.1.4. [Testing Suite Evidence for Sprint Review](#7.2.1.4.)<br>
+7.2.1.5. [Execution Evidence for Sprint Review](#7.2.1.5.)<br>
+7.2.1.6. [Services Documentation Evidence for Sprint Review](#7.2.1.6.)<br>
+7.2.1.7. [Software Deployment Evidence for Sprint Review](#7.2.1.7.)<br>
+7.2.1.8. [Team Collaboration Insights during Sprint](#7.2.1.8.)<br>
+7.3. [Validation Interviews](#7.3.)<br>
+7.3.1. [Diseño de Entrevistas](#7.3.1.)<br>
+7.3.2. [Registro de Entrevistas](#7.3.2.)<br>
+7.3.3. [Evaluaciones según heurísticas](#7.3.3.)<br>
+7.4. [Video About-the-Product](#7.4.)<br>
+
+
+
 8. [**Conclusiones**](#8.)<br>
 9. [**Bibliografía**](#9.)<br>
 10. [**Anexos**](#10.)<br>
@@ -2133,6 +2155,229 @@ Representación interactiva del flujo completo de la aplicación web, que permit
 
 Url Figma: [Link Figma](https://www.figma.com/proto/ggq6jW5mYoQ4aSStfHaPTI/Web-Application?node-id=50-1607&p=f&t=JAxaIJA9953YIqKg-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=50%3A1607)
 
+<div id='7.'><h2>Capítulo VII: Product Implementation, Validation & Deployment</h2></div>
+
+<div id='7.1.'><h3>7.1. Software Configuration Management</h3></div>
+<div id='7.1.1.'><h4>7.1.1. Software Development Environment Configuration</h4></div>
+
+En esta sección se detallan los productos de software utilizados por el equipo de desarrollo del proyecto **TomateRitmo**, su propósito dentro del ciclo de vida del desarrollo de la solución y las rutas de referencia para su uso o descarga. Las herramientas seleccionadas garantizan la cobertura integral de todas las actividades, desde la gestión del proyecto hasta el despliegue de los productos digitales.
+
+| Categoría | Producto de Software | Propósito de Uso | Tipo / Acceso | Ruta de Referencia |
+|-----------|-----------------------|------------------|----------------|---------------------|
+| **Project Management** | Trello | Gestión de tareas, backlog, planificación por sprints | SaaS | [https://trello.com](https://trello.com) |
+| **Requirements Management** | Google Docs | Redacción colaborativa de historias de usuario y criterios de aceptación | SaaS | [https://docs.google.com](https://docs.google.com) |
+| **Product Design** | Figma | Diseño de interfaz de usuario (mockups, wireframes, componentes) | SaaS | [https://www.figma.com](https://www.figma.com) |
+| **Software Development (Frontend)** | Angular 17 + TypeScript | Desarrollo de la interfaz web de TomateRitmo | Local | [https://angular.io](https://angular.io) |
+| | Visual Studio Code | IDE para desarrollo frontend | Local | [https://code.visualstudio.com](https://code.visualstudio.com) |
+| **Software Development (Backend)** | Java 17 + Spring Boot | Desarrollo de servicios y lógica de negocio | Local | [https://spring.io/projects/spring-boot](https://spring.io/projects/spring-boot) |
+| | IntelliJ IDEA | IDE para desarrollo backend | Local | [https://www.jetbrains.com/idea](https://www.jetbrains.com/idea) |
+| **Software Development (Visión Artificial)** | Python 3.10 + Flask + TensorFlow 2.x | API de análisis visual de hojas de tomate | Local | [https://www.python.org](https://www.python.org) |
+| | Jupyter Notebook | Entrenamiento y prueba del modelo de clasificación | Local | [https://jupyter.org](https://jupyter.org) |
+| **Software Testing** | Gherkin (.feature) | Especificación de pruebas BDD por historia de usuario | SaaS / Local | [https://cucumber.io/docs/gherkin](https://cucumber.io/docs/gherkin) |
+| **Software Deployment** | GitHub Actions | CI/CD: Automatización del despliegue y testing | SaaS | [https://github.com/features/actions](https://github.com/features/actions) |
+| | Azure Functions | Despliegue del modelo de IA en entorno serverless | SaaS | [https://azure.microsoft.com/en-us/products/functions](https://azure.microsoft.com/en-us/products/functions) |
+| | Render | Despliegue del backend de TomateRitmo | SaaS | [https://render.com](https://render.com) |
+| **Version Control** | Git | Control de versiones local | Local | [https://git-scm.com](https://git-scm.com) |
+| | GitHub | Plataforma colaborativa para repositorios y control de versiones | SaaS | [https://github.com](https://github.com) |
+
+Estas herramientas fueron seleccionadas cuidadosamente para garantizar la compatibilidad entre módulos, facilitar la colaboración remota y asegurar la trazabilidad de todos los artefactos generados durante el desarrollo del proyecto.
+
+<div id='7.1.2.'><h4>7.1.2. Source Code Management</h4></div>
+
+Para el control de versiones y la gestión colaborativa del código fuente del proyecto **TomateRitmo**, el equipo emplea **Git** como sistema de control distribuido y **GitHub** como plataforma de hosting de repositorios. Cada uno de los productos digitales principales cuenta con su propio repositorio y rama principal (`main`), además de ramas auxiliares creadas según el modelo de ramas GitFlow.
+
+### Repositorios del proyecto
+
+| Módulo | Descripción | URL del Repositorio |
+|--------|-------------|---------------------|
+| **Frontend** | Aplicación web desarrollada en Angular y TypeScript | [https://github.com/ArquiSoftwareEmergente-Grupo1/frontendTomateRitmo](https://github.com/ArquiSoftwareEmergente-Grupo1/frontendTomateRitmo) |
+| **Backend** | Microservicio en Java Spring Boot para gestión de sensores, alertas y lógica de negocio | [https://github.com/ArquiSoftwareEmergente-Grupo1/tomateritmobackend](https://github.com/ArquiSoftwareEmergente-Grupo1/tomateritmobackend) |
+| **Visión Artificial** | Modelo de clasificación de hojas de tomate desarrollado con Flask y TensorFlow | [https://github.com/ArquiSoftwareEmergente-Grupo1/visionArtificialAzureFunctions](https://github.com/ArquiSoftwareEmergente-Grupo1/visionArtificialAzureFunctions) |
+| **Acceptance Tests** | Archivos `.feature` escritos en Gherkin para validar historias de usuario | [https://github.com/ArquiSoftwareEmergente-Grupo1/AgroTech-report-softwareemergente](https://github.com/ArquiSoftwareEmergente-Grupo1/AgroTech-report-softwareemergente) |
+
+### Estrategia de ramas – GitFlow
+
+El equipo implementó el modelo **GitFlow**, descrito por Vincent Driessen, para mantener un flujo de trabajo limpio, colaborativo y escalable. Este modelo define ramas específicas para diferentes propósitos:
+
+- `main`: rama principal, contiene el código estable listo para producción.
+- `develop`: rama de integración, donde se fusionan las funcionalidades terminadas antes de hacer un release.
+- `feature/<nombre-funcionalidad>`: ramas temporales para desarrollar funcionalidades específicas (por ejemplo: `feature/deteccion-anomalias`, `feature/graficas-humedad`).
+- `release/<versión>`: ramas para estabilización antes del paso a producción (por ejemplo: `release/v1.0.0`).
+- `hotfix/<nombre>`: ramas de corrección rápida desde `main` para errores críticos en producción (por ejemplo: `hotfix/fix-navbar-bug`).
+
+### Convenciones para ramas y versiones
+
+- **Convención para nombres de branches**:
+  - `feature/`: funcionalidades nuevas
+  - `bugfix/`: corrección de errores
+  - `hotfix/`: fallos en producción
+  - `release/`: preparación para despliegue
+
+- **Semantic Versioning**: el equipo sigue el estándar [Semantic Versioning 2.0.0](https://semver.org/), usando versiones con el formato `MAJOR.MINOR.PATCH` (ej. `v1.0.0`).
+
+### Convenciones para commits
+
+Se sigue la guía de **[Conventional Commits](https://www.conventionalcommits.org/)** para los mensajes de confirmación de cambios (`commits`). Esto permite una trazabilidad clara y automática de las funcionalidades y correcciones. Ejemplos:
+
+- `feat: add humidity sensor API endpoint`
+- `fix: correct sensor threshold logic`
+- `docs: update README with deployment instructions`
+- `refactor: simplify image upload logic`
+
+Esta organización permitió una colaboración eficiente entre los desarrolladores y una integración fluida entre frontend, backend y servicios de IA, manteniendo el control de versiones y facilitando el proceso de CI/CD con GitHub Actions.
+
+<div id='7.1.3.'><h4>7.1.3. Source Code Style Guide & Conventions</h4></div>
+
+El equipo del proyecto **TomateRitmo** ha establecido una guía de estilos y convenciones de codificación clara y coherente para todos los lenguajes empleados en la solución. Estas convenciones aseguran la legibilidad, mantenibilidad y colaboración efectiva en todo el ciclo de desarrollo. A continuación, se detallan las reglas principales por lenguaje utilizado:
+
+### Convenciones generales
+- **Estilo de nombrado**:
+  - `camelCase` para variables, funciones y métodos.
+  - `PascalCase` para clases y componentes.
+  - `UPPER_SNAKE_CASE` para constantes.
+- Se prohíben los nombres ambiguos o abreviaciones no reconocibles.
+
+### Angular + TypeScript (Frontend)
+- Se adopta la **[Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html)**.
+- Estructura modular con componentes, servicios e interfaces separados.
+- Archivos `.ts`, `.html` y `.css` deben tener nombres en `kebab-case` representando la funcionalidad (`leaf-detection.component.ts`).
+- Las interfaces deben comenzar con la letra `I` (`ILeafDetectionResponse`).
+- Código con tipado estricto (`strict: true`) habilitado en `tsconfig.json`.
+- Evitar lógica compleja en componentes; delegar a servicios.
+
+### Java (Backend – Spring Boot)
+- Se sigue el estándar **Oracle Java Code Conventions**.
+- Clases en `PascalCase`, métodos y variables en `camelCase`.
+- Paquetes organizados por capas: `controller`, `service`, `repository`, `dto`, `config`, etc.
+- Se favorece el uso de anotaciones como `@Service`, `@RestController`, `@RequestMapping`.
+- Se implementa la separación de responsabilidades y principios SOLID.
+- Código comentado adecuadamente en Javadoc para servicios públicos.
+
+### Python (Visión Artificial con Flask + TensorFlow)
+- Se sigue la **[PEP8 – Python Style Guide](https://peps.python.org/pep-0008/)**.
+- Nombres de archivos en `snake_case`, clases en `PascalCase`, métodos en `snake_case`.
+- Los scripts deben iniciar con encabezados claros y funciones documentadas con docstrings triple comilla (`""" """`).
+- Líneas no deben superar 79 caracteres.
+- Separación de lógica de predicción y carga de modelo en módulos distintos.
+
+<div id='7.1.4.'><h4>7.1.4. Software Deployment Configuration</h4></div>
+
+La configuración del despliegue del sistema **TomateRitmo** está diseñada para integrar sensores IoT, una API de visión artificial, un backend centralizado y un frontend web, todo orquestado dentro de la infraestructura de **Azure Cloud**. Este despliegue permite garantizar la disponibilidad, escalabilidad y seguridad de cada componente de la solución.
+
+### Pasos generales de despliegue por módulo
+
+#### 1. Visión Artificial (IA)
+- **Tecnología:** Flask + TensorFlow + Python 3.11
+- **Ubicación:** Azure Functions (entorno serverless)
+- **Despliegue:** 
+  - Push al repositorio en GitHub (`visionArtificialAzureFunctions`)
+  - GitHub Actions realiza despliegue a Azure con integración continua
+  - Endpoint expuesto: `/predict`
+
+#### 2. Backend (Spring Boot)
+- **Tecnología:** Java 17 + Spring Boot
+- **Ubicación:** Render (como alternativa a Azure App Service)
+- **Despliegue:**
+  - Proyecto Dockerizado en `tomateritmobackend`
+  - GitHub Actions genera build y despliega automáticamente a Render
+  - Gestiona: sensores, alertas, registros, usuarios
+
+#### 3. Frontend (Angular)
+- **Tecnología:** Angular 17 + TypeScript
+- **Ubicación:** Firebase
+- **Despliegue:**
+  - Repositorio `frontendTomateRitmo`
+  - Conecta con API Flask y backend Spring a través de HTTPS
+
+#### 4. Sensores IoT
+- **Hardware:** Raspberry Pi + sensores de humedad y clima
+- **Protocolo:** MQTT
+- **Gateway:** Interfaz en Python que comunica con el backend vía REST
+- **Frecuencia de actualización:** configurable
+
+### Deployment Diagram – C4 Model
+
+A continuación se muestra el diagrama de despliegue, donde se observa la interacción entre los componentes locales (campo agrícola) y los servicios desplegados en la nube (Azure):
+
+<img src = "resources\CAPITULO4\Deployment.png">
+
+Este modelo de despliegue permite integrar componentes físicos (sensores y cámaras), servicios de machine learning y una experiencia web centralizada para agricultores. El uso de GitHub Actions para CI/CD asegura que cada push pueda ser evaluado y publicado de forma automatizada.
+
+<div id='7.2.'><h2>7.2. Solution Implementation</h2></div>
+<div id='7.2.1.'><h3>7.2.1. Sprint 1</h3></div>
+<div id='7.2.1.1.'><h4>7.2.1.1. Sprint Planning 1</h4></div>
+
+El Sprint #1 de **TomateRitmo** se enfocó en implementar la base del sistema: detección visual con IA, comunicación entre módulos y funcionalidades principales del frontend y backend. Esta planificación fue organizada por Paolo César Guillen Luna y permitió sentar las bases para el desarrollo incremental del producto.
+
+| **Sprint #** | **Sprint 1** |
+| :- | :- |
+| **Sprint Planning Background** | Integración inicial de componentes clave: API de visión artificial, backend de riego y monitoreo, e interfaz web. |
+| Date | 02/06/2025 |
+| Time | 7:30 PM - 10:00 PM |
+| Location | Google Meet |
+| **Prepared By** | Guillen Luna, Paolo César |
+| Attendees | - Guillen Luna, Paolo César<br>- Cruz Palomino, Adriano Sebastian<br>- Yauri Paucar, Elias<br>- Rengifo Mirabal, Randy Becker |
+| **Sprint 0 Review Summary** | Se configuraron los repositorios, se eligieron las tecnologías principales y se definieron los primeros epics y user stories. |
+| **Sprint 0 Retrospective Summary** | Se acordó mejorar la planificación de tareas y documentar desde el primer sprint los avances por módulo. |
+| **Sprint Goal & User Stories** | Implementar funcionalidades base del sistema de visión artificial, estructura de backend, y conexión con frontend. |
+| **Sprint 1 Goal** | Desarrollar e integrar un modelo de visión artificial funcional y conectarlo al frontend de TomateRitmo para análisis inicial de hojas. |
+| **Sprint 1 Velocity** | 27 |
+| **Sum of Story Points** | 27 |
+
+---
+
+<div id='7.2.1.2.'><h4>7.2.1.2. Sprint Backlog 1</h4></div>
+
+En este sprint se incluyeron funcionalidades desde la detección de hojas enfermas hasta la visualización de alertas y datos en tiempo real, cubriendo los módulos de visión artificial, backend y frontend.
+
+| **User Story** | **Work-Item / Task** | **Descripción** | **Estimation (Hours)** | **Assigned To** | **Status** |
+|----------------|----------------------|------------------|------------------------|------------------|-------------|
+| US01 | Entrenamiento de modelo de detección | Crear e implementar un modelo CNN para identificar hojas con anomalías | 3 | Adriano Cruz | Done |
+| TS04 | Exponer API Flask del modelo | Crear endpoint `/predict` que reciba imagen y retorne diagnóstico | 2 | Adriano Cruz | Done |
+| US02 | Guardar imagen de hoja anómala | Almacenar imagen subida junto al diagnóstico retornado por el modelo | 1 | Adriano Cruz | Done |
+| TS03 | Configurar almacenamiento de imágenes | Crear lógica para guardar imágenes clasificadas con nombre y fecha | 1 | Adriano Cruz | Done |
+| TS01 | API para registrar datos de sensores | Crear endpoint en backend que reciba datos de sensores y los almacene | 2 | Elias Yauri | Done |
+| TS02 | API para consultar datos históricos | Implementar consulta por rango de fechas para temperatura y humedad | 2 | Elias Yauri | Done |
+| TS05 | Alerta por baja humedad del suelo | Implementar lógica de verificación de umbral y generación de alerta | 2 | Elias Yauri | Done |
+| TS08 | Registro de eventos del sistema | Guardar logs de eventos (detección, riego, alertas) en base de datos | 2 | Elias Yauri | Done |
+| US03 | Mostrar historial de anomalías en frontend | Implementar vista de historial con fecha, imagen y diagnóstico | 2 | Randy Rengifo | Done |
+| TS09 | Interfaz de carga de imágenes | Diseñar pantalla para que el usuario suba o tome fotos desde la app | 2 | Randy Rengifo | Done |
+| US02 | Visualización de la imagen detectada | Mostrar en el frontend la imagen de la hoja con anomalía resaltada | 1 | Randy Rengifo | Done |
+| US09 | Mostrar alertas visuales en tiempo real | Renderizar notificaciones visuales ante detección por IA | 2 | Randy Rengifo | Done |
+| US13 | Dashboard en tiempo real | Mostrar lectura en vivo de sensores en un panel visual | 2 | Randy Rengifo | Done |
+| US14 | Gráficas de evolución ambiental | Implementar gráficas de línea con valores históricos de humedad y temperatura | 2 | Randy Rengifo | Done |
+| TS10 | Vista de alertas activas | Diseñar sección de alertas activas con íconos y color de estado | 1 | Randy Rengifo | Done |
+
+---
+
+<div id='7.2.1.3.'><h4>7.2.1.3. Development Evidence for Sprint Review</h4></div>
+
+Durante el Sprint 1, los siguientes commits fueron realizados en los repositorios del proyecto, reflejando el avance en la implementación de los distintos componentes: backend, frontend y visión artificial. A continuación, se muestra la evidencia técnica:
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed On (Date) |
+|------------|--------|-----------|----------------|----------------------|----------------------|
+| ArquiSoftwareEmergente-Grupo1/visionArtificialAzureFunctions | main | aae5bca | fix: cors configuration | - | Jun 15, 2025 |
+| ArquiSoftwareEmergente-Grupo1/visionArtificialAzureFunctions | main | 53fc944 | fix: name of train.py | - | Jun 15, 2025 |
+| ArquiSoftwareEmergente-Grupo1/visionArtificialAzureFunctions | main | 5532d67 | feat: add artificial vision model and api | - | Jun 14, 2025 |
+| ArquiSoftwareEmergente-Grupo1/frontendTomateRitmo | main | e6eef49 | feat: added conection to artificial vision service | - | Jun 15, 2025 |
+| ArquiSoftwareEmergente-Grupo1/frontendTomateRitmo | main | bc1ede7 | first commit | - | Jun 14, 2025 |
+| ArquiSoftwareEmergente-Grupo1/tomateritmobackend | main | 38e4691 | feat: backend | - | Jun 14, 2025 |
+| ArquiSoftwareEmergente-Grupo1/tomateritmobackend | main | 79bde96 | first commit | - | Jun 14, 2025 |
+| ArquiSoftwareEmergente-Grupo1/tomateritmobackend | main | 5b9b33e | first commit | - | Jun 7, 2025 |
+
+
+<div id='7.2.1.4.'><h4>7.2.1.4. Testing Suite Evidence for Sprint Review</h4></div>
+<div id='7.2.1.5.'><h4>7.2.1.5. Execution Evidence for Sprint Review</h4></div>
+<div id='7.2.1.6.'><h4>7.2.1.6. Services Documentation Evidence for Sprint Review</h4></div>
+<div id='7.2.1.7.'><h4>7.2.1.7. Software Deployment Evidence for Sprint Review</h4></div>
+<div id='7.2.1.8.'><h4>7.2.1.8. Team Collaboration Insights during Sprint</h4></div>
+
+<div id='7.3.'><h3>7.3. Validation Interviews</h3></div>
+<div id='7.3.1.'><h4>7.3.1. Diseño de Entrevistas</h4></div>
+<div id='7.3.2.'><h4>7.3.2. Registro de Entrevistas</h4></div>
+<div id='7.3.3.'><h4>7.3.3. Evaluaciones según heurísticas</h4></div>
+
+<div id='7.4.'><h3>7.4. Video About-the-Product</h3></div>
 
 <div id='8.'><h2>Conclusiones</h2></div>
 
