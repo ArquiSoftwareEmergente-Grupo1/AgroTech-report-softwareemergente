@@ -32,7 +32,11 @@
 | 08/04/2025 | 1.8     | Cruz, Adriano | Desarrollo de mockups de la landing page de TomateRitmo |
 | 09/04/2025 | 1.9     | Cruz, Adriano; Yauri, Elias | Desarrollo final relacionado a los diseños de la aplicación web en la aplicación de Figma |
 | 15/04/2025 | 2.0     | Guillen, Paolo; Cruz, Adriano;  Rengifo, Daniel ; Yauri, Elias   | Correcciones finales relacionados a enlaces, descripción de imagenes y formato del reporte |
-
+| 28/05/2025 | 2.1     | Guillen, Paolo; Cruz, Adriano | Implementación del dashboard funcional con paneles dinámicos y conexión a datos simulados |
+| 06/06/2025 | 2.2     | Rengifo, Daniel; Yauri, Elias | Integración del sistema de suscripciones y actualización de los planes de precios |
+| 10/06/2025 | 2.3     | Guillen, Paolo; Rengifo, Randy | Redacción del apartado de evidencias de validación con entrevistas y pruebas de usabilidad |
+| 14/06/2025 | 2.4     | Cruz, Adriano | Actualización visual de la landing page, incorporación de testimonios y sección de funcionalidades |
+| 20/06/2025 | 2.5     | Guillen, Paolo; Cruz, Adriano; Rengifo, Daniel; Yauri, Elias | Finalización del capítulo 7 con validaciones, conclusiones y mejoras propuestas para la solución TomateRitmo |
 
 ## Project Report Collaboration Insights
 
@@ -46,6 +50,10 @@ Insights proporcioonado por github en lo trabajado hasta la fecha del primer ent
 <img src="resources/tpInsights.png"/>
 
 Insights proporcioonado por github en lo trabajado hasta la fecha del entregable parcial
+
+**TB2**
+<img src="resources/tomateRitmoTb2/5.png"/>
+
 
 URL del repositorio del proyecto: [https://github.com/ArquiSoftwareEmergente-Grupo1]
 
@@ -2443,12 +2451,85 @@ Backend:
 <div id='7.3.'><h3>7.3. Validation Interviews</h3></div>
 
 <div id='7.3.1.'><h4>7.3.1. Diseño de Entrevistas</h4></div>
+<p>En esta sección se presentan las preguntas de validación realizadas a usuarios potenciales una vez que la solución tecnológica (plataforma web TomateRitmo) ha sido desarrollada. El objetivo es recoger feedback sobre la utilidad, facilidad de uso y aceptación de las funcionalidades implementadas.</p>
+
+
+### PREGUNTAS GENERALES (para ambos perfiles)
+
+* ¿Le resultó clara la navegación inicial dentro de la plataforma web?
+* ¿Qué tan fácil le fue entender el propósito de la aplicación desde la landing page?
+* ¿La información mostrada en el panel de control le pareció útil y fácil de interpretar?
+* ¿Hubo algo que no entendió o que le generó confusión?
+* ¿Qué funcionalidades le parecieron más útiles?
+* ¿Recomendaría esta herramienta a otros agricultores o cultivadores?
+* ¿Cree que la plataforma resuelve los problemas planteados anteriormente?
+* ¿Le gustaría seguir usando esta herramienta para mejorar sus cultivos?
+* ¿Qué mejoras o cambios sugeriría?
+* En una escala del 1 al 5, ¿qué tan satisfecho está con la experiencia general?
+
+
+### SECTOR AGRICULTORES EXPERIMENTADOS
+
+1. ¿La solución cubre adecuadamente sus necesidades para el monitoreo de cultivos?
+2. ¿Considera que las alertas y métricas mostradas (pH, EC, temperatura, humedad) son suficientes para tomar decisiones?
+3. ¿Le fue útil la visualización de condiciones ambientales con gráficos en el dashboard?
+4. ¿Las funcionalidades de automatización e inteligencia artificial le parecen confiables?
+5. ¿Qué tanto valoraría una integración directa de esta herramienta con sus sistemas de riego actuales?
+6. ¿El precio propuesto en el plan Premium le parece razonable considerando los beneficios ofrecidos?
+7. ¿Cree que esta herramienta podría evitar pérdidas como las que mencionó en la entrevista inicial?
+
+
+### SECTOR AUTOCULTIVADORES
+
+1. ¿Le pareció fácil comprender y usar la plataforma sin necesidad de conocimientos técnicos?
+2. ¿La interfaz gráfica le resultó intuitiva para identificar el estado de sus plantas?
+3. ¿Cree que las alertas y recomendaciones se ajustan a su forma de cuidar los tomates en casa?
+4. ¿La herramienta cumple con su expectativa de recibir ayuda visual o automática?
+5. ¿Cuál de los planes de suscripción considera más adecuado para usted y por qué?
+6. ¿Le gustaría tener una versión móvil para mayor comodidad?
+7. ¿Considera que esta herramienta le facilita mantener sus tomates sanos y productivos?
+
+Estas preguntas buscan comprobar si la solución efectivamente responde a las necesidades identificadas durante la etapa de descubrimiento (capítulo 2), y recoger insights valiosos para próximas iteraciones.
 
 <div id='7.3.2.'><h4>7.3.2. Registro de Entrevistas</h4></div>
 
+**Faltaría registrar entrevistas todavía**
+
 <div id='7.3.3.'><h4>7.3.3. Evaluaciones según heurísticas</h4></div>
 
+A continuación se presenta un análisis de la interfaz de usuario de la plataforma **TomateRitmo**, evaluando la experiencia de uso en base a las **10 heurísticas de usabilidad de Nielsen**. Se han considerado las siguientes vistas:
+
+- **Imagen 1**: Landing Page (inicio)
+
+<img src = "resources\tomateRitmoTb2\1.png">
+
+- **Imagen 2**: Sección de Beneficios del Producto
+<img src = "resources\tomateRitmoTb2\2.png">
+
+
+- **Imagen 3**: Planes de Suscripción  
+<img src = "resources\tomateRitmoTb2\3.png">
+
+- **Imagen 4**: Dashboard de Monitoreo
+<img src = "resources\tomateRitmoTb2\4.png">
+
+
+| **#** | **Heurística** | **Observaciones positivas** | **Oportunidades de mejora** | **Imágenes evaluadas** |
+|------|----------------|------------------------------|------------------------------|-------------------------|
+| 1 | **Visibilidad del estado del sistema** | El dashboard (Imagen 4) muestra métricas de humedad, temperatura, pH y alertas de forma clara y en tiempo real. | No se visualiza ningún feedback de carga o actualización en los gráficos o tarjetas. | Imagen 4 |
+| 2 | **Concordancia con el mundo real** | Uso de palabras naturales como "luminosidad", "análisis del suelo", "automatización" (Imagen 3 y 4). | Algunos conceptos técnicos como "EC" o "pH" podrían incluir tooltips para usuarios no técnicos. | Imágenes 3, 4 |
+| 3 | **Control y libertad del usuario** | Navegación simple en la landing (Imagen 1), con opciones claras para iniciar sesión o registrarse. | No hay botones para deshacer acciones o navegar atrás en el dashboard. | Imágenes 1, 4 |
+| 4 | **Consistencia y estándares** | Estilo visual unificado, uso de íconos e interfaz gráfica coherente (Imagen 2 y 3). | Estandarizar tamaños de botones "Sign Up" en los distintos planes para uniformidad. | Imágenes 2, 3 |
+| 5 | **Prevención de errores** | No se identifican flujos que lleven fácilmente a errores, interfaz mayormente pasiva. | En módulos interactivos como selección de planes o monitoreo, sería útil incluir confirmaciones antes de aplicar cambios. | Imagen 3, 4 |
+| 6 | **Reconocimiento mejor que recuerdo** | Íconos de beneficios (Imagen 2) y tarjetas informativas en el dashboard facilitan la comprensión rápida. | En el dashboard, algunos datos podrían acompañarse con íconos más representativos o leyendas. | Imagen 2, 4 |
+| 7 | **Flexibilidad y eficiencia de uso** | El dashboard está bien organizado para uso técnico o general, con enfoque en eficiencia visual. | No se ofrece opción de personalización de paneles o visualización selectiva por parte del usuario. | Imagen 4 |
+| 8 | **Diseño estético y minimalista** | Diseño visual atractivo, fondo limpio, jerarquía visual clara (Imagen 1 y 3). | En la sección “About the product” (Imagen 2) hay mucho espacio en blanco no aprovechado. | Imagen 1, 2, 3 |
+| 9 | **Ayuda para reconocer y corregir errores** | No se muestran errores evidentes, evitando frustración del usuario. | Sería importante implementar mensajes de error en caso de que los datos no se carguen correctamente (Imagen 4). | Imagen 4 |
+| 10 | **Ayuda y documentación** | Hay secciones informativas como "About Us" y "Contact Us" (Imagen 1). | Se podría incluir una sección de FAQ o ayuda interactiva dentro del dashboard o los planes. | Imagen 1, 3, 4 |
+
 <div id='7.4.'><h3>7.4. Video About-the-Product</h3></div>
+
+**El video falta desarrollar esto debido a que debemos contar con entrevistas reales de nuestros usuarios**
 
 <div id='8.'><h2>Conclusiones</h2></div>
 
@@ -2472,4 +2553,7 @@ Zhang, Y., et al. (2020). IoT-based smart agriculture: An overview on technologi
 **Entrevistas:** [https://acortar.link/12xr5k]
 
 **TB1:** [https://acortar.link/hFj5Rj]
+
 **TP:** [https://acortar.link/lENLHJ]
+
+**LandingPage:** [https://arquisoftwareemergente-grupo1.github.io/LandingPageAplicacion/]
