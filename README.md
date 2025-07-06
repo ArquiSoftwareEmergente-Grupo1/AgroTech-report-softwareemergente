@@ -193,6 +193,15 @@ URL del repositorio del proyecto: [https://github.com/ArquiSoftwareEmergente-Gru
 7.2.1.6. [Services Documentation Evidence for Sprint Review](#7.2.1.6.)<br>
 7.2.1.7. [Software Deployment Evidence for Sprint Review](#7.2.1.7.)<br>
 7.2.1.8. [Team Collaboration Insights during Sprint](#7.2.1.8.)<br>
+7.2.2. [Sprint 2](#7.2.2.)<br>
+7.2.2.1. [Sprint Planning 2](#7.2.2.1.)<br>
+7.2.2.2. [Sprint Backlog 2](#7.2.2.2.)<br>
+7.2.2.3. [Development Evidence for Sprint Review](#7.2.2.3.)<br>
+7.2.2.4. [Testing Suite Evidence for Sprint Review](#7.2.2.4.)<br>
+7.2.2.5. [Execution Evidence for Sprint Review](#7.2.2.5.)<br>
+7.2.2.6. [Services Documentation Evidence for Sprint Review](#7.2.2.6.)<br>
+7.2.2.7. [Software Deployment Evidence for Sprint Review](#7.2.2.7.)<br>
+7.2.2.8. [Team Collaboration Insights during Sprint](#7.2.2.8.)<br>
 7.3. [Validation Interviews](#7.3.)<br>
 7.3.1. [Diseño de Entrevistas](#7.3.1.)<br>
 7.3.2. [Registro de Entrevistas](#7.3.2.)<br>
@@ -2446,6 +2455,110 @@ Fronted:
 Backend:
 
 <img src = "resources\backend.png">
+
+
+<div id='7.2.2.'><h3>7.2.2. Sprint 2</h3></div>
+
+<div id='7.2.2.1.'><h4>7.2.2.1. Sprint Planning 2</h4></div>
+
+El Sprint #2 de **TomateRitmo** estuvo enfocado en la consolidación de la lógica de riego inteligente, el sistema de notificaciones personalizadas y la visualización optimizada de datos. La planificación fue organizada por Elias Yauri Paucar, y buscó dar continuidad al primer entregable funcional, reforzando la automatización y experiencia del usuario.
+
+| **Sprint #** | **Sprint 2** |
+| :- | :- |
+| **Sprint Planning Background** | Implementación de lógica de riego automático, notificaciones configurables y personalización de zonas de cultivo. |
+| Date | 17/06/2025 |
+| Time | 8:00 PM - 10:00 PM |
+| Location | Google Meet |
+| **Prepared By** | Yauri Paucar, Elias |
+| Attendees | - Guillen Luna, Paolo César<br>- Cruz Palomino, Adriano Sebastian<br>- Yauri Paucar, Elias<br>- Rengifo Mirabal, Randy Becker |
+| **Sprint 1 Review Summary** | Se integró correctamente el sistema de visión artificial y se logró una comunicación funcional entre backend, frontend e IoT. |
+| **Sprint 1 Retrospective Summary** | Se identificó la necesidad de optimizar flujos de notificación y desacoplar mejor los módulos de frontend. |
+| **Sprint Goal & User Stories** | Consolidar sistema de riego automático, notificaciones críticas, y personalización de parámetros. |
+| **Sprint 2 Goal** | Automatizar el riego según humedad del suelo y permitir configuración personalizada de alertas y zonas de cultivo. |
+| **Sprint 2 Velocity** | 31 |
+| **Sum of Story Points** | 31 |
+
+<div id='7.2.2.2.'><h4>7.2.2.2. Sprint Backlog 2</h4></div>
+
+| **User Story** | **Work-Item / Task** | **Descripción** | **Estimation (Hours)** | **Assigned To** | **Status** |
+|----------------|----------------------|------------------|------------------------|------------------|-------------|
+| US05 | Activación automática de riego | Encender riego si la humedad está bajo el umbral definido | 3 | Elias Yauri | Done |
+| TS06 | Activación automática del sistema de riego | Automatización del sistema con base en sensores | 3 | Elias Yauri | Done |
+| TS11 | Configuración de umbrales de humedad | Permitir niveles personalizados de humedad mínima/máxima | 2 | Elias Yauri | Done |
+| US07 | Configuración de umbrales de humedad | Crear pantalla en el frontend para configurar límites | 2 | Randy Rengifo | Done |
+| US08 | Control manual del sistema de riego | Agregar botón para encendido y apagado del sistema | 2 | Randy Rengifo | Done |
+| TS07 | Desactivar sistema de riego por usuario | Backend: lógica para detener el sistema manualmente | 2 | Elias Yauri | Done |
+| US06 | Notificación por humedad crítica | Generar notificación automática por humedad baja | 2 | Paolo Guillen | Done |
+| TS05 | Alerta por baja humedad del suelo | Integrar sistema de alertas con verificación periódica | 2 | Paolo Guillen | Done |
+| US10 | Personalización de notificaciones | Configurar preferencias de alertas por tipo y frecuencia | 2 | Randy Rengifo | Done |
+| US11 | Notificaciones sin repetición excesiva | Lógica de backend para evitar spam de alertas | 2 | Elias Yauri | Done |
+| US17 | Personalización de zonas de cultivo | Dividir el área y asignar nombre a cada zona | 2 | Randy Rengifo | Done |
+| US19 | Activación/desactivación del modo automático | Permitir activar o desactivar el modo automático de riego | 2 | Randy Rengifo | Done |
+| US20 | Configuración de prioridades de acción | Determinar qué acciones son automáticas y cuáles requieren confirmación | 3 | Elias Yauri | Done |
+
+<div id='7.2.2.3.'><h4>7.2.2.3. Development Evidence for Sprint Review</h4></div>
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed On (Date) |
+|------------|--------|-----------|----------------|----------------------|----------------------|
+| ArquiSoftwareEmergente-Grupo1/tomateritmobackend | main | a3f4c9b | feat: add irrigation automation logic | - | Jun 18, 2025 |
+| ArquiSoftwareEmergente-Grupo1/tomateritmobackend | main | b82a7f1 | feat: user notification settings module | - | Jun 18, 2025 |
+| ArquiSoftwareEmergente-Grupo1/frontendTomateRitmo | main | d91bb8c | feat: irrigation control dashboard | - | Jun 18, 2025 |
+| ArquiSoftwareEmergente-Grupo1/frontendTomateRitmo | main | 72ec88f | feat: add zones configuration view | - | Jun 18, 2025 |
+
+<div id='7.2.2.4.'><h4>7.2.2.4. Testing Suite Evidence for Sprint Review</h4></div>
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on (Date) |
+|------------|--------|-----------|----------------|----------------------|----------------------|
+| ArquiSoftwareEmergente-Grupo1/AgroTech-report-softwareemergente | features testing suite | e172a21 | feat: gherkin test for US05 irrigation activation | - | 20/06/2025 |
+| ArquiSoftwareEmergente-Grupo1/AgroTech-report-softwareemergente | features testing suite | f184d2e | feat: gherkin test for US10 notification preferences | - | 20/06/2025 |
+
+<div id='7.2.2.5.'><h4>7.2.2.5. Execution Evidence for Sprint Review</h4></div>
+
+**Backend:**
+
+![execution1](resources/execution1.png)
+
+![execution2](resources/execution2.png)
+
+**Frontend:**
+
+![execution3](resources/execution3.png)
+
+![execution4](resources/execution4.png)
+
+<div id='7.2.2.6.'><h4>7.2.2.6. Services Documentation Evidence for Sprint Review</h4></div>
+
+| Bounded Context | Método HTTP | URL                                     | Parámetros         |
+| :-------------- | :---------- | :-------------------------------------- | :----------------- |
+| Riego | POST | /api/v1/riego/activar | {zonaId} |
+| Riego | POST | /api/v1/riego/desactivar | {zonaId} |
+| Configuración | GET | /api/v1/usuarios/{id}/notificaciones | {id} |
+| Configuración | PUT | /api/v1/usuarios/{id}/notificaciones | {id}, JSON |
+| Zonas | GET | /api/v1/zonas | N/A |
+| Zonas | POST | /api/v1/zonas | JSON |
+| Zonas | PUT | /api/v1/zonas/{zonaId} | {zonaId}, JSON |
+
+<div id='7.2.2.7.'><h4>7.2.2.7. Software Deployment Evidence for Sprint Review</h4></div>
+
+**IoT:**
+
+![execution5](resources/execution5.png)
+
+**Backend:**
+
+![execution6](resources/execution6.png)
+
+<div id='7.2.2.8.'><h4>7.2.2.8. Team Collaboration Insights during Sprint</h4></div>
+
+Durante este segundo sprint, el equipo fortaleció la comunicación y sincronización técnica. Se logró dividir tareas efectivamente entre backend, frontend e IoT, mejorando el rendimiento general. Se utilizó Trello y GitHub Projects como mecanismos de seguimiento continuo.
+
+**Frontend:**
+
+![fronted](resources/fronted.png)
+
+**Backend:**
+
+![backend](resources/backend.png)
 
 
 <div id='7.3.'><h3>7.3. Validation Interviews</h3></div>
