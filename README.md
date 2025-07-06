@@ -37,6 +37,11 @@
 | 10/06/2025 | 2.3     | Guillen, Paolo; Rengifo, Randy | Redacción del apartado de evidencias de validación con entrevistas y pruebas de usabilidad |
 | 14/06/2025 | 2.4     | Cruz, Adriano | Actualización visual de la landing page, incorporación de testimonios y sección de funcionalidades |
 | 20/06/2025 | 2.5     | Guillen, Paolo; Cruz, Adriano; Rengifo, Daniel; Yauri, Elias | Finalización del capítulo 7 con validaciones, conclusiones y mejoras propuestas para la solución TomateRitmo |
+| 03/07/2025 | 2.6     | Rengifo, Daniel | Desarrollo del prototipo funcional con sensores reales y conexión embebida a la web |
+| 04/07/2025 | 2.7     | Yauri, Elias | Correcciones y mejoras en los resultados de las entrevistas de validación con stakeholders agrícolas |
+| 05/07/2025 | 2.8     | Cruz, Adriano | Documentación de despliegue de la solución y captura de evidencias visuales |
+| 06/07/2025 | 2.9     | Guillen, Paolo; Rengifo, Daniel | Revisión final de errores técnicos menores y ajustes de formato |
+| 06/07/2025 | 3.0     | Guillen, Paolo; Cruz, Adriano; Rengifo, Daniel; Yauri, Elias  | Documentación final de capítulo 8 (Conclusiones), anexos y cierre de entregable TomateRitmo |
 
 ## Project Report Collaboration Insights
 
