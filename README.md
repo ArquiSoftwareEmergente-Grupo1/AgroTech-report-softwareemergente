@@ -2503,19 +2503,44 @@ El Sprint #2 de **TomateRitmo** estuvo enfocado en la consolidación de la lógi
 
 <div id='7.2.2.3.'><h4>7.2.2.3. Development Evidence for Sprint Review</h4></div>
 
+Se adjunta el avance realizado mediante commits en el sprint 2 y previo a entrega final.
+
 | Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed On (Date) |
 |------------|--------|-----------|----------------|----------------------|----------------------|
-| ArquiSoftwareEmergente-Grupo1/tomateritmobackend | main | a3f4c9b | feat: add irrigation automation logic | - | Jun 18, 2025 |
-| ArquiSoftwareEmergente-Grupo1/tomateritmobackend | main | b82a7f1 | feat: user notification settings module | - | Jun 18, 2025 |
-| ArquiSoftwareEmergente-Grupo1/frontendTomateRitmo | main | d91bb8c | feat: irrigation control dashboard | - | Jun 18, 2025 |
-| ArquiSoftwareEmergente-Grupo1/frontendTomateRitmo | main | 72ec88f | feat: add zones configuration view | - | Jun 18, 2025 |
+| ArquiSoftwareEmergente-Grupo1/tomateritmobackend | main | 7f58bcd | feat: add image saving and serving endpoints | - | Jul 9, 2025 |
+| ArquiSoftwareEmergente-Grupo1/frontendTomateRitmo | main | 7930b27 | done | - | Jul 10, 2025 |
+| ArquiSoftwareEmergente-Grupo1/frontendTomateRitmo | main | 1c99771 | dashrelated | - | Jul 10, 2025 |
+| ArquiSoftwareEmergente-Grupo1/frontendTomateRitmo | main | d45ca99 | fix: html realted | - | Jul 10, 2025 |
+| ArquiSoftwareEmergente-Grupo1/frontendTomateRitmo | main | e2e8f8a | fix: user related | - | Jul 10, 2025 |
+| ArquiSoftwareEmergente-Grupo1/frontendTomateRitmo | main | ed72f44 | Update environment.ts | - | Jul 10, 2025 |
+| ArquiSoftwareEmergente-Grupo1/frontendTomateRitmo | main | 6ca0c41 | Fix ngrok image loading with blob URLs and header bypass | - | Jul 9, 2025 |
+| ArquiSoftwareEmergente-Grupo1/frontendTomateRitmo | main | 662c02a | chore: update environment to use ngrok endpoint | - | Jul 9, 2025 |
+| ArquiSoftwareEmergente-Grupo1/frontendTomateRitmo | main | 8fa2603 | feat: implement complete analysis history with filters and export | - | Jul 9, 2025 |
+| ArquiSoftwareEmergente-Grupo1/frontendTomateRitmo | main | 7b38f50 | fix: tests | - | Jul 8, 2025 |
+| ArquiSoftwareEmergente-Grupo1/frontendTomateRitmo | main | 9848955 | fix: automatic deploys | - | Jul 8, 2025 |
+| ArquiSoftwareEmergente-Grupo1/frontendTomateRitmo | main | 10f980d | fix: automatic deploys | - | Jul 8, 2025 |
+| ArquiSoftwareEmergente-Grupo1/frontendTomateRitmo | main | cc68247 | fix: automatic deploys | - | Jul 8, 2025 |
+| ArquiSoftwareEmergente-Grupo1/tomateritmobackend | main | 38acac3 | done | - | Jul 10, 2025 |
+| ArquiSoftwareEmergente-Grupo1/tomateritmobackend | main | d6b4274 | prod credentials | - | Jul 10, 2025 |
+| ArquiSoftwareEmergente-Grupo1/tomateritmobackend | main | 81561ec | fix mostly everything | - | Jul 10, 2025 |
+| ArquiSoftwareEmergente-Grupo1/tomateritmobackend | main | 634dc4c | fix | - | Jul 10, 2025 |
+| ArquiSoftwareEmergente-Grupo1/tomateritmobackend | main | 6a8f39c | fix more related i guess | - | Jul 10, 2025 |
+| ArquiSoftwareEmergente-Grupo1/tomateritmobackend | main | 082d966 | fix commit end | - | Jul 10, 2025 |
+| ArquiSoftwareEmergente-Grupo1/tomateritmobackend | main | 54889bf | fixmaybe | - | Jul 10, 2025 |
+| ArquiSoftwareEmergente-Grupo1/tomateritmobackend | main | 4ceb899 | fixhistorial | - | Jul 10, 2025 |
+| ArquiSoftwareEmergente-Grupo1/tomateritmobackend | main | 5f582b6 | Update application.properties | - | Jul 9, 2025 |
+| ArquiSoftwareEmergente-Grupo1/tomateritmobackend | main | 55bb32e | Update pom.xml | - | Jul 9, 2025 |
+| ArquiSoftwareEmergente-Grupo1/tomateritmobackend | main | 7ce0187 | Add or update the Azure App Service build and deployment workflow config | - | Jul 9, 2025 |
+| ArquiSoftwareEmergente-Grupo1/tomateritmobackend | main | c794ebd | fix: handle type casting safely for analysis data fields | - | Jul 9, 2025 |
+| ArquiSoftwareEmergente-Grupo1/tomateritmobackend | main | 71c1115 | chore: update vision service to use ngrok endpoint | - | Jul 9, 2025 |
+| ArquiSoftwareEmergente-Grupo1/tomateritmobackend | main | 387a97d | feat: add analysis persistence with JPA entities and repositories | - | Jul 9, 2025 |
+| ArquiSoftwareEmergente-Grupo1/tomateritmobackend | main | bad462a | fix auth related commit | - | Jul 8, 2025 |
 
 <div id='7.2.2.4.'><h4>7.2.2.4. Testing Suite Evidence for Sprint Review</h4></div>
 
 | Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on (Date) |
 |------------|--------|-----------|----------------|----------------------|----------------------|
-| ArquiSoftwareEmergente-Grupo1/AgroTech-report-softwareemergente | features testing suite | e172a21 | feat: gherkin test for US05 irrigation activation | - | 20/06/2025 |
-| ArquiSoftwareEmergente-Grupo1/AgroTech-report-softwareemergente | features testing suite | f184d2e | feat: gherkin test for US10 notification preferences | - | 20/06/2025 |
+| ArquiSoftwareEmergente-Grupo1/AgroTech-report-softwareemergente | features better testing suite | e172a21 | feat: gherkin test for Sprint 2| - | 04/07/2025 |
 
 <div id='7.2.2.5.'><h4>7.2.2.5. Execution Evidence for Sprint Review</h4></div>
 
@@ -2531,17 +2556,41 @@ El Sprint #2 de **TomateRitmo** estuvo enfocado en la consolidación de la lógi
 
 ![execution4](resources/execution4.png)
 
+
 <div id='7.2.2.6.'><h4>7.2.2.6. Services Documentation Evidence for Sprint Review</h4></div>
 
-| Bounded Context | Método HTTP | URL                                     | Parámetros         |
-| :-------------- | :---------- | :-------------------------------------- | :----------------- |
-| Riego | POST | /api/v1/riego/activar | {zonaId} |
-| Riego | POST | /api/v1/riego/desactivar | {zonaId} |
-| Configuración | GET | /api/v1/usuarios/{id}/notificaciones | {id} |
-| Configuración | PUT | /api/v1/usuarios/{id}/notificaciones | {id}, JSON |
-| Zonas | GET | /api/v1/zonas | N/A |
-| Zonas | POST | /api/v1/zonas | JSON |
-| Zonas | PUT | /api/v1/zonas/{zonaId} | {zonaId}, JSON |
+| Bounded Context | Método HTTP | URL                                                 | Parámetros              | Descripción |
+|-----------------|-------------|-----------------------------------------------------|--------------------------|-------------|
+| Sensores        | POST        | /api/v1/sensores/lecturas                           | JSON                     | Registrar nueva lectura de sensor |
+| Sensores        | GET         | /api/v1/sensores/lecturas                           | limit                    | Obtener últimas lecturas registradas |
+| Sensores        | GET         | /api/v1/sensores/dashboard                          | N/A                      | Obtener datos resumen del dashboard |
+| Sensores        | GET         | /api/v1/sensores/historial                          | tipos, inicio, fin       | Obtener historial de lecturas por rango |
+| Sensores        | GET         | /api/v1/sensores/recomendaciones/cultivos          | N/A                      | Obtener recomendaciones automáticas para cultivo |
+| Cultivos        | POST        | /api/v1/cultivos                                    | JSON                     | Crear un nuevo cultivo |
+| Cultivos        | GET         | /api/v1/cultivos                                    | userId (opcional)        | Listar cultivos del sistema o por usuario |
+| Cultivos        | GET         | /api/v1/cultivos/{cultivoId}                        | {cultivoId}              | Obtener un cultivo por su ID |
+| Cultivos        | PUT         | /api/v1/cultivos/{cultivoId}                        | {cultivoId}, JSON        | Actualizar información de un cultivo |
+| Cultivos        | DELETE      | /api/v1/cultivos/{cultivoId}                        | {cultivoId}              | Eliminar un cultivo existente |
+| Anomalías       | POST        | /api/v1/anomalias                                   | JSON                     | Crear un nuevo registro de anomalía |
+| Anomalías       | GET         | /api/v1/anomalias                                   | N/A                      | Obtener todas las anomalías registradas |
+| Anomalías       | GET         | /api/v1/anomalias/{anomaliaId}                      | {anomaliaId}             | Obtener anomalía por ID |
+| Anomalías       | GET         | /api/v1/anomalias/cultivo/{cultivoId}              | {cultivoId}              | Obtener anomalías asociadas a un cultivo |
+| Anomalías       | POST        | /api/v1/anomalias/analizar                          | multipart/form-data      | Analizar imagen mediante IA para detectar anomalías |
+| Análisis        | GET         | /api/v1/alertasVisuales                             | estado, severidad        | Listar alertas visuales filtradas |
+| Análisis        | POST        | /api/v1/alertasVisuales                             | JSON                     | Crear una nueva alerta visual |
+| Análisis        | PUT         | /api/v1/alertasVisuales/{id}                        | {id}, JSON               | Actualizar una alerta visual existente |
+| Análisis        | GET         | /api/v1/alertasVisuales/cultivo/{cultivoId}        | {cultivoId}              | Obtener alertas por cultivo |
+| Análisis        | POST        | /api/v1/alertasVisuales/{id}/resolver               | {id}                     | Marcar una alerta como resuelta |
+| Análisis        | GET         | /api/v1/analisisResultados                          | N/A                      | Listar todos los análisis realizados |
+| Análisis        | GET         | /api/v1/analisisResultados/{id}                    | {id}                     | Obtener análisis por ID |
+| Análisis        | POST        | /api/v1/analisisResultados                          | JSON                     | Registrar un nuevo análisis |
+| Análisis        | PATCH       | /api/v1/analisisResultados/{id}                    | {id}, JSON               | Actualizar parcialmente un análisis |
+| Análisis        | POST        | /api/v1/analisisResultados/{id}/confirmar          | {id}, JSON               | Confirmar diagnóstico del análisis |
+| Análisis        | DELETE      | /api/v1/analisisResultados/{id}                    | {id}                     | Eliminar un análisis registrado |
+| Análisis        | GET         | /api/v1/analisisResultados/cultivo/{cultivoId}     | {cultivoId}              | Obtener análisis de un cultivo específico |
+| Análisis        | GET         | /api/v1/analisisResultados/recientes               | N/A                      | Obtener análisis recientes |
+| Análisis        | GET         | /api/v1/estadisticas                                | N/A                      | Obtener estadísticas generales del sistema |
+| Análisis        | POST        | /api/v1/analisisResultados/debug                   | JSON                     | Enviar payload para debug de análisis |
 
 <div id='7.2.2.7.'><h4>7.2.2.7. Software Deployment Evidence for Sprint Review</h4></div>
 
@@ -2559,12 +2608,10 @@ Durante este segundo sprint, el equipo fortaleció la comunicación y sincroniza
 
 **Frontend:**
 
-![fronted](resources/fronted.png)
 
 **Backend:**
 
-![backend](resources/backend.png)
-
+**Vision Artificial:**
 
 <div id='7.3.'><h3>7.3. Validation Interviews</h3></div>
 
@@ -2618,16 +2665,15 @@ SECTOR AUTOCULTIVADORES
 |Edad|24 años|
 |Departamento|Lima, Lima|
 |<img src="resources\CAPITULO7\entrevista1.png">| La recepción de Rodrigo Pisconti Palacios fue muy positiva. Consideró que la aplicación "Tomateritmo" es clara, intuitiva y funcional. Validó que las características presentadas, especialmente el monitoreo en tiempo real, la gestión de cultivos y el análisis visual por IA, son herramientas útiles y efectivas que le ayudarían a cubrir sus necesidades y a prevenir pérdidas económicas en sus cosechas.|
-|Duración entrevista: 00:00-04:20 |[Link de la Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211817_upc_edu_pe/ETkRWnzU3PNOjB69aw8KKigBNb9TV83Aa269C-S0WCSdJA?e=bTsTTB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-|
+|Duración entrevista: 00:00-04:20 |[Link de la Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211817_upc_edu_pe/ETkRWnzU3PNOjB69aw8KKigBNb9TV83Aa269C-S0WCSdJA?e=bTsTTB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)|
 
 |Nombre entrevistado| Marcelo Romani Bonifaz |
 |-|-|
 |Edad|23 años|
 |Departamento|Lima, Lima|
 |<img src="resources\CAPITULO7\entrevista2.png">| En la entrevista con Marcelo Romani Bonifaz, este evaluó la aplicación "Tomateritmo" de manera muy positiva, describiéndola como una herramienta de gran utilidad, didáctica y fácil de entender, incluso para agricultores no especializados en tecnología. Resaltó que la plataforma cubre de manera simple y efectiva sus necesidades de monitoreo y administración, y se mostró especialmente interesado en la funcionalidad de análisis visual mediante inteligencia artificial, la cual consideró fundamental para la detección de enfermedades. En resumen, Marcelo confirmó que la aplicación es una solución valiosa que ayudará a mejorar la gestión de sus cultivos y a prevenir pérdidas de manera significativa.|
-|Duración entrevista: 00:00-04:03 |[Link de la Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211817_upc_edu_pe/ESnkdqxP2tNPsJNXUpQAtnUBGoZqiWhSKnFfdjxOlAi6lQ?e=91PbZj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-|
+|Duración entrevista: 00:00-04:03 |[Link de la Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211817_upc_edu_pe/ESnkdqxP2tNPsJNXUpQAtnUBGoZqiWhSKnFfdjxOlAi6lQ?e=91PbZj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)|
+
 <div id='7.3.3.'><h4>7.3.3. Evaluaciones según heurísticas</h4></div>
 
 A continuación se presenta un análisis de la interfaz de usuario de la plataforma **TomateRitmo**, evaluando la experiencia de uso en base a las **10 heurísticas de usabilidad de Nielsen**. Se han considerado las siguientes vistas:
@@ -2672,6 +2718,8 @@ A continuación se presenta un análisis de la interfaz de usuario de la platafo
 
 * **TB2:** Este entregable marcó el inicio de la integración tecnológica avanzada en el proyecto. Se trabajó la propuesta técnica de incorporar visión artificial e IoT como elementos clave en la automatización y monitoreo de cultivos. En esta fase se definieron los primeros criterios para implementar algoritmos que puedan detectar anomalías visuales en los cultivos, así como la arquitectura inicial para la conexión con sensores de humedad, luminosidad y temperatura. El enfoque estuvo orientado no solo al diseño funcional, sino también a analizar la factibilidad de estas tecnologías dentro del contexto rural del usuario objetivo. Se realizaron validaciones tempranas y entrevistas para comprobar la receptividad del usuario final ante estas innovaciones, destacando el valor percibido de las alertas automatizadas y el monitoreo en tiempo real. TB2 significó el paso del diseño estático al planteamiento de una solución dinámica e inteligente.
 
+* **TF:** TomateRitmo avanzó desde el entendimiento del contexto agrícola hasta la propuesta de una solución tecnológica funcional. Las entregas previas permitieron identificar necesidades reales, diseñar interfaces centradas en el usuario y validar su utilidad. Finalmente, se integraron tecnologías como visión artificial e IoT, consolidando una plataforma inteligente capaz de automatizar el monitoreo de cultivos y generar alertas oportunas, todo con un enfoque práctico y escalable.
+
 
 <div id='9.'><h2>Bibliografía</h2></div>
 
@@ -2695,3 +2743,16 @@ Zhang, Y., et al. (2020). IoT-based smart agriculture: An overview on technologi
 **TP:** [https://acortar.link/lENLHJ]
 
 **LandingPage:** [https://arquisoftwareemergente-grupo1.github.io/LandingPageAplicacion/]
+
+**TB2:**  []
+
+**About the Product:** []
+
+**About the Team:**  []
+
+**TF:**  []
+
+**Validation Interviews:**  []
+
+
+
