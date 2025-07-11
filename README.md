@@ -2746,7 +2746,7 @@ Zhang, Y., et al. (2020). IoT-based smart agriculture: An overview on technologi
 
 **LandingPage:** [https://arquisoftwareemergente-grupo1.github.io/LandingPageAplicacion/]
 
-**TB2:**  []
+**TB2:**  [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/EdKDJ9SDaslOqKCklxu8_rABF1GxnWFILcP4HnbYY8eKSQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tLcyhc]
 
 **About the Product:** []
 
@@ -2755,6 +2755,10 @@ Zhang, Y., et al. (2020). IoT-based smart agriculture: An overview on technologi
 **TF:**  []
 
 **Validation Interviews:**  []
+
+**LandingPage:** [https://arquisoftwareemergente-grupo1.github.io/LandingPageAplicacion/]
+
+**Enlace al proyecto de wokwi:**  []
 
 
 
