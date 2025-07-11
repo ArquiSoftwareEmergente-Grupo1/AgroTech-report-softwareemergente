@@ -41,7 +41,7 @@
 | 04/07/2025 | 2.7     | Yauri, Elias | Correcciones y mejoras en los resultados de las entrevistas de validación con stakeholders agrícolas |
 | 05/07/2025 | 2.8     | Cruz, Adriano | Documentación de despliegue de la solución y captura de evidencias visuales |
 | 06/07/2025 | 2.9     | Guillen, Paolo; Rengifo, Daniel | Revisión final de errores técnicos menores y ajustes de formato |
-| 06/07/2025 | 3.0     | Guillen, Paolo; Cruz, Adriano; Rengifo, Daniel; Yauri, Elias  | Documentación final de capítulo 8 (Conclusiones), anexos y cierre de entregable TomateRitmo |
+| 11/07/2025 | 3.0     | Guillen, Paolo; Cruz, Adriano; Rengifo, Daniel; Yauri, Elias  | Documentación final de capítulo 10 (Conclusiones), anexos y cierre de entregable TomateRitmo |
 
 ## Project Report Collaboration Insights
 
@@ -59,6 +59,8 @@ Insights proporcioonado por github en lo trabajado hasta la fecha del entregable
 **TB2**
 <img src="resources/tomateRitmoTb2/5.png"/>
 
+**TF**
+<img src="resources/tomateRitmoTb3/1.png"/>
 
 URL del repositorio del proyecto: [https://github.com/ArquiSoftwareEmergente-Grupo1]
 
