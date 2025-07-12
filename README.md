@@ -60,7 +60,7 @@ Insights proporcioonado por github en lo trabajado hasta la fecha del entregable
 <img src="resources/tomateRitmoTb2/5.png"/>
 
 **TF**
-<img src="resources/tomateRitmoTb3/1.png"/>
+<img src="resources/tb3/1.png"/>
 
 URL del repositorio del proyecto: [https://github.com/ArquiSoftwareEmergente-Grupo1]
 
@@ -2561,6 +2561,17 @@ Se adjunta el avance realizado mediante commits en el sprint 2 y previo a entreg
 
 ![execution4](resources/execution4.png)
 
+**Wokwi:**
+<img src="resources/tb3/2.png"/>
+
+Con el fin de demostrar evidencias consolidadas se adjunta un video explicando todo lo avanzado para este sprint que es la entrega final:
+
+<img src="resources/tb3/8.png"/>
+
+<img src="resources/tb3/9.png"/>
+
+**Execution Evidence TF:** [TF Execution Evidence](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/EW1-uza1BmxBgnCTHLvZRBkB4bwl8HjTHQ-FMrx0AaY7zQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=mJac3G)
+
 
 <div id='7.2.2.6.'><h4>7.2.2.6. Services Documentation Evidence for Sprint Review</h4></div>
 
@@ -2612,11 +2623,14 @@ Se adjunta el avance realizado mediante commits en el sprint 2 y previo a entreg
 Durante este segundo sprint, el equipo fortaleció la comunicación y sincronización técnica. Se logró dividir tareas efectivamente entre backend, frontend e IoT, mejorando el rendimiento general. Se utilizó Trello y GitHub Projects como mecanismos de seguimiento continuo.
 
 **Frontend:**
-
+<img src="resources/tb3/3.png"/>
 
 **Backend:**
+<img src="resources/tb3/4.png"/>
 
 **Vision Artificial:**
+<img src="resources/tb3/5.png"/>
+
 
 <div id='7.3.'><h3>7.3. Validation Interviews</h3></div>
 
@@ -2721,7 +2735,14 @@ A continuación se presenta un análisis de la interfaz de usuario de la platafo
 
 <div id='7.4.'><h3>7.4. Video About-the-Product</h3></div>
 
-**El video falta desarrollar esto debido a que debemos contar con entrevistas reales de nuestros usuarios**
+A continuación se presendtan las evidencias del video about the product y del video about the team, donde se promociona el proudcto y el vídel del equipo donde se brinda una retrospectiva de lo trabajado a lo largo del ciclo.
+<img src="resources/tb3/6.png"/>
+
+**About the Product:** [About the Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/Edmo6v3XGIFNhOCD0LOxv7wB5Oy7CN5oa9IywqeJI5NxUQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hWcpF5)
+
+
+<img src="resources/tb3/7.png"/>
+**About the Team:** [About the Team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/EZn3QrAtRBBDse-ZiFj_-QYBhQK9ezaoGDoVQTLCIvljhQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Lskur5)
 
 <div id='8.'><h2>Conclusiones</h2></div>
 
@@ -2767,7 +2788,7 @@ Zhang, Y., et al. (2020). IoT-based smart agriculture: An overview on technologi
 
 **TF:** [TF](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/EQ1SHmcEeJdIkFk6r90qr44BD8henvUx4-y8cqMYcsAPZw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=zlFjVx)
 
-**Execution Evidence TF:** [TF Execution Evidence](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/EQ1SHmcEeJdIkFk6r90qr44BD8henvUx4-y8cqMYcsAPZw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=VL2br4)
+**Execution Evidence TF:** [TF Execution Evidence](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/EW1-uza1BmxBgnCTHLvZRBkB4bwl8HjTHQ-FMrx0AaY7zQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=mJac3G)
 
 **Enlace al proyecto de wokwi:**  [https://wokwi.com/projects/435971858033929217]
 
