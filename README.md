@@ -2419,6 +2419,9 @@ Fronted:
 
 <img src = "resources\execution4.png">
 
+Se adjunta el enlace del video para demostrar el avance respectivo:  
+[Ver video de avance](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/EWslESaB8jBNsOQK5ZCeBdEBl8HCJmALp-EnWtkKx9k57g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lLLj1o2)
+
 <div id='7.2.1.6.'><h4>7.2.1.6. Services Documentation Evidence for Sprint Review</h4></div>
 
 Se adjunta documentación de los endpoints de nuestro proyecto, en este caso
@@ -2667,14 +2670,22 @@ SECTOR AUTOCULTIVADORES
 |Edad|24 años|
 |Departamento|Lima, Lima|
 |<img src="resources\CAPITULO7\entrevista1.png">| La recepción de Rodrigo Pisconti Palacios fue muy positiva. Consideró que la aplicación "Tomateritmo" es clara, intuitiva y funcional. Validó que las características presentadas, especialmente el monitoreo en tiempo real, la gestión de cultivos y el análisis visual por IA, son herramientas útiles y efectivas que le ayudarían a cubrir sus necesidades y a prevenir pérdidas económicas en sus cosechas.|
-|Duración entrevista: 00:00-04:20 |[Link de la Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211817_upc_edu_pe/ETkRWnzU3PNOjB69aw8KKigBNb9TV83Aa269C-S0WCSdJA?e=bTsTTB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)|
+|Duración entrevista: 00:00-04:20 |[Link de la Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/ETz8JbNpkDtPmcSQKgi7X0wBvZa7F6oD3ZMH6DPGucnlCQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=f1z46V)|
 
 |Nombre entrevistado| Marcelo Romani Bonifaz |
 |-|-|
 |Edad|23 años|
 |Departamento|Lima, Lima|
 |<img src="resources\CAPITULO7\entrevista2.png">| En la entrevista con Marcelo Romani Bonifaz, este evaluó la aplicación "Tomateritmo" de manera muy positiva, describiéndola como una herramienta de gran utilidad, didáctica y fácil de entender, incluso para agricultores no especializados en tecnología. Resaltó que la plataforma cubre de manera simple y efectiva sus necesidades de monitoreo y administración, y se mostró especialmente interesado en la funcionalidad de análisis visual mediante inteligencia artificial, la cual consideró fundamental para la detección de enfermedades. En resumen, Marcelo confirmó que la aplicación es una solución valiosa que ayudará a mejorar la gestión de sus cultivos y a prevenir pérdidas de manera significativa.|
-|Duración entrevista: 00:00-04:03 |[Link de la Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211817_upc_edu_pe/ESnkdqxP2tNPsJNXUpQAtnUBGoZqiWhSKnFfdjxOlAi6lQ?e=91PbZj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)|
+|Duración entrevista: 00:00-04:03 |[Link de la Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/ETz8JbNpkDtPmcSQKgi7X0wBvZa7F6oD3ZMH6DPGucnlCQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=f1z46V)|
+
+|Nombre entrevistado| Farid Briceño |
+|-|-|
+|Edad|20 años|
+|Departamento|Lima, Lima|
+|<img src="resources\CAPITULO7\entrevista-farid.png">| Farid Briceño, joven agricultor con herencia familiar en el cultivo de tomate, compartió su opinión sobre la aplicación “Tomateritmo”. Destacó que la solución le parece bastante útil para modernizar su forma de trabajar y continuar con la tradición agrícola de su familia, aprovechando las herramientas digitales para el monitoreo de cultivos. Sin embargo, también señaló algunos inconvenientes a nivel visual, especialmente en la sección de botones, donde mencionó que ciertos elementos no se distinguen con claridad. A pesar de este aspecto, recalcó que la funcionalidad general de la app es buena y cumple con su propósito de apoyar al agricultor en su día a día.|
+|Duración entrevista: 00:00-11:13|[Link de la Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/ETz8JbNpkDtPmcSQKgi7X0wBvZa7F6oD3ZMH6DPGucnlCQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=f1z46V)|
+
 
 <div id='7.3.3.'><h4>7.3.3. Evaluaciones según heurísticas</h4></div>
 
@@ -2738,27 +2749,35 @@ Zhang, Y., et al. (2020). IoT-based smart agriculture: An overview on technologi
 
 <div id='10.'><h2>Anexos</h2></div>
 
-**Entrevistas:** [https://acortar.link/12xr5k]
+**Entrevistas:** [NeedFinding Interviews](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/EYPjbNNRuMNFs-dqTHhm5y0BMp404wumEnN_7yEiyG89dA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=foptc4)
 
-**TB1:** [https://acortar.link/hFj5Rj]
+**TB1:** [TB1](https://acortar.link/hFj5Rj)
 
-**TP:** [https://acortar.link/lENLHJ]
+**TP:** [TP](https://acortar.link/lENLHJ)
+
+**TB2:** [TB2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/EdKDJ9SDaslOqKCklxu8_rABF1GxnWFILcP4HnbYY8eKSQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tLcyhc)
+
+**Execution Evidence TB2:** [TB2 Execution Evidence](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/EWslESaB8jBNsOQK5ZCeBdEBl8HCJmALp-EnWtkKx9k57g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lLLj1o2)
+
+**Validation Interviews:** [Validation Interviews](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/ETz8JbNpkDtPmcSQKgi7X0wBvZa7F6oD3ZMH6DPGucnlCQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=f1z46V)
+
+**About the Product:** [About the Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/Edmo6v3XGIFNhOCD0LOxv7wB5Oy7CN5oa9IywqeJI5NxUQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hWcpF5)
+
+**About the Team:** [About the Team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/EZn3QrAtRBBDse-ZiFj_-QYBhQK9ezaoGDoVQTLCIvljhQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Lskur5)
+
+**TF:** [TF](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/EQ1SHmcEeJdIkFk6r90qr44BD8henvUx4-y8cqMYcsAPZw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=zlFjVx)
+
+**Execution Evidence TF:** [TF Execution Evidence](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/EQ1SHmcEeJdIkFk6r90qr44BD8henvUx4-y8cqMYcsAPZw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=VL2br4)
+
+**Enlace al proyecto de wokwi:**  [https://wokwi.com/projects/435971858033929217]
 
 **LandingPage:** [https://arquisoftwareemergente-grupo1.github.io/LandingPageAplicacion/]
 
-**TB2:**  [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/EdKDJ9SDaslOqKCklxu8_rABF1GxnWFILcP4HnbYY8eKSQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tLcyhc]
+**Frontend:** [https://tomateritmo-frontend.web.app/inicio]
 
-**About the Product:** []
+**Backend:** [https://tomateritmowebapp-g7dhecbme6hjg6fm.canadacentral-01.azurewebsites.net/swagger-ui/index.html]
 
-**About the Team:**  []
-
-**TF:**  []
-
-**Validation Interviews:**  []
-
-**LandingPage:** [https://arquisoftwareemergente-grupo1.github.io/LandingPageAplicacion/]
-
-**Enlace al proyecto de wokwi:**  []
+URL del repositorio del proyecto: [https://github.com/ArquiSoftwareEmergente-Grupo1]
 
 
 
